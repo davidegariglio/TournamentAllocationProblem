@@ -13,6 +13,8 @@ function EdgeL=adj2gephilab(filename,ADJ,names,edgelabels)
 %           ADJ: the adjacency matrix
 %           parameters: vector as properties of the node to use as
 %                              attributes of them.
+%           names: vector with names of players
+%           edgelabels: MatrixH with description of conflicts (not measures)
 % OUTPUTS:
 %            two csv spreadsheet files:
 %                       filename_node.csv
