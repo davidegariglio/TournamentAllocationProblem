@@ -1,5 +1,9 @@
 function EdgeL=adj2gephilab(filename,ADJ,names,edgelabels)
 % Modified version of https://it.mathworks.com/matlabcentral/fileexchange/51146-adj2gephilab
+% for the Tournament Allocation Problem. This version includes edge labels which describe the type of conflict
+% and nodes names.
+% 
+%
 % Convert ana adjacency matrix of a graph to 2 spreadhseets csv files
 % one for the edge table and the other for node table.
 % The files _node.csv and _edge.csv have to be open
