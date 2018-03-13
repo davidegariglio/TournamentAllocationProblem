@@ -1,0 +1,62 @@
+html,body {
+	overflow: hidden;
+}
+
+
+
+.sigma-expand {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: -webkit-radial-gradient(circle, rgb(23, 23, 23), rgb(55, 32, 88));
+	background-position: center center;
+	background-repeat: no-repeat;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+canvas#sigma_bg_1 {
+	display: none;
+}
+
+#attributepane {
+   	display: block;
+		display: none;
+    position:absolute;
+    height:100%;
+    bottom:0;
+    top:0;
+    right:0;
+	width: 300px;
+	margin: 0;
+	word-wrap: break-word;
+	z-index: 1;
+}
+
+
+#mainpanel {
+margin-top: 2.5%;
+margin-left: 2.5%;
+width:20%;
+background:#fff;
+background-color:rgba(255,255,255,0.8);
+z-index:20;
+position:fixed;
+}
+
+
+
+#search .results {
+	display: none;
+/*	border: 1px solid #999;*/
+	margin: 6px;
+	max-height: 150px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}

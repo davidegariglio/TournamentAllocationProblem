@@ -1,0 +1,56 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "UsOpen.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": ""
+  },
+  "text": {
+    "more": "",
+    "intro": "Since 1987, the US Open has been chronologically the fourth and final tennis major comprising the Grand Slam each year.",
+    "title": "Us Open"
+  },
+  "legend": {
+    "edgeLabel": "Conflict",
+    "colorLabel": "Weighted degree",
+    "nodeLabel": "Player"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "font" : "Helvetica Neue",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#fff",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#fff",
+      "labelThreshold": 7,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "scalingMode":"outside",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 15,
+      "fontStyle":"font-weight:bold;"
+    },
+    "graphProperties": {
+      "maxEdgeSize": 2,
+      "minEdgeSize": 0.1,
+      "minNodeSize": 1,
+      "maxNodeSize": 10
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
