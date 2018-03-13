@@ -1,0 +1,2844 @@
+Dataset loaded for Roland Garros
+	Tournament size (n): 128
+	Seed size (m): 32
+0 for Heuristic - 1 for Exact
+Exact mode
+Time elapsed:1.4729273s
+Seeding players:
+	Andy Murray in cluster 0
+	Juan Martin Del Potro in cluster 0
+	John Isner in cluster 0
+	Tomas Berdych in cluster 0
+	Alexander Zverev in cluster 0
+	Pablo Cuevas in cluster 0
+	Sam Querrey in cluster 0
+	Kei Nishikori in cluster 0
+	Stanislas Wawrinka in cluster 1
+	Fabio Fognini in cluster 1
+	Richard Gasquet in cluster 1
+	Gael Monfils in cluster 1
+	Jo Wilfried Tsonga in cluster 1
+	Nick Kyrgios in cluster 1
+	David Ferrer in cluster 1
+	Marin Cilic in cluster 1
+	Milos Raonic in cluster 2
+	Gilles Muller in cluster 2
+	Pablo Carreno Busta in cluster 2
+	Grigor Dimitrov in cluster 2
+	Jack Sock in cluster 2
+	Roberto Bautista Agut in cluster 2
+	Gilles Simon in cluster 2
+	Rafael Nadal in cluster 2
+	Dominic Thiem in cluster 3
+	Steve Johnson in cluster 3
+	Ivo Karlovic in cluster 3
+	David Goffin in cluster 3
+	Lucas Pouille in cluster 3
+	Albert Ramos in cluster 3
+	Mischa Zverev in cluster 3
+	Novak Djokovic in cluster 3
+Number of seeds: 32
+0:8 1:8 2:8 3:8 Time elapsed:1.577632s
+
+MatrixH for tournament 2017-520 loaded from in/MatrixH_2017-520.txt
+MatrixH_desc for tournament 2017-520 loaded from in/MatrixH_2017-520.txt
+Checking properties of MatrixH:
+	Has complex eigen values: false
+	Largest eigen-value: 127.92105201559716
+	Sum of all eigen-values (trace): -2.2026824808563106E-13
+	Product of all eigen-values (determinant): 0.0
+Time elapsed:1.9559876s
+
+Computing the lower bound.
+	CLUSTER 0 | ------------------
+	John Isner and Andy Murray:+0.5
+	John Isner and Juan Martin Del Potro:+10.0
+	Tomas Berdych and Andy Murray:+1.5
+	Alexander Zverev and John Isner:+6.5
+	Alexander Zverev and Tomas Berdych:+2.5
+	Pablo Cuevas and Alexander Zverev:+0.5
+	Sam Querrey and Andy Murray:+1.0
+	Sam Querrey and Juan Martin Del Potro:+0.5
+	Sam Querrey and John Isner:+5.0
+	Sam Querrey and Pablo Cuevas:+5.0
+	Kei Nishikori and Andy Murray:+1.0
+	Kei Nishikori and Juan Martin Del Potro:+1.5
+	CLUSTER 1 | ------------------
+	Gael Monfils and Richard Gasquet:+5.5
+	Jo Wilfried Tsonga and Stanislas Wawrinka:+0.5
+	Jo Wilfried Tsonga and Fabio Fognini:+2.0
+	Jo Wilfried Tsonga and Richard Gasquet:+5.0
+	Jo Wilfried Tsonga and Gael Monfils:+5.0
+	Nick Kyrgios and Gael Monfils:+0.5
+	Nick Kyrgios and Jo Wilfried Tsonga:+0.5
+	David Ferrer and Fabio Fognini:+4.0
+	David Ferrer and Jo Wilfried Tsonga:+2.0
+	Marin Cilic and Gael Monfils:+1.0
+	Marin Cilic and Jo Wilfried Tsonga:+0.5
+	CLUSTER 2 | ------------------
+	Gilles Muller and Milos Raonic:+4.0
+	Pablo Carreno Busta and Milos Raonic:+7.5
+	Grigor Dimitrov and Milos Raonic:+1.0
+	Grigor Dimitrov and Gilles Muller:+5.0
+	Jack Sock and Milos Raonic:+2.0
+	Jack Sock and Grigor Dimitrov:+1.0
+	Roberto Bautista Agut and Milos Raonic:+0.5
+	Roberto Bautista Agut and Gilles Muller:+1.5
+	Roberto Bautista Agut and Pablo Carreno Busta:+8.0
+	Gilles Simon and Milos Raonic:+1.0
+	Gilles Simon and Pablo Carreno Busta:+10.0
+	Gilles Simon and Grigor Dimitrov:+7.0
+	Gilles Simon and Jack Sock:+0.5
+	Gilles Simon and Roberto Bautista Agut:+2.0
+	Rafael Nadal and Milos Raonic:+1.0
+	Rafael Nadal and Pablo Carreno Busta:+5.0
+	Rafael Nadal and Grigor Dimitrov:+1.0
+	Rafael Nadal and Jack Sock:+1.5
+	Rafael Nadal and Roberto Bautista Agut:+5.0
+	Rafael Nadal and Gilles Simon:+1.0
+	CLUSTER 3 | ------------------
+	Ivo Karlovic and Steve Johnson:+5.5
+	David Goffin and Dominic Thiem:+1.0
+	David Goffin and Ivo Karlovic:+1.0
+	Lucas Pouille and David Goffin:+0.5
+	Albert Ramos and Dominic Thiem:+1.0
+	Albert Ramos and David Goffin:+1.0
+	Albert Ramos and Lucas Pouille:+0.5
+	Mischa Zverev and Dominic Thiem:+1.0
+	Mischa Zverev and Steve Johnson:+0.5
+	Mischa Zverev and Ivo Karlovic:+2.0
+	Novak Djokovic and Dominic Thiem:+0.5
+	Novak Djokovic and David Goffin:+0.5
+	Novak Djokovic and Mischa Zverev:+0.5
+Lower bound for this problem is: 142.0
+Building the greedy solution.
+	Building degree matrixes for H...
+Allocation is based on players's weighted degree:
+	Assigning Adrian Mannarino to cluster 0
+	Assigning Benoit Paire to cluster 3
+	Assigning Nicolas Mahut to cluster 1
+	Assigning Stephane Robert to cluster 2
+	Assigning Fernando Verdasco to cluster 0
+	Assigning Jeremy Chardy to cluster 3
+	Assigning Guillermo Garcia Lopez to cluster 1
+	Assigning Andrey Kuznetsov to cluster 2
+	Assigning Ryan Harrison to cluster 3
+	Assigning Pierre Hugues Herbert to cluster 0
+	Assigning Feliciano Lopez to cluster 0
+	Assigning Nicolas Almagro to cluster 1
+	Assigning Marcel Granollers to cluster 3
+	Assigning Karen Khachanov to cluster 1
+	Assigning Viktor Troicki to cluster 2
+	Assigning Julien Benneteau to cluster 2
+	Assigning Diego Sebastian Schwartzman to cluster 3
+	Assigning Horacio Zeballos to cluster 0
+	Assigning Donald Young to cluster 1
+	Assigning Jared Donaldson to cluster 0
+	Assigning Philipp Kohlschreiber to cluster 0
+	Assigning Jan Lennard Struff to cluster 1
+	Assigning Paolo Lorenzi to cluster 0
+	Assigning Joao Sousa to cluster 2
+	Assigning Dustin Brown to cluster 0
+	Assigning Kyle Edmund to cluster 3
+	Assigning Mikhail Youzhny to cluster 3
+	Assigning Bernard Tomic to cluster 3
+	Assigning Nikoloz Basilashvili to cluster 2
+	Assigning Andreas Seppi to cluster 3
+	Assigning Borna Coric to cluster 2
+	Assigning Dusan Lajovic to cluster 1
+	Assigning Tommy Robredo to cluster 3
+	Assigning Malek Jaziri to cluster 1
+	Assigning Quentin Halys to cluster 2
+	Assigning Thomaz Bellucci to cluster 1
+	Assigning Florian Mayer to cluster 1
+	Assigning Damir Dzumhur to cluster 0
+	Assigning Carlos Berlocq to cluster 2
+	Assigning Federico Delbonis to cluster 1
+	Assigning Kevin Anderson to cluster 3
+	Assigning Robin Haase to cluster 1
+	Assigning Ernesto Escobedo to cluster 2
+	Assigning Jiri Vesely to cluster 1
+	Assigning Daniil Medvedev to cluster 0
+	Assigning Mathias Bourgue to cluster 0
+	Assigning Jordan Thompson to cluster 0
+	Assigning Thiago Monteiro to cluster 0
+	Assigning Francis Tiafoe to cluster 3
+	Assigning Gastao Elias to cluster 3
+	Assigning Daniel Evans to cluster 2
+	Assigning Martin Klizan to cluster 1
+	Assigning Laurent Lokoli to cluster 0
+	Assigning Radu Albot to cluster 0
+	Assigning Aljaz Bedene to cluster 0
+	Assigning Alexandr Dolgopolov to cluster 3
+	Assigning Alexandre Muller to cluster 3
+	Assigning Evgeny Donskoy to cluster 0
+	Assigning Marcos Baghdatis to cluster 1
+	Assigning Konstantin Kravchuk to cluster 1
+	Assigning Benjamin Bonzi to cluster 0
+	Assigning John Millman to cluster 2
+	Assigning Renzo Olivo to cluster 2
+	Assigning Rogerio Dutra Silva to cluster 3
+	Assigning Janko Tipsarevic to cluster 0
+	Assigning Mikhail Kukushkin to cluster 2
+	Assigning Denis Istomin to cluster 3
+	Assigning Tennys Sandgren to cluster 1
+	Assigning Steve Darcis to cluster 2
+	Assigning Yuichi Sugita to cluster 2
+	Assigning Nicolas Kicker to cluster 1
+	Assigning Yen Hsun Lu to cluster 1
+	Assigning Victor Estrella to cluster 1
+	Assigning Hyeon Chung to cluster 3
+	Assigning Alex De Minaur to cluster 1
+	Assigning Ricardas Berankis to cluster 3
+	Assigning Thanasi Kokkinakis to cluster 0
+	Assigning Jerzy Janowicz to cluster 0
+	Assigning Ernests Gulbis to cluster 0
+	Assigning Paul Henri Mathieu to cluster 0
+	Assigning Marius Copil to cluster 1
+	Assigning Simone Bolelli to cluster 1
+	Assigning Nicolas Jarry to cluster 1
+	Assigning Stefano Napolitano to cluster 2
+	Assigning Andrey Rublev to cluster 2
+	Assigning Guido Pella to cluster 2
+	Assigning Maxime Hamou to cluster 2
+	Assigning Jozef Kovalik to cluster 2
+	Assigning Santiago Giraldo to cluster 2
+	Assigning Arthur De Greef to cluster 2
+	Assigning Teymuraz Gabashvili to cluster 2
+	Assigning Bjorn Fratangelo to cluster 3
+	Assigning Marco Trungelliti to cluster 3
+	Assigning Taro Daniel to cluster 3
+	Assigning Stefanos Tsitsipas to cluster 3
+	Assigning Sergiy Stakhovsky to cluster 3
+	Basic solution generated. Swapping
+Found a good swap between Nicolas Mahut and Alexandre Muller with delta=-7.0
+Found a good swap between Pierre Hugues Herbert and Federico Delbonis with delta=-8.0
+Found a good swap between Jan Lennard Struff and Guido Pella with delta=-5.5
+Found a good swap between Daniil Medvedev and Alexandre Muller with delta=-15.5
+Found a good swap between Mathias Bourgue and Bjorn Fratangelo with delta=-2.5
+Found a good swap between Kevin Anderson and Teymuraz Gabashvili with delta=-5.0
+Found a good swap between Federico Delbonis and Marius Copil with delta=-2.0
+Found a good swap between Santiago Giraldo and Yen Hsun Lu with delta=-2.0
+Swaps executed in 1.862271s with a total delta of -47.5
+Greedy solution built in 1.8790482s has an O.F. of: 821.5
+CLUSTER 0------------------------
+	(0)		DEG=38.0(w:88.5)				Andy Murray  (Seeded as 1) 
+	(3)		DEG=18.0(w:90.0)				Laurent Lokoli  
+	(6)		DEG=35.0(w:130.5)				Juan Martin Del Potro  (Seeded as 29) 
+	(8)		DEG=33.0(w:137.5)				John Isner  (Seeded as 21) 
+	(9)		DEG=27.0(w:98.5)				Jordan Thompson  
+	(10)		DEG=34.0(w:132.0)				Paolo Lorenzi  
+	(14)		DEG=27.0(w:76.0)				Tomas Berdych  (Seeded as 13) 
+	(16)		DEG=37.0(w:164.0)				Fernando Verdasco  
+	(17)		DEG=41.0(w:130.5)				Alexander Zverev  (Seeded as 9) 
+	(19)		DEG=32.0(w:135.5)				Jared Donaldson  
+	(21)		DEG=24.0(w:107.0)				Damir Dzumhur  
+	(22)		DEG=33.0(w:93.5)				Pablo Cuevas  (Seeded as 22) 
+	(25)		DEG=36.0(w:125.0)				Sam Querrey  (Seeded as 27) 
+	(29)		DEG=19.0(w:90.0)				Radu Albot  
+	(30)		DEG=38.0(w:83.5)				Kei Nishikori  (Seeded as 8) 
+	(31)		DEG=7.0(w:35.0)				Thanasi Kokkinakis  
+	(44)		DEG=22.0(w:97.5)				Thiago Monteiro  
+	(45)		DEG=18.0(w:85.5)				Alexandre Muller  
+	(47)		DEG=31.0(w:129.0)				Dustin Brown  
+	(55)		DEG=43.0(w:135.5)				Philipp Kohlschreiber  
+	(58)		DEG=37.0(w:151.5)				Feliciano Lopez  
+	(59)		DEG=0.0(w:0.0)				Bjorn Fratangelo (Q)  
+	(63)		DEG=1.0(w:5.0)				Ernests Gulbis  
+	(75)		DEG=11.0(w:34.0)				Jerzy Janowicz  
+	(82)		DEG=26.0(w:89.0)				Aljaz Bedene  
+	(91)		DEG=17.0(w:84.5)				Evgeny Donskoy  
+	(106)		DEG=32.0(w:142.5)				Horacio Zeballos  
+	(107)		DEG=45.0(w:217.5)				Adrian Mannarino  
+	(111)		DEG=0.0(w:0.0)				Paul Henri Mathieu (Q)  
+	(116)		DEG=19.0(w:81.5)				Benjamin Bonzi  
+	(119)		DEG=0.0(w:0.0)				Marius Copil (Q)  
+	(125)		DEG=22.0(w:76.0)				Janko Tipsarevic  
+Cluster 0 has a total of 32 players with 8 seeds.
+Avg degree:25 and wdegree:94
+
+CLUSTER 1------------------------
+	(2)		DEG=24.0(w:90.5)				Martin Klizan  
+	(4)		DEG=35.0(w:150.0)				Nicolas Almagro  
+	(5)		DEG=28.0(w:83.5)				Marcos Baghdatis  
+	(7)		DEG=0.0(w:0.0)				Guido Pella (Q)  
+	(12)		DEG=35.0(w:149.0)				Karen Khachanov  
+	(13)		DEG=0.0(w:0.0)				Nicolas Jarry (Q)  
+	(18)		DEG=31.0(w:153.0)				Pierre Hugues Herbert  
+	(20)		DEG=17.0(w:59.0)				Nicolas Kicker  
+	(32)		DEG=33.0(w:64.0)				Stanislas Wawrinka  (Seeded as 3) 
+	(37)		DEG=0.0(w:0.0)				Santiago Giraldo (Q)  
+	(38)		DEG=32.0(w:134.5)				Fabio Fognini  (Seeded as 28) 
+	(40)		DEG=38.0(w:150.5)				Richard Gasquet  (Seeded as 24) 
+	(42)		DEG=15.0(w:51.0)				Victor Estrella  
+	(46)		DEG=44.0(w:146.5)				Gael Monfils  (Seeded as 15) 
+	(49)		DEG=47.0(w:143.0)				Jo Wilfried Tsonga  (Seeded as 12) 
+	(53)		DEG=30.0(w:114.0)				Malek Jaziri  
+	(54)		DEG=32.0(w:93.5)				Nick Kyrgios  (Seeded as 18) 
+	(56)		DEG=38.0(w:142.5)				David Ferrer  (Seeded as 30) 
+	(57)		DEG=29.0(w:142.0)				Donald Young  
+	(60)		DEG=17.0(w:83.0)				Konstantin Kravchuk  
+	(61)		DEG=22.0(w:106.0)				Federico Delbonis  
+	(62)		DEG=35.0(w:103.0)				Marin Cilic  (Seeded as 7) 
+	(70)		DEG=28.0(w:162.5)				Guillermo Garcia Lopez  
+	(73)		DEG=24.0(w:111.0)				Florian Mayer  
+	(80)		DEG=27.0(w:102.5)				Jiri Vesely  
+	(85)		DEG=12.0(w:61.0)				Tennys Sandgren  
+	(92)		DEG=24.0(w:104.0)				Robin Haase  
+	(93)		DEG=11.0(w:41.5)				Alex De Minaur  
+	(98)		DEG=0.0(w:0.0)				Simone Bolelli (Q)  
+	(114)		DEG=28.0(w:111.5)				Thomaz Bellucci  
+	(115)		DEG=30.0(w:118.0)				Dusan Lajovic  
+	(117)		DEG=28.0(w:101.5)				Daniil Medvedev  
+Cluster 1 has a total of 32 players with 8 seeds.
+Avg degree:24 and wdegree:95
+
+CLUSTER 2------------------------
+	(1)		DEG=31.0(w:160.5)				Andrey Kuznetsov  
+	(15)		DEG=35.0(w:134.0)				Jan Lennard Struff  
+	(23)		DEG=0.0(w:0.0)				Maxime Hamou (Q)  
+	(27)		DEG=21.0(w:102.5)				Ernesto Escobedo  
+	(33)		DEG=0.0(w:0.0)				Jozef Kovalik (Q)  
+	(35)		DEG=26.0(w:106.0)				Carlos Berlocq  
+	(41)		DEG=0.0(w:0.0)				Arthur De Greef (Q)  
+	(48)		DEG=19.0(w:78.0)				Renzo Olivo  
+	(52)		DEG=30.0(w:105.5)				Kevin Anderson  
+	(64)		DEG=39.0(w:81.0)				Milos Raonic  (Seeded as 5) 
+	(65)		DEG=19.0(w:60.0)				Steve Darcis  
+	(69)		DEG=24.0(w:113.0)				Quentin Halys  
+	(71)		DEG=41.0(w:113.5)				Gilles Muller  (Seeded as 26) 
+	(72)		DEG=41.0(w:154.0)				Pablo Carreno Busta  (Seeded as 20) 
+	(77)		DEG=26.0(w:91.0)				Daniel Evans  
+	(78)		DEG=38.0(w:106.0)				Grigor Dimitrov  (Seeded as 11) 
+	(79)		DEG=34.0(w:167.0)				Stephane Robert  
+	(81)		DEG=40.0(w:125.5)				Jack Sock  (Seeded as 14) 
+	(84)		DEG=21.0(w:70.0)				Mikhail Kukushkin  
+	(86)		DEG=47.0(w:151.5)				Roberto Bautista Agut  (Seeded as 17) 
+	(87)		DEG=22.0(w:81.0)				John Millman  
+	(88)		DEG=31.0(w:121.5)				Nikoloz Basilashvili  
+	(89)		DEG=43.0(w:203.5)				Gilles Simon  (Seeded as 31) 
+	(90)		DEG=40.0(w:147.0)				Viktor Troicki  
+	(94)		DEG=43.0(w:122.0)				Rafael Nadal  (Seeded as 4) 
+	(100)		DEG=30.0(w:119.0)				Borna Coric  
+	(103)		DEG=19.0(w:60.0)				Yuichi Sugita  
+	(109)		DEG=20.0(w:59.0)				Yen Hsun Lu  
+	(113)		DEG=30.0(w:143.5)				Julien Benneteau  
+	(120)		DEG=0.0(w:0.0)				Stefano Napolitano (Q)  
+	(123)		DEG=0.0(w:0.0)				Andrey Rublev (LL)  
+	(124)		DEG=34.0(w:130.0)				Joao Sousa  
+Cluster 2 has a total of 32 players with 8 seeds.
+Avg degree:26 and wdegree:96
+
+CLUSTER 3------------------------
+	(11)		DEG=10.0(w:40.0)				Ricardas Berankis  
+	(24)		DEG=16.0(w:45.5)				Hyeon Chung  
+	(26)		DEG=19.0(w:62.0)				Denis Istomin  
+	(28)		DEG=39.0(w:162.5)				Jeremy Chardy  
+	(34)		DEG=21.0(w:86.5)				Alexandr Dolgopolov  
+	(36)		DEG=30.0(w:120.5)				Andreas Seppi  
+	(39)		DEG=17.0(w:92.5)				Francis Tiafoe  
+	(43)		DEG=0.0(w:0.0)				Teymuraz Gabashvili (Q)  
+	(50)		DEG=31.0(w:127.0)				Kyle Edmund  
+	(51)		DEG=25.0(w:92.0)				Gastao Elias  
+	(66)		DEG=21.0(w:78.0)				Rogerio Dutra Silva  
+	(67)		DEG=31.0(w:126.0)				Mikhail Youzhny  
+	(68)		DEG=0.0(w:0.0)				Marco Trungelliti (Q)  
+	(74)		DEG=0.0(w:0.0)				Taro Daniel (Q)  
+	(76)		DEG=25.0(w:118.0)				Tommy Robredo  
+	(83)		DEG=30.0(w:153.5)				Ryan Harrison  
+	(95)		DEG=54.0(w:214.5)				Benoit Paire  
+	(96)		DEG=43.0(w:94.0)				Dominic Thiem  (Seeded as 6) 
+	(97)		DEG=32.0(w:123.0)				Bernard Tomic  
+	(99)		DEG=37.0(w:177.5)				Nicolas Mahut  
+	(101)		DEG=25.0(w:100.0)				Mathias Bourgue  
+	(102)		DEG=39.0(w:162.0)				Steve Johnson  (Seeded as 25) 
+	(104)		DEG=32.0(w:92.5)				Ivo Karlovic  (Seeded as 23) 
+	(105)		DEG=0.0(w:0.0)				Stefanos Tsitsipas (Q)  
+	(108)		DEG=0.0(w:0.0)				Sergiy Stakhovsky (Q)  
+	(110)		DEG=38.0(w:115.0)				David Goffin  (Seeded as 10) 
+	(112)		DEG=44.0(w:174.0)				Lucas Pouille  (Seeded as 16) 
+	(118)		DEG=41.0(w:152.0)				Albert Ramos  (Seeded as 19) 
+	(121)		DEG=40.0(w:151.0)				Mischa Zverev  (Seeded as 32) 
+	(122)		DEG=36.0(w:143.0)				Diego Sebastian Schwartzman  
+	(126)		DEG=34.0(w:78.0)				Novak Djokovic  (Seeded as 2) 
+	(127)		DEG=33.0(w:150.0)				Marcel Granollers  
+Cluster 3 has a total of 32 players with 8 seeds.
+Avg degree:26 and wdegree:100
+
+Time elapsed:3.8534625s
+Using CPLEX to compute a solution.
+Testing CPLEX with same time used by GREEDY.
+Found incumbent of value 1790.500000 after 0.00 sec. (0.10 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 32 rows and 128 columns.
+MIP Presolve added 5296 rows and 2648 columns.
+Reduced MIP has 5396 rows, 3032 columns, and 11360 nonzeros.
+Reduced MIP has 3032 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (1.50 ticks)
+Probing time = 0.02 sec. (0.45 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 2648 rows and 0 columns.
+Reduced MIP has 2748 rows, 3032 columns, and 8712 nonzeros.
+Reduced MIP has 3032 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (5.30 ticks)
+Probing time = 0.00 sec. (1.03 ticks)
+Clique table members: 96.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 4 threads.
+Root relaxation solution time = 0.01 sec. (10.98 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                         1790.5000      143.0000            92.01%
+*     0+    0                         1076.5000      143.0000            86.72%
+      0     0      498.7500   159     1076.5000      498.7500      265   53.67%
+      0     0      529.7500   181     1076.5000     Cuts: 258      443   50.79%
+      0     0      551.3750   186     1076.5000     Cuts: 239      652   48.78%
+      0     0      567.7206   238     1076.5000 ZeroHalf: 289      984   47.26%
+*     0+    0                          885.0000      567.7206            35.85%
+      0     0      575.5000   223      885.0000 ZeroHalf: 201     1233   34.97%
+      0     0      581.5000   278      885.0000 ZeroHalf: 250     1419   34.29%
+      0     0      593.9167   292      885.0000 ZeroHalf: 132     1649   32.89%
+      0     0      604.4731   309      885.0000 ZeroHalf: 197     1961   31.70%
+      0     0      610.4432   316      885.0000 ZeroHalf: 116     2234   31.02%
+      0     0      617.8747   321      885.0000  ZeroHalf: 66     2503   30.18%
+      0     0      623.0133   326      885.0000  ZeroHalf: 74     2851   29.60%
+      0     0      626.0829   344      885.0000 ZeroHalf: 143     3229   29.26%
+
+Zero-half cuts applied:  208
+Gomory fractional cuts applied:  7
+
+Root node processing (before b&c):
+  Real time             =    1.89 sec. (957.94 ticks)
+Parallel b&c, 4 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    1.89 sec. (957.94 ticks)
+CPLEX found in 1.8790482 a solution with O.F.885.0
+Found incumbent of value 1429.500000 after 0.00 sec. (0.10 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 32 rows and 128 columns.
+MIP Presolve added 5296 rows and 2648 columns.
+Reduced MIP has 5396 rows, 3032 columns, and 11360 nonzeros.
+Reduced MIP has 3032 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (1.47 ticks)
+Probing time = 0.03 sec. (0.45 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 2648 rows and 0 columns.
+Reduced MIP has 2748 rows, 3032 columns, and 8712 nonzeros.
+Reduced MIP has 3032 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (5.22 ticks)
+Probing time = 0.00 sec. (1.03 ticks)
+Clique table members: 96.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 4 threads.
+Root relaxation solution time = 0.02 sec. (10.64 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                         1429.5000      143.0000            90.00%
+*     0+    0                         1164.0000      143.0000            87.71%
+      0     0      498.7500   160     1164.0000      498.7500      260   57.15%
+      0     0      533.1250   177     1164.0000     Cuts: 255      501   54.20%
+      0     0      551.1250   215     1164.0000     Cuts: 263      736   52.65%
+      0     0      563.0000   198     1164.0000 ZeroHalf: 224      930   51.63%
+*     0+    0                          933.5000      563.0000            39.69%
+      0     0      569.7500   186      933.5000 ZeroHalf: 259     1143   38.97%
+      0     0      577.4412   287      933.5000     Cuts: 244     1374   38.14%
+*     0+    0                          929.0000      577.4412            37.84%
+      0     0      592.4699   305      929.0000 ZeroHalf: 176     1669   36.22%
+      0     0      604.7834   322      929.0000     Cuts: 105     2082   34.90%
+      0     0      611.9805   324      929.0000 ZeroHalf: 136     2424   34.12%
+      0     0      616.8206   324      929.0000  ZeroHalf: 88     2720   33.60%
+*     0+    0                          912.0000      616.8206            32.37%
+      0     0      622.1822   324      912.0000 ZeroHalf: 144     3046   31.78%
+      0     0      625.0983   325      912.0000      Cuts: 48     3284   31.46%
+      0     0      626.9245   328      912.0000  ZeroHalf: 42     3429   31.26%
+      0     0      628.8917   330      912.0000  ZeroHalf: 45     3626   31.04%
+      0     0      632.2701   331      912.0000      Cuts: 38     3894   30.67%
+      0     0      634.8092   333      912.0000  ZeroHalf: 62     4120   30.39%
+*     0+    0                          911.0000      634.8092            30.32%
+      0     0      637.0186   347      911.0000  ZeroHalf: 53     4368   30.07%
+      0     0      639.0880   333      911.0000  ZeroHalf: 43     4568   29.85%
+      0     0      640.6104   349      911.0000  ZeroHalf: 27     4849   29.68%
+      0     0      641.2351   345      911.0000      Cuts: 33     5015   29.61%
+      0     0      643.0734   344      911.0000  ZeroHalf: 49     5201   29.41%
+      0     0      644.7092   348      911.0000  ZeroHalf: 52     5449   29.23%
+*     0+    0                          881.5000      644.7092            26.86%
+      0     0      645.6162   346      881.5000  ZeroHalf: 31     5641   26.76%
+      0     0      646.3437   355      881.5000  ZeroHalf: 37     5819   26.68%
+      0     0      646.9796   357      881.5000  ZeroHalf: 46     6023   26.60%
+      0     0      647.6172   359      881.5000  ZeroHalf: 41     6160   26.53%
+      0     0      648.0234   362      881.5000      Cuts: 28     6279   26.49%
+      0     0      648.5928   361      881.5000      Cuts: 34     6411   26.42%
+      0     0      649.2348   360      881.5000  ZeroHalf: 26     6557   26.35%
+      0     0      649.8140   355      881.5000  ZeroHalf: 34     6722   26.28%
+      0     0      650.0698   358      881.5000  ZeroHalf: 16     6831   26.25%
+      0     0      650.7213   364      881.5000  ZeroHalf: 14     6998   26.18%
+      0     0      651.6245   361      881.5000  ZeroHalf: 29     7214   26.08%
+      0     0      652.2415   362      881.5000  ZeroHalf: 45     7439   26.01%
+      0     0      652.7876   379      881.5000  ZeroHalf: 35     7618   25.95%
+      0     0      653.3063   379      881.5000  ZeroHalf: 43     7951   25.89%
+      0     0      654.4025   370      881.5000  ZeroHalf: 47     8262   25.76%
+      0     0      655.1978   376      881.5000  ZeroHalf: 39     8490   25.67%
+      0     0      655.7999   379      881.5000  ZeroHalf: 45     8626   25.60%
+      0     0      656.5854   368      881.5000  ZeroHalf: 34     8769   25.51%
+      0     0      657.1539   381      881.5000  ZeroHalf: 35     8924   25.45%
+      0     0      657.3983   378      881.5000  ZeroHalf: 17     9029   25.42%
+      0     0      657.7121   381      881.5000  ZeroHalf: 16     9160   25.39%
+      0     0      657.8475   379      881.5000  ZeroHalf: 21     9251   25.37%
+      0     2      657.8475   379      881.5000      657.8475     9251   25.37%
+Elapsed time = 9.07 sec. (3326.96 ticks, tree = 0.01 MB, solutions = 7)
+      6     8      683.7079   343      881.5000      657.8524    11966   25.37%
+*     7+    3                          873.5000      657.8524            24.69%
+     12    13      684.8002   360      873.5000      657.8524    14180   24.69%
+     25    22      706.4754   340      873.5000      658.3334    18758   24.63%
+     39    39      705.2824   335      873.5000      658.3334    28964   24.63%
+     68    55      748.0000   209      873.5000      658.3334    33488   24.63%
+    111    94      742.7500   247      873.5000      658.3334    45006   24.63%
+    164   125      789.7600   339      873.5000      658.3334    53131   24.63%
+    186   147      771.3750   258      873.5000      658.3334    58879   24.63%
+    228   194      757.0000   314      873.5000      658.3334    70962   24.63%
+    357   313      715.6016   332      873.5000      674.3922   101818   22.79%
+Elapsed time = 15.19 sec. (6569.08 ticks, tree = 3.64 MB, solutions = 8)
+    543   462      753.6000   356      873.5000      674.3922   131741   22.79%
+    734   618      867.6269   340      873.5000      679.0801   159913   22.26%
+    952   789      824.6250   329      873.5000      684.8142   184478   21.60%
+   1089   945      830.0278   339      873.5000      685.1072   218029   21.57%
+*  1222+  725                          870.0000      687.8763            20.93%
+*  1222+  482                          865.5000      687.8763            20.52%
+*  1222+  321                          861.0000      687.8763            20.11%
+*  1222+  213                          858.5000      687.8763            19.87%
+*  1222+  141                          855.0000      687.8763            19.55%
+*  1222+   93                          853.0000      687.8763            19.36%
+*  1222+   61                          847.0000      688.3171            18.73%
+*  1222+   40                          837.5000      688.3949            17.80%
+   1222    41      693.6499   452      837.5000      693.6499   254037   17.18%
+   1227    44      696.5983   441      837.5000      693.8542   255251   17.15%
+   1244    28      717.2711   436      837.5000      694.2008   259899   17.11%
+   1299    59      719.0215   424      837.5000      694.2008   272420   17.11%
+*  1308+   50                          835.0000      694.2008            16.86%
+   1370   123      736.0052   369      835.0000      694.2008   287417   16.86%
+   1564   271      799.4018   354      835.0000      694.2008   307634   16.86%
+Elapsed time = 54.50 sec. (28842.17 ticks, tree = 7.49 MB, solutions = 17)
+   1678   380      724.0588   414      835.0000      698.7549   317527   16.32%
+   1725   445      776.3406   367      835.0000      698.7549   333346   16.32%
+   1825   517      788.8750   369      835.0000      698.7549   354099   16.32%
+   1941   585      719.1934   440      835.0000      698.7730   372334   16.31%
+   2074   737      787.8463   414      835.0000      706.1727   403362   15.43%
+   2170   801      761.2837   416      835.0000      708.0081   417562   15.21%
+   2291   944      815.2500   205      835.0000      708.0081   441793   15.21%
+   2432  1070      790.1333   357      835.0000      708.8638   462599   15.11%
+   2521  1115      769.9852   412      835.0000      710.1063   472583   14.96%
+   2582  1214      774.3677   408      835.0000      710.1063   496440   14.96%
+Elapsed time = 73.14 sec. (38511.79 ticks, tree = 44.57 MB, solutions = 17)
+   2711  1271      771.5439   439      835.0000      710.1063   510557   14.96%
+   2841  1412      747.1109   429      835.0000      710.8991   534912   14.86%
+   2985  1523      809.0972   329      835.0000      711.9700   555381   14.73%
+   3110  1626      782.7655   421      835.0000      712.4334   571518   14.68%
+   3229  1758      736.7106   460      834.5000      713.2018   594044   14.54%
+*  3310+ 1863                          814.5000      713.7637            12.37%
+*  3322  1560      integral     0      809.5000      713.7637   609180   11.83%
+   3430  1523      769.7182   418      809.5000      715.2104   625267   11.65%
+   3478  1595      783.5304   413      809.5000      715.6322   644929   11.60%
+   3526  1617      757.5507   429      809.5000      715.6322   654609   11.60%
+   3598  1669      804.0941   380      809.5000      717.0135   675417   11.43%
+Elapsed time = 85.82 sec. (47805.96 ticks, tree = 61.97 MB, solutions = 20)
+   3670  1744      780.5887   384      809.5000      717.0286   698944   11.42%
+   3764  1819      762.2645   446      809.5000      717.2715   718847   11.39%
+   3839  1863        cutoff            809.5000      717.5425   729778   11.36%
+   3900  1896      749.8271   455      809.5000      718.7305   742342   11.21%
+   3989  1989      803.5348   391      809.5000      718.9225   764320   11.19%
+   4045  2027      782.3876   447      809.5000      719.2216   775978   11.15%
+   4098  2088      778.7577   439      809.5000      719.2216   799480   11.15%
+   4179  2142      794.2131   397      809.5000      719.9236   817495   11.07%
+   4253  2193      788.1852   423      809.5000      720.3656   834869   11.01%
+   4311  2281      758.8900   469      809.5000      720.6515   865813   10.98%
+Elapsed time = 100.37 sec. (57410.91 ticks, tree = 81.78 MB, solutions = 20)
+   4392  2332      778.7661   465      809.5000      721.1295   882346   10.92%
+   4465  2373      776.7141   429      809.5000      721.2793   893631   10.90%
+   4520  2422      750.4133   438      809.5000      721.5823   913923   10.86%
+   4593  2462      762.5542   471      809.5000      721.5984   931852   10.86%
+   4685  2552      775.7198   443      809.5000      722.2672   960367   10.78%
+   4737  2621      770.5423   450      809.5000      722.7755   982813   10.71%
+   4805  2679      756.9282   470      809.5000      723.1011  1000645   10.67%
+   4891  2675      769.2413   438      809.5000      723.1203   999204   10.67%
+   4974  2745      746.7407   456      809.5000      723.4700  1016802   10.63%
+*  5028+ 2832                          805.5000      723.7705            10.15%
+   5042  2825      783.5783   411      805.5000      723.8219  1040880   10.14%
+Elapsed time = 113.50 sec. (67074.76 ticks, tree = 96.14 MB, solutions = 21)
+   5096  2728      789.1206   428      805.5000      723.9006  1061075   10.13%
+   5147  2733      752.7702   468      805.5000      723.9720  1064595   10.12%
+   5226  2805      782.0186   425      805.5000      724.6471  1092453   10.04%
+   5302  2880      774.0614   420      805.5000      725.0276  1116517    9.99%
+   5381  2921      769.5227   415      805.5000      725.1050  1129105    9.98%
+   5446  2953        cutoff            805.5000      725.4276  1142191    9.94%
+   5508  3029      757.1930   446      805.5000      725.6431  1169215    9.91%
+   5576  3066      792.1618   418      805.5000      725.7875  1180612    9.90%
+   5623  3108      760.1894   439      805.5000      725.7875  1200933    9.90%
+   5709  3228      759.2207   459      805.5000      726.1863  1246429    9.85%
+Elapsed time = 127.27 sec. (76739.53 ticks, tree = 116.03 MB, solutions = 21)
+   5794  3246      757.1647   494      805.5000      726.6451  1252290    9.79%
+   5878  3332      769.5701   434      805.5000      726.9887  1284456    9.75%
+   5964  3416      799.7229   420      805.5000      727.2490  1316148    9.71%
+   6020  3441      790.7177   395      805.5000      727.4101  1327744    9.69%
+   6100  3494      768.9218   447      805.5000      727.7998  1345654    9.65%
+   6176  3530      762.6431   465      805.5000      728.0231  1365133    9.62%
+   6243  3586      753.5534   450      805.5000      728.0987  1381250    9.61%
+   6280  3641      790.7103   449      805.5000      728.1928  1400071    9.60%
+   6331  3702      780.9739   475      805.5000      728.6521  1426475    9.54%
+   6407  3710      781.8321   447      805.5000      728.7993  1430874    9.52%
+Elapsed time = 146.62 sec. (86462.83 ticks, tree = 128.18 MB, solutions = 21)
+   6486  3795        cutoff            805.5000      728.9188  1460356    9.51%
+   6572  3823      786.8153   410      805.5000      729.3756  1472120    9.45%
+   6650  3890      757.9019   455      805.5000      729.4043  1492673    9.45%
+   6705  3985      746.8974   480      805.5000      729.7340  1526522    9.41%
+   6766  4003      801.8591   418      805.5000      729.9964  1530400    9.37%
+   6829  4020      753.9821   498      805.5000      730.0934  1541661    9.36%
+   6890  4084      766.5048   474      805.5000      730.6916  1563912    9.29%
+   6975  4170      773.9813   434      805.5000      730.7694  1597079    9.28%
+   7041  4228      761.8909   452      805.5000      730.9765  1616620    9.25%
+   7112  4223      790.2557   418      805.5000      731.2503  1612882    9.22%
+Elapsed time = 158.15 sec. (96201.69 ticks, tree = 152.21 MB, solutions = 21)
+   7182  4286      804.8394   425      805.5000      731.2556  1635526    9.22%
+   7247  4326      784.8071   453      805.5000      731.8194  1653505    9.15%
+   7313  4433      737.1054   496      805.5000      731.9179  1696888    9.13%
+   7382  4468      789.2523   443      805.5000      731.9827  1710821    9.13%
+   7465  4485      804.3000   384      805.5000      732.2361  1716518    9.10%
+   7512  4579      799.7469   456      805.5000      732.4844  1753059    9.06%
+   7579  4591      787.2777   486      805.5000      732.8317  1758598    9.02%
+   7661  4650      764.2021   483      805.5000      733.4267  1780632    8.95%
+   7739  4701      802.8169   429      805.5000      733.4418  1812542    8.95%
+   8002  4888      788.3310   435      805.5000      733.9254  1882344    8.89%
+Elapsed time = 172.98 sec. (108654.34 ticks, tree = 179.33 MB, solutions = 21)
+   8235  5081      796.2974   445      805.5000      735.0774  1957732    8.74%
+   8544  5334      786.0353   422      805.5000      735.7425  2045516    8.66%
+   8804  5514      750.7198   479      805.5000      736.7163  2114466    8.54%
+   9054  5749      784.6035   473      805.5000      737.2287  2201964    8.48%
+   9327  5916      752.4730   507      805.5000      737.7475  2278763    8.41%
+   9629  6092      799.8154   444      805.5000      738.4997  2348747    8.32%
+   9917  6347      803.8304   414      805.5000      738.7673  2445203    8.28%
+  10181  6511      781.8013   467      805.5000      739.2596  2512082    8.22%
+  10416  6645      799.6798   423      805.5000      739.8261  2574047    8.15%
+  10710  6874      790.4795   490      805.5000      740.2196  2656923    8.10%
+Elapsed time = 217.24 sec. (146884.98 ticks, tree = 251.86 MB, solutions = 21)
+  11012  7122      800.2524   442      805.5000      740.6418  2751752    8.05%
+  11295  7308      790.6676   451      805.5000      741.0915  2822038    8.00%
+  11557  7481      770.3268   462      805.5000      741.8491  2894635    7.90%
+  11823  7693      765.9200   475      805.5000      742.1824  2996808    7.86%
+  12083  7853      798.7421   433      805.5000      742.7801  3057164    7.79%
+  12339  8043      788.3195   438      805.5000      743.3777  3146581    7.71%
+  12591  8118      764.8071   459      805.5000      743.8111  3188726    7.66%
+  12809  8336        cutoff            805.5000      744.1959  3276849    7.61%
+  13080  8567      794.9448   466      805.5000      744.6752  3370554    7.55%
+  13380  8675      797.0708   464      805.5000      745.0853  3409334    7.50%
+Elapsed time = 262.38 sec. (185149.92 ticks, tree = 329.10 MB, solutions = 21)
+  13642  8906      792.7993   485      805.5000      745.4835  3505632    7.45%
+  13927  9057      792.6976   442      805.5000      745.7736  3565812    7.41%
+  14182  9353      791.1504   503      805.5000      746.1990  3690605    7.36%
+  14447  9397      786.6752   442      805.5000      746.5933  3710130    7.31%
+  14714  9650      780.1046   485      805.5000      746.8067  3830369    7.29%
+  14993  9867      761.2867   486      805.5000      747.2696  3917138    7.23%
+  15261 10051      772.9791   491      805.5000      747.4853  4001070    7.20%
+  15489 10178      796.6328   426      805.5000      747.8194  4048706    7.16%
+  15748 10342      768.9419   478      805.5000      748.1562  4121299    7.12%
+  16044 10528      801.3024   445      805.5000      748.4972  4183090    7.08%
+Elapsed time = 314.94 sec. (223465.66 ticks, tree = 399.74 MB, solutions = 21)
+  16287 10720      794.8689   457      805.5000      748.7498  4272906    7.05%
+  16538 10892      797.7460   458      805.5000      748.9413  4351404    7.02%
+  16795 11118      800.3291   430      805.5000      749.1846  4455261    6.99%
+  17038 11166      786.7267   496      805.5000      749.3748  4474411    6.97%
+  17304 11493      766.0788   460      805.5000      749.6925  4620045    6.93%
+  17560 11575      788.8929   406      805.5000      749.9646  4655478    6.89%
+  17805 11751      798.6959   425      805.5000      750.1981  4738547    6.87%
+  18075 11878      776.7252   478      805.5000      750.5085  4796624    6.83%
+  18323 12108      801.9528   453      805.5000      750.8089  4893693    6.79%
+  18542 12312      798.1802   451      805.5000      751.0750  4986673    6.76%
+Elapsed time = 366.38 sec. (261775.10 ticks, tree = 451.77 MB, solutions = 21)
+  18826 12504      790.8137   496      805.5000      751.5184  5066117    6.70%
+  19116 12669      779.5780   454      805.5000      751.7169  5125090    6.68%
+  19411 12935      788.9499   471      805.5000      752.0841  5229968    6.63%
+  19675 12923        cutoff            805.5000      752.2072  5225925    6.62%
+  19932 13160      801.8696   481      805.5000      752.4731  5330784    6.58%
+  20194 13437      779.5923   484      805.5000      752.7958  5457771    6.54%
+  20418 13563        cutoff            805.5000      753.0512  5519320    6.51%
+  20643 13708      783.0738   490      805.5000      753.4425  5605303    6.46%
+  20897 13709      802.2003   473      805.5000      753.5781  5603890    6.45%
+  21167 13923      766.2604   483      805.5000      753.8782  5718340    6.41%
+Elapsed time = 411.88 sec. (300049.88 ticks, tree = 524.10 MB, solutions = 21)
+  21426 14179      779.3174   473      805.5000      753.9678  5834734    6.40%
+  21715 14234      787.6048   464      805.5000      754.1944  5854410    6.37%
+  21918 14402      779.9225   478      805.5000      754.3130  5937710    6.35%
+  22104 14592      801.9935   466      805.5000      754.5675  6027350    6.32%
+  22373 14733      797.9527   502      805.5000      754.7404  6103368    6.30%
+  22649 14872      799.9690   451      805.5000      754.9692  6162156    6.27%
+  22954 15009      772.1093   483      805.5000      755.2545  6211124    6.24%
+  23216 15188        cutoff            805.5000      755.3050  6301238    6.23%
+  23438 15470      767.7633   499      805.5000      755.5115  6416251    6.21%
+  23661 15628      801.7790   487      805.5000      755.7837  6505666    6.17%
+Elapsed time = 466.66 sec. (338275.04 ticks, tree = 592.74 MB, solutions = 21)
+  23884 15654      788.6431   456      805.5000      756.1618  6522735    6.13%
+  24145 15904      793.6756   480      805.5000      756.4072  6662180    6.09%
+  24396 16027      787.7145   457      805.5000      756.5238  6729999    6.08%
+  24599 16062      782.0667   509      805.5000      756.6680  6749584    6.06%
+  24848 16280      780.8178   474      805.5000      756.8784  6839413    6.04%
+  25117 16516      794.9544   414      805.5000      757.1235  6954289    6.01%
+  25350 16623      780.9567   487      805.5000      757.2203  7001275    5.99%
+  25571 16784      794.8161   430      805.5000      757.3999  7087521    5.97%
+  25819 16883      780.7570   491      805.5000      757.6715  7133045    5.94%
+  26096 17096      788.3875   500      805.5000      757.8217  7231967    5.92%
+Elapsed time = 522.35 sec. (376727.89 ticks, tree = 650.86 MB, solutions = 21)
+  26353 17174      794.8633   467      805.5000      758.1900  7265136    5.87%
+  26600 17461      783.2260   484      805.5000      758.3852  7416525    5.85%
+  26812 17586      794.3222   493      805.5000      758.4412  7488572    5.84%
+  27064 17617      786.7611   447      805.5000      758.5712  7507547    5.83%
+  27324 17707      794.9223   456      805.5000      758.7005  7541983    5.81%
+  27564 17911      794.0523   471      805.5000      759.0146  7656749    5.77%
+  27812 18135        cutoff            805.5000      759.0609  7770691    5.77%
+  28047 18221      798.6685   476      805.5000      759.3859  7817776    5.72%
+  28299 18433      796.3574   469      805.5000      759.4604  7937306    5.72%
+  28539 18525      778.1737   501      805.5000      759.6645  7980515    5.69%
+Elapsed time = 573.74 sec. (414985.78 ticks, tree = 708.26 MB, solutions = 21)
+  28777 18643        cutoff            805.5000      759.9892  8047439    5.65%
+  28994 18758      791.3415   461      805.5000      759.9892  8113121    5.65%
+  29205 18892      770.3945   521      805.5000      760.2304  8177610    5.62%
+  29433 19022      790.0279   467      805.5000      760.3681  8246933    5.60%
+  29656 19178      782.7626   485      805.5000      760.5330  8324486    5.58%
+  29899 19298      774.1200   488      805.5000      760.6400  8395819    5.57%
+  30149 19472      783.7392   535      805.5000      760.7775  8483192    5.55%
+  30397 19580      801.7209   451      805.5000      760.9508  8550658    5.53%
+  30629 19783      782.0273   526      805.5000      761.0094  8651767    5.52%
+  30868 19929      785.6582   496      805.5000      761.2463  8734419    5.49%
+Elapsed time = 628.92 sec. (453246.03 ticks, tree = 764.97 MB, solutions = 21)
+  31088 20002      789.5735   485      805.5000      761.4087  8783689    5.47%
+  31356 20148      794.2531   474      805.5000      761.5903  8845610    5.45%
+  31606 20278      771.5189   496      805.5000      761.7147  8920450    5.44%
+  31881 20532        cutoff            805.5000      761.8250  9042423    5.42%
+  32146 20779      798.0360   462      805.5000      762.0923  9161424    5.39%
+  32405 20812        cutoff            805.5000      762.1414  9180620    5.38%
+  32645 21044      781.9245   481      805.5000      762.3387  9299292    5.36%
+  32861 21020        cutoff            805.5000      762.4066  9286179    5.35%
+  33034 21119        cutoff            805.5000      762.5556  9347340    5.33%
+  33207 21309      795.5132   496      805.5000      762.6900  9447710    5.31%
+Elapsed time = 683.50 sec. (491498.20 ticks, tree = 821.35 MB, solutions = 21)
+  33447 21411      802.5225   485      805.5000      762.7942  9524069    5.30%
+  33684 21557      784.7302   497      805.5000      763.0944  9604624    5.26%
+  33953 21650      802.1756   461      805.5000      763.1488  9649945    5.26%
+  34220 21759      783.9154   509      805.5000      763.3070  9719507    5.24%
+  34457 22005      795.9145   449      805.5000      763.3599  9841651    5.23%
+  34672 22187      802.4307   467      805.5000      763.5007  9946428    5.21%
+  34890 22301      804.5690   475      805.5000      763.5796 10010813    5.20%
+  35147 22325        cutoff            805.5000      763.6693 10029620    5.19%
+  35392 22458      804.4189   458      805.5000      763.8401 10110058    5.17%
+  35666 22677      793.7486   496      805.5000      763.9157 10233053    5.16%
+Elapsed time = 738.98 sec. (529823.92 ticks, tree = 873.21 MB, solutions = 21)
+  35894 22818      777.8087   497      805.5000      764.1717 10295674    5.13%
+  36161 22910      794.0148   426      805.5000      764.2078 10341797    5.13%
+  36408 23027      796.6351   506      805.5000      764.3652 10412680    5.11%
+  36669 23131      775.2354   472      805.5000      764.4018 10460890    5.10%
+  36884 23461      796.2692   457      805.5000      764.5903 10641067    5.08%
+  37081 23517        cutoff            805.5000      764.6823 10676093    5.07%
+  37280 23633        cutoff            805.5000      764.7987 10744019    5.05%
+  37538 23706      800.0207   484      805.5000      764.9076 10792042    5.04%
+  37785 23913      797.5432   487      805.5000      765.0398 10896965    5.02%
+  38042 23899      798.5549   462      805.5000      765.1354 10882107    5.01%
+Elapsed time = 802.27 sec. (568130.14 ticks, tree = 937.96 MB, solutions = 21)
+  38277 24018      786.8035   485      805.5000      765.2265 10951780    5.00%
+  38528 24397      789.6806   485      805.5000      765.3608 11162759    4.98%
+  38732 24356      801.2069   463      805.5000      765.3953 11149584    4.98%
+  38978 24563      798.6983   493      805.5000      765.6001 11271337    4.95%
+  39233 24565      793.6745   468      805.5000      765.6850 11263768    4.94%
+  39490 24815      801.2860   504      805.5000      765.8372 11410794    4.92%
+  39744 24942      799.2588   442      805.5000      765.9468 11481573    4.91%
+  40011 25029        cutoff            805.5000      766.0180 11527296    4.90%
+  40266 25092      790.0428   490      805.5000      766.0976 11570939    4.89%
+  40490 25232      791.1986   475      805.5000      766.1962 11644835    4.88%
+Elapsed time = 864.97 sec. (606511.30 ticks, tree = 994.15 MB, solutions = 21)
+  40719 25357      799.9200   433      805.5000      766.2996 11717377    4.87%
+  40955 25477        cutoff            805.5000      766.3904 11788903    4.86%
+  41201 25662      800.3318   474      805.5000      766.5008 11898638    4.84%
+  41428 25857      803.9747   480      805.5000      766.6358 12020960    4.82%
+  41644 25965        cutoff            805.5000      766.7421 12084645    4.81%
+  41877 26088      799.8596   480      805.5000      766.8675 12156182    4.80%
+  42113 26241        cutoff            805.5000      766.9859 12229966    4.78%
+  42355 26316        cutoff            805.5000      767.0233 12279141    4.78%
+  42573 26383      788.4544   474      805.5000      767.1769 12317145    4.76%
+  42786 26483      795.3256   474      805.5000      767.2557 12391829    4.75%
+Elapsed time = 913.82 sec. (644800.11 ticks, tree = 1037.97 MB, solutions = 21)
+  43038 26648      799.2003   441      805.5000      767.3677 12495591    4.73%
+  43286 26853      791.7138   470      805.5000      767.4735 12623645    4.72%
+  43531 26935      788.5954   469      805.5000      767.5619 12665316    4.71%
+  43769 27017      801.7715   468      805.5000      767.6599 12719418    4.70%
+  44010 27239      803.7481   494      805.5000      767.7331 12843458    4.69%
+  44239 27297        cutoff            805.5000      767.8274 12880632    4.68%
+  44492 27464        cutoff            805.5000      767.9014 12988800    4.67%
+  44738 27535      783.0332   494      805.5000      768.0295 13025271    4.65%
+  44975 27563      804.2743   497      805.5000      768.1306 13044433    4.64%
+  45217 27738      804.4394   475      805.5000      768.2159 13151703    4.63%
+Elapsed time = 961.72 sec. (683028.27 ticks, tree = 1088.47 MB, solutions = 21)
+  45437 27800      800.4609   491      805.5000      768.3191 13190419    4.62%
+  45645 27991      796.1739   459      805.5000      768.3945 13317017    4.61%
+  45883 28090      798.4007   448      805.5000      768.4780 13390923    4.60%
+  46105 28198      803.0069   450      805.5000      768.6008 13463958    4.58%
+  46298 28217      795.8880   497      805.5000      768.7365 13481701    4.56%
+  46510 28420      787.5486   471      805.5000      768.8368 13601992    4.55%
+  46746 28507      786.4288   478      805.5000      768.9218 13663563    4.54%
+  46970 28709        cutoff            805.5000      769.0400 13777546    4.53%
+  47187 28667      801.0075   463      805.5000      769.1788 13769331    4.51%
+  47409 28879      803.1890   443      805.5000      769.2566 13898371    4.50%
+Elapsed time = 1008.18 sec. (721369.67 ticks, tree = 1132.70 MB, solutions = 21)
+  47613 28898      789.1851   498      805.5000      769.3494 13917051    4.49%
+  47857 29024      787.3477   505      805.5000      769.4092 14016063    4.48%
+  48092 29106      802.1650   447      805.5000      769.4857 14064535    4.47%
+  48334 29372      784.5472   512      805.5000      769.6314 14245336    4.45%
+  48577 29316      801.7739   468      805.5000      769.6487 14207993    4.45%
+  48820 29453      788.6824   470      805.5000      769.7551 14301193    4.44%
+  49044 29623      800.5076   503      805.5000      769.8009 14410290    4.43%
+  49258 29667      803.0800   479      805.5000      769.8986 14447716    4.42%
+  49471 29768      792.4171   509      805.5000      769.9540 14520504    4.41%
+  49721 29911      785.2437   527      805.5000      770.1150 14628138    4.39%
+Elapsed time = 1053.78 sec. (759662.99 ticks, tree = 1168.88 MB, solutions = 21)
+  49966 30068      803.0256   496      805.5000      770.1522 14726544    4.39%
+  50207 30126      798.4428   499      805.5000      770.2745 14775520    4.37%
+  50448 30294        cutoff            805.5000      770.3347 14876625    4.37%
+  50660 30446        cutoff            805.5000      770.4493 14987188    4.35%
+  50853 30380      799.2479   472      805.5000      770.4732 14942124    4.35%
+  51023 30514        cutoff            805.5000      770.6023 15041483    4.33%
+  51207 30663      799.7096   479      805.5000      770.6659 15163648    4.32%
+  51444 30733      799.5364   512      805.5000      770.7938 15208309    4.31%
+  51679 30786      804.6544   445      805.5000      770.8137 15242969    4.31%
+  51948 30931      798.6761   480      805.5000      770.9483 15338882    4.29%
+Elapsed time = 1099.58 sec. (797944.84 ticks, tree = 1214.72 MB, solutions = 21)
+  52179 31056      803.0491   473      805.5000      770.9983 15418894    4.28%
+  52389 31202      794.5580   510      805.5000      771.1096 15514165    4.27%
+  52608 31306        cutoff            805.5000      771.1561 15587954    4.26%
+  52798 31436      802.0741   480      805.5000      771.2820 15696354    4.25%
+  53030 31481      788.3314   498      805.5000      771.3343 15733980    4.24%
+  53239 31620      797.8301   524      805.5000      771.4771 15837197    4.22%
+  53451 31669      804.5829   455      805.5000      771.5185 15875802    4.22%
+  53664 31689        cutoff            805.5000      771.6158 15894042    4.21%
+  53869 31750      801.7624   482      805.5000      771.6587 15942187    4.20%
+  54067 31851      801.9609   456      805.5000      771.7174 16020353    4.19%
+Elapsed time = 1145.61 sec. (836305.27 ticks, tree = 1241.36 MB, solutions = 21)
+  54294 31966      789.0319   483      805.5000      771.7500 16118454    4.19%
+  54526 32054      796.8801   490      805.5000      771.8737 16192280    4.17%
+  54762 32217      786.3727   489      805.5000      771.9189 16304440    4.17%
+  54994 32267        cutoff            805.5000      772.0308 16341432    4.16%
+  55230 32337      803.7736   497      805.5000      772.0831 16393270    4.15%
+  55438 32547      793.7767   522      805.5000      772.2061 16550307    4.13%
+  55657 32576      794.9081   484      805.5000      772.2246 16569345    4.13%
+  55848 32685      794.2348   503      805.5000      772.3055 16672581    4.12%
+  56045 32711      785.1401   519      805.5000      772.3967 16691288    4.11%
+  56241 32864      794.8183   482      805.5000      772.4987 16822497    4.10%
+Elapsed time = 1192.21 sec. (874801.29 ticks, tree = 1270.42 MB, solutions = 21)
+  56454 32837      802.2090   490      805.5000      772.6227 16805206    4.08%
+  56683 33021      801.6577   464      805.5000      772.6991 16949512    4.07%
+  56896 33007      793.5692   531      805.5000      772.7658 16940928    4.06%
+  57131 33149      787.6150   468      805.5000      772.8692 17045308    4.05%
+  57333 33311        cutoff            805.5000      772.9352 17179529    4.04%
+  57536 33346      797.1229   460      805.5000      773.0056 17217531    4.03%
+  57774 33497      801.7852   474      805.5000      773.0940 17335331    4.02%
+  58013 33456      800.7013   492      805.5000      773.1631 17317276    4.01%
+  58242 33566        cutoff            805.5000      773.2710 17391594    4.00%
+  58473 33747      803.6551   501      805.5000      773.3268 17523710    3.99%
+Elapsed time = 1238.60 sec. (913020.75 ticks, tree = 1307.13 MB, solutions = 21)
+  58706 33842      798.9081   451      805.5000      773.3848 17602681    3.99%
+  58918 33866        cutoff            805.5000      773.4277 17621395    3.98%
+  59116 34003      796.6233   491      805.5000      773.5457 17726604    3.97%
+  59310 34021        cutoff            805.5000      773.5914 17745696    3.96%
+  59543 34130      783.9504   488      805.5000      773.6613 17849584    3.95%
+  59793 34259      791.6299   482      805.5000      773.7110 17965365    3.95%
+  60034 34366      797.9384   491      805.5000      773.8118 18037624    3.93%
+  60268 34431      795.6957   452      805.5000      773.8562 18084023    3.93%
+  60500 34523        cutoff            805.5000      773.9387 18155443    3.92%
+  60721 34668      801.3134   480      805.5000      774.0342 18269523    3.91%
+Elapsed time = 1295.37 sec. (951299.22 ticks, tree = 1345.73 MB, solutions = 21)
+  60922 34744      790.2497   501      805.5000      774.0965 18345590    3.90%
+  61141 34726        cutoff            805.5000      774.1806 18329112    3.89%
+  61352 34910      801.3749   471      805.5000      774.2658 18501523    3.88%
+  61554 34909      800.2523   495      805.5000      774.3943 18482029    3.86%
+  61777 34987      799.4877   452      805.5000      774.4645 18560040    3.85%
+  62002 35193      789.2694   460      805.5000      774.5506 18705554    3.84%
+  62235 35220      793.6567   502      805.5000      774.6050 18723950    3.84%
+  62474 35301        cutoff            805.5000      774.6738 18798243    3.83%
+  62681 35390      799.7119   497      805.5000      774.7175 18878612    3.82%
+  62886 35415      796.8862   511      805.5000      774.8076 18897527    3.81%
+Elapsed time = 1350.60 sec. (989547.40 ticks, tree = 1372.19 MB, solutions = 21)
+  63115 35586      804.5033   462      805.5000      774.8390 19036905    3.81%
+  63352 35606      794.9700   476      805.5000      774.9091 19055462    3.80%
+  63556 35716      802.7346   482      805.5000      774.9258 19160063    3.80%
+  63782 35792      795.3064   493      805.5000      775.0013 19213575    3.79%
+  64013 35886        cutoff            805.5000      775.0941 19287718    3.77%
+  64237 35974        cutoff            805.5000      775.1751 19366040    3.76%
+  64448 36097      802.0335   460      805.5000      775.2314 19466372    3.76%
+  64668 36148      802.7263   509      805.5000      775.2704 19520891    3.75%
+  64885 36220      792.9778   497      805.5000      775.3535 19596794    3.74%
+  65142 36328      802.0278   497      805.5000      775.4127 19678837    3.74%
+Elapsed time = 1406.26 sec. (1027863.36 ticks, tree = 1393.18 MB, solutions = 21)
+  65398 36375        cutoff            805.5000      775.4910 19720344    3.73%
+  65644 36513      798.4814   486      805.5000      775.4910 19837489    3.73%
+  65889 36638      800.6146   505      805.5000      775.6676 19942173    3.70%
+  66116 36596      804.2070   469      805.5000      775.7036 19895728    3.70%
+  66340 36675      801.2627   465      805.5000      775.7513 19980271    3.69%
+  66552 36819      803.6359   480      805.5000      775.8119 20092246    3.69%
+  66791 36907        cutoff            805.5000      775.9095 20176269    3.67%
+  67018 36983      802.6656   487      805.5000      775.9812 20254079    3.66%
+  67226 37082      800.4148   514      805.5000      776.0669 20332254    3.65%
+  67425 37135        cutoff            805.5000      776.1521 20370892    3.64%
+Elapsed time = 1462.69 sec. (1066108.57 ticks, tree = 1428.86 MB, solutions = 21)
+  67669 37227      800.4253   491      805.5000      776.2281 20453240    3.63%
+  67895 37324      790.2995   480      805.5000      776.2996 20519328    3.63%
+  68115 37363      799.9173   475      805.5000      776.3270 20568630    3.62%
+  68328 37565      798.1843   458      805.5000      776.3889 20733837    3.61%
+  68569 37494        cutoff            805.5000      776.4298 20684112    3.61%
+  68794 37641      804.7748   477      805.5000      776.5185 20828328    3.60%
+  69048 37666        cutoff            805.5000      776.5906 20846972    3.59%
+  69291 37778      804.0163   467      805.5000      776.6455 20962785    3.58%
+  69512 37803      800.1376   485      805.5000      776.6993 21003880    3.58%
+  69715 37879      790.5175   489      805.5000      776.7690 21088679    3.57%
+Elapsed time = 1518.74 sec. (1104373.81 ticks, tree = 1458.25 MB, solutions = 21)
+  69903 38038      795.0592   461      805.5000      776.8273 21259176    3.56%
+  70119 38021      796.6415   485      805.5000      776.8915 21244998    3.55%
+  70374 38128      789.6006   490      805.5000      776.9311 21355849    3.55%
+  70624 38204      800.4560   471      805.5000      776.9684 21437493    3.54%
+  70889 38347        cutoff            805.5000      777.0926 21544327    3.53%
+  71143 38323      797.7009   486      805.5000      777.1279 21535707    3.52%
+  71367 38442      799.3513   459      805.5000      777.2165 21613218    3.51%
+  71578 38593      792.2320   493      805.5000      777.2751 21754013    3.50%
+  71774 38674      790.1972   492      805.5000      777.3286 21836725    3.50%
+  71999 38696      802.4770   468      805.5000      777.3945 21854966    3.49%
+Elapsed time = 1573.35 sec. (1142682.67 ticks, tree = 1480.20 MB, solutions = 21)
+  72253 38737        cutoff            805.5000      777.4607 21904148    3.48%
+  72510 38844      801.8336   481      805.5000      777.4953 22020777    3.48%
+  72762 38930        cutoff            805.5000      777.5184 22100767    3.47%
+  73003 39036      787.3251   485      805.5000      777.6199 22209117    3.46%
+  73241 39017      792.5568   493      805.5000      777.6615 22199691    3.46%
+  73429 39137      797.2368   474      805.5000      777.6997 22298847    3.45%
+  73606 39178        cutoff            805.5000      777.7776 22355908    3.44%
+  73811 39283        cutoff            805.5000      777.8251 22490524    3.44%
+  74042 39342      803.0163   485      805.5000      777.9178 22530256    3.42%
+  74278 39438      796.9267   469      805.5000      778.0000 22641962    3.41%
+Elapsed time = 1620.29 sec. (1181027.14 ticks, tree = 1507.73 MB, solutions = 21)
+  74527 39457        cutoff            805.5000      778.0433 22660177    3.41%
+  74782 39486      798.7130   466      805.5000      778.1014 22679022    3.40%
+  75041 39644      804.4444   396      805.5000      778.1772 22823853    3.39%
+  75273 39666      802.6681   466      805.5000      778.2553 22842551    3.38%
+  75494 39752      804.4107   496      805.5000      778.3031 22922905    3.38%
+  75699 39847      799.3463   507      805.5000      778.3523 23031793    3.37%
+  75898 39948      796.5604   492      805.5000      778.4071 23148109    3.36%
+  76146 39932      793.4961   496      805.5000      778.4540 23125408    3.36%
+  76411 39953      786.0340   499      805.5000      778.4906 23143620    3.35%
+  76674 40067      797.7304   503      805.5000      778.6030 23284893    3.34%
+Elapsed time = 1774.56 sec. (1219356.48 ticks, tree = 1539.05 MB, solutions = 21)
+  76918 40212      801.5432   488      805.5000      778.6451 23405894    3.33%
+  77184 40258      799.1299   509      805.5000      778.7222 23447047    3.32%
+  77426 40274      790.9597   513      805.5000      778.7807 23465067    3.32%
+  77653 40398      781.0128   524      805.5000      778.8183 23586635    3.31%
+  77864 40476      792.3476   489      805.5000      778.8726 23670870    3.31%
+  78082 40536        cutoff            805.5000      778.8934 23752013    3.30%
+  78312 40645      791.0732   474      805.5000      778.9611 23866793    3.29%
+  78556 40675      801.7067   508      805.5000      778.9960 23919349    3.29%
+  78812 40680      797.3676   526      805.5000      779.0441 23903702    3.28%
+  79061 40809      800.4697   503      805.5000      779.1322 24048186    3.27%
+Elapsed time = 2037.05 sec. (1257755.25 ticks, tree = 1565.62 MB, solutions = 21)
+  79295 40828      792.3752   531      805.5000      779.2299 24067062    3.26%
+  79509 40961      804.3233   524      805.5000      779.2784 24213141    3.26%
+  79704 41024      802.0557   518      805.5000      779.3493 24293194    3.25%
+  79913 41027      800.0265   498      805.5000      779.3734 24287588    3.24%
+  80124 41049      804.8722   494      805.5000      779.4075 24328533    3.24%
+  80345 41184      803.6275   481      805.5000      779.4764 24474298    3.23%
+  80582 41301      796.3384   519      805.5000      779.5328 24585503    3.22%
+  80839 41277      791.7691   499      805.5000      779.5957 24573954    3.22%
+  81085 41349      798.2590   508      805.5000      779.6616 24641263    3.21%
+  81312 41473        cutoff            805.5000      779.7195 24783516    3.20%
+Elapsed time = 2091.20 sec. (1296095.98 ticks, tree = 1589.07 MB, solutions = 21)
+  81529 41466      801.9341   469      805.5000      779.7367 24777920    3.20%
+  81750 41596      795.4622   498      805.5000      779.7631 24926729    3.20%
+  81980 41612      797.4519   468      805.5000      779.8108 24945930    3.19%
+  82238 41675      799.4249   465      805.5000      779.8680 25031655    3.18%
+  82494 41811      800.5314   507      805.5000      779.9439 25183421    3.17%
+  82744 41786      799.5954   444      805.5000      780.0154 25160865    3.16%
+  82983 41906      804.1198   478      805.5000      780.0821 25280339    3.16%
+  83226 41937        cutoff            805.5000      780.1079 25322377    3.15%
+  83466 41948      803.7920   478      805.5000      780.1444 25340859    3.15%
+  83700 42088      796.7990   482      805.5000      780.1944 25487721    3.14%
+Elapsed time = 2144.44 sec. (1334520.74 ticks, tree = 1611.08 MB, solutions = 21)
+  83924 42199      799.9621   473      805.5000      780.2595 25616360    3.13%
+  84167 42184      795.6974   504      805.5000      780.3163 25595702    3.13%
+  84416 42255      803.4987   484      805.5000      780.3913 25680128    3.12%
+  84656 42335        cutoff            805.5000      780.4163 25769524    3.11%
+  84895 42414      799.1804   508      805.5000      780.4695 25893857    3.11%
+  85147 42401        cutoff            805.5000      780.5288 25868787    3.10%
+  85390 42480      792.8841   505      805.5000      780.6025 25955743    3.09%
+  85605 42607      794.1089   502      805.5000      780.6616 26143806    3.08%
+  85832 42648      790.9984   485      805.5000      780.7245 26188752    3.08%
+  86053 42655        cutoff            805.5000      780.7490 26207733    3.07%
+Elapsed time = 2192.84 sec. (1372949.78 ticks, tree = 1622.43 MB, solutions = 21)
+  86302 42669      803.7183   493      805.5000      780.7686 26226381    3.07%
+  86513 42777      800.7184   498      805.5000      780.8380 26380009    3.06%
+  86709 42830        cutoff            805.5000      780.8983 26437577    3.05%
+  86939 42932      800.2744   515      805.5000      780.9691 26580537    3.05%
+  87187 42946        cutoff            805.5000      781.0449 26598279    3.04%
+  87416 43004      795.6875   507      805.5000      781.0684 26670837    3.03%
+  87631 43083      800.5573   510      805.5000      781.1263 26773341    3.03%
+  87866 43063        cutoff            805.5000      781.1724 26727118    3.02%
+  88091 43132        cutoff            805.5000      781.2129 26851720    3.02%
+  88342 43218      804.8074   439      805.5000      781.2867 26939244    3.01%
+Elapsed time = 2242.44 sec. (1411164.93 ticks, tree = 1636.65 MB, solutions = 21)
+  88584 43298      804.5754   481      805.5000      781.3408 27051113    3.00%
+  88836 43361      796.1964   530      805.5000      781.3792 27110086    2.99%
+  89086 43320      789.9420   488      805.5000      781.3961 27087111    2.99%
+  89294 43475      792.3089   532      805.5000      781.4444 27277171    2.99%
+  89496 43455        cutoff            805.5000      781.5048 27256649    2.98%
+  89730 43566      793.2533   461      805.5000      781.5553 27403133    2.97%
+  89958 43574      801.8272   461      805.5000      781.6115 27422016    2.97%
+  90210 43610      791.6693   508      805.5000      781.6493 27480397    2.96%
+  90460 43662        cutoff            805.5000      781.6848 27527817    2.96%
+  90713 43756        cutoff            805.5000      781.7343 27683408    2.95%
+Elapsed time = 2289.38 sec. (1449442.99 ticks, tree = 1658.00 MB, solutions = 21)
+  90979 43775        cutoff            805.5000      781.7948 27701695    2.94%
+  91238 43857      794.4353   540      805.5000      781.8624 27784702    2.93%
+  91484 43970      804.4003   502      805.5000      781.8929 27937426    2.93%
+  91705 44008        cutoff            805.5000      781.9295 27996365    2.93%
+  91924 43983      796.1710   465      805.5000      781.9556 27975117    2.92%
+  92149 44087        cutoff            805.5000      782.0253 28103246    2.91%
+  92377 44143      802.7904   483      805.5000      782.0911 28190153    2.91%
+  92632 44200        cutoff            805.5000      782.1566 28307091    2.90%
+  92896 44237        cutoff            805.5000      782.1825 28367095    2.89%
+  93173 44288      798.0657   495      805.5000      782.2002 28413038    2.89%
+Elapsed time = 2335.68 sec. (1487683.62 ticks, tree = 1674.57 MB, solutions = 21)
+  93434 44305      796.5707   490      805.5000      782.2582 28431328    2.89%
+  93669 44398      799.9900   466      805.5000      782.3463 28555345    2.87%
+  93879 44436        cutoff            805.5000      782.3862 28602386    2.87%
+  94060 44476      803.3840   483      805.5000      782.4131 28660002    2.87%
+  94245 44575      802.7746   489      805.5000      782.4545 28808195    2.86%
+  94462 44597        cutoff            805.5000      782.5065 28888498    2.85%
+  94705 44604      803.1690   507      805.5000      782.5615 28906824    2.85%
+  94934 44655      798.6781   513      805.5000      782.6131 28982117    2.84%
+  95198 44744      803.2282   483      805.5000      782.6872 29135516    2.83%
+  95464 44723      802.2575   466      805.5000      782.7215 29114334    2.83%
+Elapsed time = 2382.06 sec. (1525938.02 ticks, tree = 1695.77 MB, solutions = 21)
+  95706 44785      803.5877   504      805.5000      782.7471 29238341    2.82%
+  95945 44836        cutoff            805.5000      782.8115 29325885    2.82%
+  96179 44882      797.6116   494      805.5000      782.8600 29370553    2.81%
+  96381 44934      803.9641   494      805.5000      782.9187 29461616    2.80%
+  96600 44955      798.1293   452      805.5000      782.9348 29520772    2.80%
+  96860 45014      803.0993   472      805.5000      782.9654 29606775    2.80%
+  97130 45073      796.7534   504      805.5000      783.0261 29692498    2.79%
+  97393 45123        cutoff            805.5000      783.1024 29774896    2.78%
+  97650 45155      796.3940   481      805.5000      783.1798 29822011    2.77%
+  97918 45140      796.7294   461      805.5000      783.2134 29811187    2.77%
+Elapsed time = 2427.50 sec. (1564256.29 ticks, tree = 1712.09 MB, solutions = 21)
+  98153 45192      797.2493   485      805.5000      783.2419 29859657    2.76%
+  98376 45230      797.4685   446      805.5000      783.3117 29943747    2.75%
+  98579 45311      804.2003   493      805.5000      783.3595 30099423    2.75%
+  98812 45389      803.5498   442      805.5000      783.4083 30233807    2.74%
+  99075 45416      793.8989   498      805.5000      783.4449 30281523    2.74%
+  99325 45430      802.8960   501      805.5000      783.4756 30342565    2.73%
+  99597 45445      793.2944   520      805.5000      783.5371 30318684    2.73%
+  99842 45534      799.2499   511      805.5000      783.5992 30517881    2.72%
+ 100080 45594        cutoff            805.5000      783.6667 30606757    2.71%
+ 100319 45607      793.3521   497      805.5000      783.6914 30626120    2.71%
+Elapsed time = 2472.10 sec. (1602597.73 ticks, tree = 1726.24 MB, solutions = 21)
+ 100564 45611      800.3266   503      805.5000      783.7220 30645723    2.70%
+ 100789 45678      796.1677   465      805.5000      783.7639 30730395    2.70%
+ 101018 45736        cutoff            805.5000      783.8105 30891609    2.69%
+ 101256 45800      797.5745   500      805.5000      783.8646 30982231    2.69%
+ 101510 45782      803.2826   507      805.5000      783.9054 30958072    2.68%
+ 101737 45793      799.2825   477      805.5000      783.9387 30976316    2.68%
+ 101968 45861        cutoff            805.5000      783.9966 31098421    2.67%
+ 102214 45898      801.8535   466      805.5000      784.0753 31146886    2.66%
+ 102446 45971      799.1184   471      805.5000      784.1480 31284827    2.65%
+ 102671 45969      796.4074   483      805.5000      784.1745 31275369    2.65%
+Elapsed time = 2516.08 sec. (1641002.19 ticks, tree = 1730.52 MB, solutions = 21)
+ 102916 46037        cutoff            805.5000      784.2017 31391855    2.64%
+ 103168 46089      804.2183   509      805.5000      784.2414 31486246    2.64%
+ 103430 46108      797.2957   516      805.5000      784.2890 31546413    2.63%
+ 103705 46178      797.1622   454      805.5000      784.3211 31666008    2.63%
+ 103953 46192      801.1008   512      805.5000      784.3609 31723060    2.62%
+ 104179 46206      803.0335   491      805.5000      784.4172 31702034    2.62%
+ 104389 46292      799.1350   498      805.5000      784.4697 31898113    2.61%
+ 104625 46300      796.1415   463      805.5000      784.5303 31916852    2.60%
+ 104860 46367      799.2819   471      805.5000      784.5595 32036042    2.60%
+ 105091 46369      794.2960   488      805.5000      784.5845 32054107    2.60%
+Elapsed time = 2560.18 sec. (1679233.60 ticks, tree = 1734.97 MB, solutions = 21)
+ 105345 46417        cutoff            805.5000      784.6357 32141980    2.59%
+ 105602 46449      786.1406   511      805.5000      784.6879 32234434    2.58%
+ 105852 46482      799.2541   440      805.5000      784.7220 32319438    2.58%
+ 106105 46469      802.1857   481      805.5000      784.7895 32310079    2.57%
+ 106345 46495      796.1436   485      805.5000      784.8201 32397205    2.57%
+ 106583 46538      804.6298   472      805.5000      784.8732 32485079    2.56%
+ 106803 46606      802.0166   447      805.5000      784.9217 32648743    2.55%
+ 107027 46593      797.8161   480      805.5000      784.9473 32626863    2.55%
+ 107301 46659      802.0170   500      805.5000      785.0065 32757578    2.54%
+ 107560 46655      802.4251   478      805.5000      785.0309 32732752    2.54%
+Elapsed time = 2604.59 sec. (1717585.67 ticks, tree = 1737.87 MB, solutions = 21)
+ 107831 46690      801.0811   525      805.5000      785.0796 32867771    2.54%
+ 108095 46738      793.4315   496      805.5000      785.1572 32914113    2.53%
+ 108340 46743        cutoff            805.5000      785.1572 32932024    2.53%
+ 108578 46803      802.9619   490      805.5000      785.2214 33090165    2.52%
+ 108799 46819      802.5294   489      805.5000      785.3015 33150911    2.51%
+ 109005 46836        cutoff            805.5000      785.3501 33200173    2.50%
+ 109215 46834        cutoff            805.5000      785.3763 33259883    2.50%
+ 109449 46848      801.3367   484      805.5000      785.3996 33307007    2.50%
+ 109670 46905      799.9231   493      805.5000      785.4428 33512843    2.49%
+ 109888 46925      800.1344   504      805.5000      785.4958 33598208    2.48%
+Elapsed time = 2649.50 sec. (1755866.10 ticks, tree = 1745.70 MB, solutions = 21)
+ 110144 46926        cutoff            805.5000      785.5280 33615473    2.48%
+ 110410 46956        cutoff            805.5000      785.6061 33716346    2.47%
+ 110656 46942      794.2659   472      805.5000      785.6459 33672209    2.46%
+ 110909 46989      802.5716   509      805.5000      785.7072 33819732    2.46%
+ 111137 47026      803.7229   492      805.5000      785.7612 33912254    2.45%
+ 111351 47034        cutoff            805.5000      785.7813 33931314    2.45%
+ 111563 47041      803.2447   519      805.5000      785.8075 33994390    2.44%
+ 111818 47044      799.3196   479      805.5000      785.8832 34041208    2.44%
+ 112048 47089        cutoff            805.5000      785.9454 34249856    2.43%
+ 112307 47092        cutoff            805.5000      785.9755 34225164    2.42%
+Elapsed time = 2694.36 sec. (1794149.05 ticks, tree = 1748.24 MB, solutions = 21)
+ 112576 47099      799.7291   466      805.5000      785.9987 34284582    2.42%
+ 112819 47111      801.2888   504      805.5000      786.0502 34372051    2.41%
+ 113032 47112        cutoff            805.5000      786.1140 34484825    2.41%
+ 113252 47112      794.7436   465      805.5000      786.1541 34504019    2.40%
+ 113473 47161        cutoff            805.5000      786.2055 34633688    2.40%
+ 113723 47173      799.8382   498      805.5000      786.2306 34652556    2.39%
+ 113995 47225        cutoff            805.5000      786.2818 34821000    2.39%
+ 114270 47232      793.4699   451      805.5000      786.3322 34870896    2.38%
+ 114548 47209      801.7394   505      805.5000      786.3322 34812280    2.38%
+ 114817 47252      796.9758   495      805.5000      786.4019 34908095    2.37%
+Elapsed time = 2749.79 sec. (1832402.84 ticks, tree = 1753.52 MB, solutions = 21)
+ 115080 47308      799.5133   442      805.5000      786.4571 35068585    2.36%
+ 115326 47359        cutoff            805.5000      786.5233 35196061    2.36%
+ 115550 47362        cutoff            805.5000      786.5688 35215015    2.35%
+ 115783 47393        cutoff            805.5000      786.5983 35305595    2.35%
+ 115990 47365      801.6910   461      805.5000      786.6401 35282853    2.34%
+ 116201 47408        cutoff            805.5000      786.6887 35371022    2.34%
+ 116435 47409        cutoff            805.5000      786.7097 35466654    2.33%
+ 116679 47419      804.4607   480      805.5000      786.7497 35485562    2.33%
+ 116954 47412        cutoff            805.5000      786.8245 35620512    2.32%
+ 117213 47422      799.9715   490      805.5000      786.8796 35739351    2.31%
+Elapsed time = 2817.79 sec. (1870649.63 ticks, tree = 1756.29 MB, solutions = 21)
+ 117468 47437      801.9767   451      805.5000      786.9092 35799462    2.31%
+ 117694 47443      794.5818   500      805.5000      786.9312 35847126    2.31%
+ 117924 47462      794.7996   492      805.5000      786.9988 35906711    2.30%
+ 118154 47483        cutoff            805.5000      787.0531 35992340    2.29%
+ 118366 47527      799.2849   475      805.5000      787.0790 36103018    2.29%
+ 118612 47540      799.8180   503      805.5000      787.1043 36160325    2.28%
+ 118851 47560      797.8820   510      805.5000      787.1716 36209273    2.28%
+ 119098 47556      803.9458   497      805.5000      787.2164 36227103    2.27%
+ 119365 47576        cutoff            805.5000      787.2479 36396120    2.27%
+ 119645 47586      802.6013   506      805.5000      787.2845 36384453    2.26%
+Elapsed time = 2878.74 sec. (1908934.06 ticks, tree = 1757.30 MB, solutions = 21)
+ 119901 47640      796.0047   505      805.5000      787.3475 36547937    2.25%
+ 120151 47648      800.4509   472      805.5000      787.4038 36596492    2.25%
+ 120387 47658      794.1528   491      805.5000      787.4239 36655884    2.24%
+ 120583 47655      804.4451   502      805.5000      787.4460 36632507    2.24%
+ 120790 47665      794.3795   444      805.5000      787.4889 36722954    2.24%
+ 121028 47675      802.1270   492      805.5000      787.5360 36931223    2.23%
+ 121304 47676        cutoff            805.5000      787.5649 36949183    2.23%
+ 121548 47675        cutoff            805.5000      787.5877 36967240    2.22%
+ 121842 47671        cutoff            805.5000      787.6447 37017080    2.22%
+ 122120 47681      803.3802   486      805.5000      787.7115 37218375    2.21%
+Elapsed time = 2943.27 sec. (1947231.33 ticks, tree = 1761.76 MB, solutions = 21)
+ 122387 47676      801.7294   497      805.5000      787.7115 37121162    2.21%
+ 122620 47671      799.0766   466      805.5000      787.7628 37214901    2.20%
+ 122844 47699      800.3328   457      805.5000      787.8421 37344737    2.19%
+ 123089 47689      798.0087   520      805.5000      787.9013 37395028    2.18%
+ 123300 47710      798.7430   493      805.5000      787.9189 37566144    2.18%
+ 123526 47701      803.0676   464      805.5000      787.9358 37551673    2.18%
+ 123757 47713        cutoff            805.5000      788.0035 37676447    2.17%
+ 124012 47723      798.8088   467      805.5000      788.0571 37816884    2.17%
+ 124298 47725      803.5002   480      805.5000      788.0571 37759372    2.17%
+ 124551 47729      797.6032   497      805.5000      788.1153 37924352    2.16%
+Elapsed time = 2998.78 sec. (1985511.98 ticks, tree = 1756.87 MB, solutions = 21)
+ 124810 47729      801.6943   479      805.5000      788.1858 37943226    2.15%
+ 125059 47729      793.9744   500      805.5000      788.2142 37993337    2.15%
+ 125285 47736        cutoff            805.5000      788.2693 38124304    2.14%
+ 125484 47717        cutoff            805.5000      788.2934 38097648    2.14%
+ 125707 47742        cutoff            805.5000      788.3408 38196212    2.13%
+ 125964 47759      798.3049   463      805.5000      788.3629 38370404    2.13%
+ 126234 47741      798.7999   494      805.5000      788.3847 38352081    2.12%
+ 126469 47746        cutoff            805.5000      788.4251 38519002    2.12%
+ 126712 47733      800.8178   472      805.5000      788.4767 38611891    2.11%
+ 126964 47751        cutoff            805.5000      788.5074 38553142    2.11%
+Elapsed time = 3051.11 sec. (2023856.82 ticks, tree = 1753.53 MB, solutions = 21)
+ 127230 47737        cutoff            805.5000      788.5482 38603518    2.10%
+ 127489 47721      792.0913   492      805.5000      788.6002 38689377    2.10%
+ 127725 47732      799.1132   474      805.5000      788.6610 38835730    2.09%
+ 127950 47724        cutoff            805.5000      788.6903 38855003    2.09%
+ 128177 47737      794.5559   508      805.5000      788.7077 38920759    2.08%
+ 128422 47704      798.6880   488      805.5000      788.7517 39048255    2.08%
+ 128673 47689      795.0629   466      805.5000      788.8184 39113112    2.07%
+ 128960 47684      797.3156   482      805.5000      788.8184 39131296    2.07%
+ 129221 47669        cutoff            805.5000      788.8685 39230319    2.06%
+ 129504 47661        cutoff            805.5000      788.9357 39318950    2.06%
+Elapsed time = 3111.94 sec. (2062229.39 ticks, tree = 1749.93 MB, solutions = 21)
+ 129758 47644      794.1510   472      805.5000      788.9602 39416689    2.05%
+ 129997 47652        cutoff            805.5000      788.9791 39503452    2.05%
+ 130219 47630      803.8682   480      805.5000      789.0361 39553619    2.04%
+ 130483 47608        cutoff            805.5000      789.0933 39644181    2.04%
+ 130710 47618        cutoff            805.5000      789.1187 39633763    2.03%
+ 130976 47603      800.4180   491      805.5000      789.1478 39681678    2.03%
+ 131250 47608      801.3079   492      805.5000      789.1944 39825111    2.02%
+ 131503 47562      800.6243   486      805.5000      789.2519 39996724    2.02%
+ 131772 47551      794.2501   484      805.5000      789.2519 40014199    2.02%
+ 132062 47552      802.2648   475      805.5000      789.3071 40032660    2.01%
+Elapsed time = 3171.17 sec. (2100563.18 ticks, tree = 1740.95 MB, solutions = 21)
+ 132291 47545      802.2988   492      805.5000      789.3786 40158701    2.00%
+ 132548 47522        cutoff            805.5000      789.4098 40143680    2.00%
+ 132760 47530      798.0944   482      805.5000      789.4364 40196636    1.99%
+ 133014 47506        cutoff            805.5000      789.4981 40366874    1.99%
+ 133269 47476        cutoff            805.5000      789.5479 40460924    1.98%
+ 133545 47459      797.4513   486      805.5000      789.5708 40525799    1.98%
+ 133842 47457        cutoff            805.5000      789.5907 40544189    1.98%
+ 134136 47414        cutoff            805.5000      789.6379 40667837    1.97%
+ 134413 47406      801.1996   493      805.5000      789.6649 40730172    1.97%
+ 134686 47417        cutoff            805.5000      789.6913 40703992    1.96%
+Elapsed time = 3231.49 sec. (2138904.85 ticks, tree = 1737.26 MB, solutions = 21)
+ 134926 47384      799.9465   464      805.5000      789.7486 40801598    1.96%
+ 135169 47369        cutoff            805.5000      789.8054 40969941    1.95%
+ 135393 47386        cutoff            805.5000      789.8054 40954457    1.95%
+ 135622 47346      798.8697   463      805.5000      789.8714 41050952    1.94%
+ 135854 47326        cutoff            805.5000      789.9118 41180042    1.94%
+ 136091 47318      803.8499   497      805.5000      789.9390 41240890    1.93%
+ 136376 47317      798.1388   482      805.5000      789.9851 41258191    1.93%
+ 136672 47268        cutoff            805.5000      790.0172 41416996    1.92%
+ 136955 47272      798.9421   437      805.5000      790.0872 41434981    1.91%
+ 137246 47276      802.6415   456      805.5000      790.1077 41453286    1.91%
+Elapsed time = 3291.71 sec. (2177133.12 ticks, tree = 1730.95 MB, solutions = 21)
+ 137502 47237      796.1425   458      805.5000      790.1429 41491829    1.91%
+ 137736 47245      804.7056   488      805.5000      790.1956 41631951    1.90%
+ 137970 47179      798.2782   502      805.5000      790.2251 41758770    1.90%
+ 138194 47211      799.8439   469      805.5000      790.2476 41697141    1.89%
+ 138416 47146      797.9559   491      805.5000      790.2934 41872383    1.89%
+ 138673 47143      800.4385   521      805.5000      790.3561 41936257    1.88%
+ 138922 47126      803.1147   450      805.5000      790.3561 41953576    1.88%
+ 139204 47084      804.8050   458      805.5000      790.4101 42053793    1.87%
+ 139486 47028      799.4141   466      805.5000      790.4608 42178885    1.87%
+ 139770 47027        cutoff            805.5000      790.4911 42196586    1.86%
+Elapsed time = 3348.66 sec. (2215459.30 ticks, tree = 1721.87 MB, solutions = 21)
+ 140062 47002      801.1271   513      805.5000      790.5177 42279784    1.86%
+ 140328 46997        cutoff            805.5000      790.5670 42297266    1.85%
+ 140590 46953      804.2383   473      805.5000      790.6196 42395189    1.85%
+ 140825 46883      800.9167   443      805.5000      790.6434 42527611    1.84%
+ 141069 46880      804.7561   459      805.5000      790.6663 42628370    1.84%
+ 141326 46847        cutoff            805.5000      790.7176 42724991    1.84%
+ 141583 46858        cutoff            805.5000      790.7429 42666452    1.83%
+ 141843 46803      803.9854   502      805.5000      790.7756 42845334    1.83%
+ 142134 46778      794.8445   482      805.5000      790.8178 42895515    1.82%
+ 142417 46725        cutoff            805.5000      790.8735 42992258    1.82%
+Elapsed time = 3404.34 sec. (2253825.60 ticks, tree = 1707.52 MB, solutions = 21)
+ 142701 46763      796.7816   504      805.5000      790.8735 42930831    1.82%
+ 142952 46694        cutoff            805.5000      790.9289 43100170    1.81%
+ 143190 46637      800.6609   491      805.5000      790.9939 43198740    1.80%
+ 143426 46630        cutoff            805.5000      791.0206 43217777    1.80%
+ 143660 46594      799.2039   445      805.5000      791.0475 43308977    1.79%
+ 143912 46543        cutoff            805.5000      791.0915 43413569    1.79%
+ 144185 46535      795.1828   470      805.5000      791.1121 43431331    1.79%
+ 144461 46456        cutoff            805.5000      791.1310 43575510    1.78%
+ 144742 46423        cutoff            805.5000      791.1815 43628533    1.78%
+ 145022 46402      803.0079   446      805.5000      791.2038 43645852    1.77%
+Elapsed time = 3473.25 sec. (2292143.86 ticks, tree = 1692.06 MB, solutions = 21)
+ 145314 46370        cutoff            805.5000      791.2446 43707310    1.77%
+ 145580 46242      800.0733   514      805.5000      791.2766 43875787    1.77%
+ 145792 46247      802.9014   502      805.5000      791.3314 43894432    1.76%
+ 146004 46235        cutoff            805.5000      791.3605 43913062    1.76%
+ 146214 46139      797.3107   453      805.5000      791.3897 44002927    1.75%
+ 146476 46107      803.0932   482      805.5000      791.4422 44130951    1.75%
+ 146745 46060      802.9696   446      805.5000      791.4694 44191569    1.74%
+ 147010 46078      803.2601   501      805.5000      791.4916 44166529    1.74%
+ 147311 46014        cutoff            805.5000      791.5518 44260233    1.73%
+ 147602 45897        cutoff            805.5000      791.6121 44472879    1.72%
+Elapsed time = 3533.48 sec. (2330422.96 ticks, tree = 1675.17 MB, solutions = 21)
+ 147870 45924        cutoff            805.5000      791.6121 44448877    1.72%
+ 148118 45821        cutoff            805.5000      791.6783 44583845    1.72%
+ 148352 45810        cutoff            805.5000      791.7402 44603106    1.71%
+ 148587 45791      801.9379   447      805.5000      791.7402 44622337    1.71%
+ 148825 45743        cutoff            805.5000      791.8024 44753631    1.70%
+ 149092 45672        cutoff            805.5000      791.8499 44904711    1.69%
+ 149398 45665        cutoff            805.5000      791.8719 44876689    1.69%
+ 149688 45587      802.8120   457      805.5000      791.8928 45008992    1.69%
+ 149971 45572        cutoff            805.5000      791.9472 45026696    1.68%
+ 150284 45562        cutoff            805.5000      791.9714 45044815    1.68%
+Elapsed time = 3599.01 sec. (2368655.85 ticks, tree = 1654.72 MB, solutions = 21)
+ 150554 45415      804.2722   468      805.5000      792.0012 45212252    1.68%
+ 150782 45399        cutoff            805.5000      792.0623 45231485    1.67%
+ 151036 45333        cutoff            805.5000      792.0956 45283495    1.66%
+ 151270 45302        cutoff            805.5000      792.1484 45347040    1.66%
+ 151531 45267        cutoff            805.5000      792.1673 45396293    1.66%
+ 151788 45108        cutoff            805.5000      792.2116 45629374    1.65%
+ 152078 45079      800.3596   456      805.5000      792.2363 45682101    1.65%
+ 152387 45081        cutoff            805.5000      792.2619 45699809    1.64%
+ 152682 45056        cutoff            805.5000      792.3134 45717089    1.64%
+ 152986 44958        cutoff            805.5000      792.3409 45809705    1.63%
+Elapsed time = 3664.64 sec. (2406912.04 ticks, tree = 1634.66 MB, solutions = 21)
+ 153287 44879      804.4638   512      805.5000      792.3709 45953549    1.63%
+ 153541 44862      797.6594   472      805.5000      792.4448 45973095    1.62%
+ 153781 44775      800.6517   451      805.5000      792.4806 46067557    1.62%
+ 154022 44716        cutoff            805.5000      792.5097 46121466    1.61%
+ 154270 44667        cutoff            805.5000      792.5584 46186816    1.61%
+ 154534 44580      801.4731   461      805.5000      792.5753 46325915    1.60%
+ 154849 44524        cutoff            805.5000      792.5975 46391125    1.60%
+ 155150 44483        cutoff            805.5000      792.6573 46439437    1.59%
+ 155450 44424      801.2827   448      805.5000      792.7055 46504547    1.59%
+ 155743 44403        cutoff            805.5000      792.7055 46522109    1.59%
+Elapsed time = 3720.27 sec. (2445195.98 ticks, tree = 1612.48 MB, solutions = 21)
+ 156015 44298        cutoff            805.5000      792.7670 46619379    1.58%
+ 156307 44179        cutoff            805.5000      792.8306 46709621    1.57%
+ 156549 44203        cutoff            805.5000      792.8306 46681316    1.57%
+ 156787 44100      804.5981   475      805.5000      792.8902 46781330    1.57%
+ 157019 44013        cutoff            805.5000      792.9562 46867486    1.56%
+ 157261 43997        cutoff            805.5000      792.9562 46885983    1.56%
+ 157544 43891        cutoff            805.5000      793.0023 46986885    1.55%
+ 157849 43724        cutoff            805.5000      793.0520 47157918    1.55%
+ 158166 43668        cutoff            805.5000      793.0520 47220779    1.55%
+ 158475 43541        cutoff            805.5000      793.1010 47312731    1.54%
+Elapsed time = 3773.84 sec. (2483562.00 ticks, tree = 1582.82 MB, solutions = 21)
+ 158799 43595        cutoff            805.5000      793.1619 47285563    1.53%
+ 159109 43458        cutoff            805.5000      793.1993 47383178    1.53%
+*159182 43387      integral     0      803.5000      793.2404 47464317    1.28%
+ 159454 41202        cutoff            803.5000      793.2752 47569894    1.27%
+ 159717 41217        cutoff            803.5000      793.3407 47553308    1.26%
+ 159970 41052      802.3876   444      803.5000      793.3967 47675181    1.26%
+ 160230 40984        cutoff            803.5000      793.4224 47747759    1.25%
+ 160541 40871      802.0279   470      803.5000      793.4472 47802254    1.25%
+ 160840 40607      800.4078   497      803.5000      793.4870 47941770    1.25%
+ 161180 40486        cutoff            803.5000      793.5149 47994546    1.24%
+Elapsed time = 3824.85 sec. (2519051.99 ticks, tree = 1469.67 MB, solutions = 22)
+ 161519 40374        cutoff            803.5000      793.5424 48053343    1.24%
+ 161848 40400      796.5850   492      803.5000      793.6043 48028511    1.23%
+ 162180 40070        cutoff            803.5000      793.6293 48157652    1.23%
+ 162525 39942        cutoff            803.5000      793.6543 48210942    1.23%
+ 162875 39741        cutoff            803.5000      793.7039 48292035    1.22%
+ 163184 39554        cutoff            803.5000      793.7311 48360023    1.22%
+ 163441 39333        cutoff            803.5000      793.7621 48455672    1.21%
+ 163695 39386        cutoff            803.5000      793.8294 48431658    1.20%
+ 163993 39257        cutoff            803.5000      793.8537 48493625    1.20%
+ 164339 38882        cutoff            803.5000      793.8805 48677996    1.20%
+Elapsed time = 3877.68 sec. (2557295.75 ticks, tree = 1413.22 MB, solutions = 22)
+ 164683 38834        cutoff            803.5000      793.9549 48695100    1.19%
+ 165042 38776        cutoff            803.5000      793.9889 48711906    1.18%
+ 165397 38428        cutoff            803.5000      794.0356 48840644    1.18%
+ 165765 38261        cutoff            803.5000      794.1261 48898311    1.17%
+ 166126 38104        cutoff            803.5000      794.1677 48938390    1.16%
+ 166503 37675        cutoff            803.5000      794.2030 49082698    1.16%
+ 166857 37558        cutoff            803.5000      794.2920 49120901    1.15%
+ 167225 37220        cutoff            803.5000      794.3321 49221207    1.14%
+ 167582 37023      801.0754   460      803.5000      794.3632 49280072    1.14%
+ 167950 37095        cutoff            803.5000      794.4755 49253571    1.12%
+Elapsed time = 3933.92 sec. (2595573.12 ticks, tree = 1333.23 MB, solutions = 22)
+ 168274 36906        cutoff            803.5000      794.5210 49312909    1.12%
+ 168584 36788        cutoff            803.5000      794.5570 49357303    1.11%
+ 168883 36305        cutoff            803.5000      794.6209 49497352    1.11%
+ 169200 36259      800.4829   479      803.5000      794.6564 49516069    1.10%
+ 169491 35904        cutoff            803.5000      794.6921 49647133    1.10%
+ 169836 35850        cutoff            803.5000      794.7813 49663291    1.09%
+ 170182 35373        cutoff            803.5000      794.8377 49833462    1.08%
+ 170538 35591      801.4265   451      803.5000      794.8943 49769155    1.07%
+ 170946 35138        cutoff            803.5000      794.9843 49900042    1.06%
+ 171324 35075        cutoff            803.5000      795.0292 49916174    1.05%
+Elapsed time = 3987.25 sec. (2633801.82 ticks, tree = 1262.89 MB, solutions = 22)
+ 171719 34968        cutoff            803.5000      795.0690 49951486    1.05%
+ 172109 34377        cutoff            803.5000      795.1766 50111151    1.04%
+ 172490 33846        cutoff            803.5000      795.2732 50236629    1.02%
+ 172875 34047        cutoff            803.5000      795.2732 50186455    1.02%
+ 173267 33609        cutoff            803.5000      795.3660 50289245    1.01%
+ 173672 33096        cutoff            803.5000      795.4639 50421063    1.00%
+ 174068 33178        cutoff            803.5000      795.5354 50395044    0.99%
+ 174465 32559        cutoff            803.5000      795.5699 50543682    0.99%
+ 174873 32493        cutoff            803.5000      795.6019 50559328    0.98%
+ 175302 32236        cutoff            803.5000      795.6822 50607141    0.97%
+Elapsed time = 4047.21 sec. (2671978.15 ticks, tree = 1162.80 MB, solutions = 22)
+ 175715 31885        cutoff            803.5000      795.7697 50680552    0.96%
+ 176148 31528        cutoff            803.5000      795.8531 50759201    0.95%
+ 176582 31448        cutoff            803.5000      795.9089 50773931    0.94%
+ 177000 31110      802.5970   508      803.5000      795.9626 50848164    0.94%
+ 177445 30723        cutoff            803.5000      796.0577 50919153    0.93%
+ 177889 30545        cutoff            803.5000      796.1502 50954080    0.91%
+ 178333 29705      802.6960   466      803.5000      796.2426 51112840    0.90%
+ 178773 29343        cutoff            803.5000      796.3330 51182892    0.89%
+ 179223 29440      801.7196   482      803.5000      796.4236 51168367    0.88%
+ 179679 28784        cutoff            803.5000      796.4746 51290978    0.87%
+Elapsed time = 4109.31 sec. (2710249.06 ticks, tree = 1044.72 MB, solutions = 22)
+ 180147 28521        cutoff            803.5000      796.6079 51339474    0.86%
+ 180640 28426        cutoff            803.5000      796.6490 51354720    0.85%
+ 181113 27965      801.3885   490      803.5000      796.7735 51429249    0.84%
+ 181597 27555        cutoff            803.5000      796.8713 51487307    0.82%
+ 182086 26752        cutoff            803.5000      796.9579 51615493    0.81%
+ 182582 26592        cutoff            803.5000      797.1277 51639453    0.79%
+ 183092 26177        cutoff            803.5000      797.1277 51699973    0.79%
+ 183603 25327        cutoff            803.5000      797.3010 51819338    0.77%
+ 184137 25041        cutoff            803.5000      797.3901 51860332    0.76%
+ 184644 25072      801.9010   453      803.5000      797.4666 51855992    0.75%
+Elapsed time = 4175.37 sec. (2748519.75 ticks, tree = 894.07 MB, solutions = 22)
+ 185165 24121        cutoff            803.5000      797.6175 51974405    0.73%
+ 185704 24193        cutoff            803.5000      797.6606 51970764    0.73%
+ 186250 23240        cutoff            803.5000      797.7691 52090552    0.71%
+ 186818 22857        cutoff            803.5000      797.8900 52138154    0.70%
+ 187403 22349        cutoff            803.5000      798.0445 52197489    0.68%
+ 187968 22076        cutoff            803.5000      798.1142 52226996    0.67%
+ 188593 21600        cutoff            803.5000      798.2038 52280548    0.66%
+ 189198 20973        cutoff            803.5000      798.3437 52344064    0.64%
+ 189762 20385        cutoff            803.5000      798.4840 52404228    0.62%
+ 190367 19586        cutoff            803.5000      798.6324 52482760    0.61%
+Elapsed time = 4244.89 sec. (2786702.19 ticks, tree = 692.63 MB, solutions = 22)
+ 191022 18775        cutoff            803.5000      798.7450 52558183    0.59%
+ 191725 18170        cutoff            803.5000      798.8653 52610672    0.58%
+ 192401 17820        cutoff            803.5000      798.9826 52639865    0.56%
+ 193048 16906        cutoff            803.5000      799.1200 52712308    0.55%
+ 193731 16481        cutoff            803.5000      799.2529 52744633    0.53%
+ 194458 15595        cutoff            803.5000      799.3840 52809609    0.51%
+ 195231 15176        cutoff            803.5000      799.4929 52837494    0.50%
+ 196000 14368        cutoff            803.5000      799.6623 52894081    0.48%
+ 196838 13414        cutoff            803.5000      799.8046 52954738    0.46%
+ 197733 12547        cutoff            803.5000      799.9716 53004182    0.44%
+Elapsed time = 4334.54 sec. (2824919.51 ticks, tree = 435.24 MB, solutions = 22)
+ 198627 11971        cutoff            803.5000      800.1446 53032520    0.42%
+ 199606 10727        cutoff            803.5000      800.3165 53093994    0.40%
+ 200611  9632        cutoff            803.5000      800.5382 53142194    0.37%
+ 201678  8647        cutoff            803.5000      800.7401 53180088    0.34%
+ 202785  7665        cutoff            803.5000      800.9697 53213621    0.31%
+ 203916  6588        cutoff            803.5000      801.2107 53247820    0.28%
+ 205197  5189        cutoff            803.5000      801.5381 53281824    0.24%
+ 206591  3851        cutoff            803.5000      801.8575 53307238    0.20%
+ 208101  2297        cutoff            803.5000      802.2531 53329415    0.16%
+ 209748   588        cutoff            803.5000      802.7386 53342784    0.09%
+Elapsed time = 4454.45 sec. (2863102.60 ticks, tree = 11.65 MB, solutions = 22)
+
+Zero-half cuts applied:  1862
+Lift and project cuts applied:  185
+Gomory fractional cuts applied:  6
+
+Root node processing (before b&c):
+  Real time             =    9.10 sec. (3324.66 ticks)
+Parallel b&c, 4 threads:
+  Real time             = 4451.04 sec. (2860845.57 ticks)
+  Sync time (average)   =  100.08 sec.
+  Wait time (average)   =    0.01 sec.
+                          ------------
+Total (root+branch&cut) = 4460.14 sec. (2864170.23 ticks)
+CPLEX solution status: Optimal
+CLUSTER 0------------------------
+	(0)		DEG=38.0(w:88.5)				Andy Murray  (Seeded as 1) 
+	(6)		DEG=35.0(w:130.5)				Juan Martin Del Potro  (Seeded as 29) 
+	(8)		DEG=33.0(w:137.5)				John Isner  (Seeded as 21) 
+	(10)		DEG=34.0(w:132.0)				Paolo Lorenzi  
+	(14)		DEG=27.0(w:76.0)				Tomas Berdych  (Seeded as 13) 
+	(16)		DEG=37.0(w:164.0)				Fernando Verdasco  
+	(17)		DEG=41.0(w:130.5)				Alexander Zverev  (Seeded as 9) 
+	(19)		DEG=32.0(w:135.5)				Jared Donaldson  
+	(21)		DEG=24.0(w:107.0)				Damir Dzumhur  
+	(22)		DEG=33.0(w:93.5)				Pablo Cuevas  (Seeded as 22) 
+	(25)		DEG=36.0(w:125.0)				Sam Querrey  (Seeded as 27) 
+	(29)		DEG=19.0(w:90.0)				Radu Albot  
+	(30)		DEG=38.0(w:83.5)				Kei Nishikori  (Seeded as 8) 
+	(31)		DEG=7.0(w:35.0)				Thanasi Kokkinakis  
+	(43)		DEG=0.0(w:0.0)				Teymuraz Gabashvili (Q)  
+	(44)		DEG=22.0(w:97.5)				Thiago Monteiro  
+	(47)		DEG=31.0(w:129.0)				Dustin Brown  
+	(50)		DEG=31.0(w:127.0)				Kyle Edmund  
+	(55)		DEG=43.0(w:135.5)				Philipp Kohlschreiber  
+	(58)		DEG=37.0(w:151.5)				Feliciano Lopez  
+	(59)		DEG=0.0(w:0.0)				Bjorn Fratangelo (Q)  
+	(63)		DEG=1.0(w:5.0)				Ernests Gulbis  
+	(68)		DEG=0.0(w:0.0)				Marco Trungelliti (Q)  
+	(75)		DEG=11.0(w:34.0)				Jerzy Janowicz  
+	(79)		DEG=34.0(w:167.0)				Stephane Robert  
+	(91)		DEG=17.0(w:84.5)				Evgeny Donskoy  
+	(95)		DEG=54.0(w:214.5)				Benoit Paire  
+	(101)		DEG=25.0(w:100.0)				Mathias Bourgue  
+	(105)		DEG=0.0(w:0.0)				Stefanos Tsitsipas (Q)  
+	(106)		DEG=32.0(w:142.5)				Horacio Zeballos  
+	(108)		DEG=0.0(w:0.0)				Sergiy Stakhovsky (Q)  
+	(116)		DEG=19.0(w:81.5)				Benjamin Bonzi  
+Cluster 0 has a total of 32 players with 8 seeds.
+Avg degree:24.72 and wdegree:93.69
+
+CLUSTER 1------------------------
+	(2)		DEG=24.0(w:90.5)				Martin Klizan  
+	(4)		DEG=35.0(w:150.0)				Nicolas Almagro  
+	(5)		DEG=28.0(w:83.5)				Marcos Baghdatis  
+	(12)		DEG=35.0(w:149.0)				Karen Khachanov  
+	(18)		DEG=31.0(w:153.0)				Pierre Hugues Herbert  
+	(26)		DEG=19.0(w:62.0)				Denis Istomin  
+	(32)		DEG=33.0(w:64.0)				Stanislas Wawrinka  (Seeded as 3) 
+	(38)		DEG=32.0(w:134.5)				Fabio Fognini  (Seeded as 28) 
+	(40)		DEG=38.0(w:150.5)				Richard Gasquet  (Seeded as 24) 
+	(42)		DEG=15.0(w:51.0)				Victor Estrella  
+	(46)		DEG=44.0(w:146.5)				Gael Monfils  (Seeded as 15) 
+	(49)		DEG=47.0(w:143.0)				Jo Wilfried Tsonga  (Seeded as 12) 
+	(54)		DEG=32.0(w:93.5)				Nick Kyrgios  (Seeded as 18) 
+	(56)		DEG=38.0(w:142.5)				David Ferrer  (Seeded as 30) 
+	(57)		DEG=29.0(w:142.0)				Donald Young  
+	(61)		DEG=22.0(w:106.0)				Federico Delbonis  
+	(62)		DEG=35.0(w:103.0)				Marin Cilic  (Seeded as 7) 
+	(69)		DEG=24.0(w:113.0)				Quentin Halys  
+	(70)		DEG=28.0(w:162.5)				Guillermo Garcia Lopez  
+	(73)		DEG=24.0(w:111.0)				Florian Mayer  
+	(74)		DEG=0.0(w:0.0)				Taro Daniel (Q)  
+	(77)		DEG=26.0(w:91.0)				Daniel Evans  
+	(80)		DEG=27.0(w:102.5)				Jiri Vesely  
+	(85)		DEG=12.0(w:61.0)				Tennys Sandgren  
+	(87)		DEG=22.0(w:81.0)				John Millman  
+	(88)		DEG=31.0(w:121.5)				Nikoloz Basilashvili  
+	(98)		DEG=0.0(w:0.0)				Simone Bolelli (Q)  
+	(111)		DEG=0.0(w:0.0)				Paul Henri Mathieu (Q)  
+	(117)		DEG=28.0(w:101.5)				Daniil Medvedev  
+	(119)		DEG=0.0(w:0.0)				Marius Copil (Q)  
+	(122)		DEG=36.0(w:143.0)				Diego Sebastian Schwartzman  
+	(125)		DEG=22.0(w:76.0)				Janko Tipsarevic  
+Cluster 1 has a total of 32 players with 8 seeds.
+Avg degree:25.53 and wdegree:97.77
+
+CLUSTER 2------------------------
+	(15)		DEG=35.0(w:134.0)				Jan Lennard Struff  
+	(20)		DEG=17.0(w:59.0)				Nicolas Kicker  
+	(23)		DEG=0.0(w:0.0)				Maxime Hamou (Q)  
+	(27)		DEG=21.0(w:102.5)				Ernesto Escobedo  
+	(37)		DEG=0.0(w:0.0)				Santiago Giraldo (Q)  
+	(41)		DEG=0.0(w:0.0)				Arthur De Greef (Q)  
+	(45)		DEG=18.0(w:85.5)				Alexandre Muller  
+	(48)		DEG=19.0(w:78.0)				Renzo Olivo  
+	(52)		DEG=30.0(w:105.5)				Kevin Anderson  
+	(53)		DEG=30.0(w:114.0)				Malek Jaziri  
+	(60)		DEG=17.0(w:83.0)				Konstantin Kravchuk  
+	(64)		DEG=39.0(w:81.0)				Milos Raonic  (Seeded as 5) 
+	(65)		DEG=19.0(w:60.0)				Steve Darcis  
+	(71)		DEG=41.0(w:113.5)				Gilles Muller  (Seeded as 26) 
+	(72)		DEG=41.0(w:154.0)				Pablo Carreno Busta  (Seeded as 20) 
+	(78)		DEG=38.0(w:106.0)				Grigor Dimitrov  (Seeded as 11) 
+	(81)		DEG=40.0(w:125.5)				Jack Sock  (Seeded as 14) 
+	(83)		DEG=30.0(w:153.5)				Ryan Harrison  
+	(84)		DEG=21.0(w:70.0)				Mikhail Kukushkin  
+	(86)		DEG=47.0(w:151.5)				Roberto Bautista Agut  (Seeded as 17) 
+	(89)		DEG=43.0(w:203.5)				Gilles Simon  (Seeded as 31) 
+	(92)		DEG=24.0(w:104.0)				Robin Haase  
+	(93)		DEG=11.0(w:41.5)				Alex De Minaur  
+	(94)		DEG=43.0(w:122.0)				Rafael Nadal  (Seeded as 4) 
+	(100)		DEG=30.0(w:119.0)				Borna Coric  
+	(103)		DEG=19.0(w:60.0)				Yuichi Sugita  
+	(107)		DEG=45.0(w:217.5)				Adrian Mannarino  
+	(109)		DEG=20.0(w:59.0)				Yen Hsun Lu  
+	(113)		DEG=30.0(w:143.5)				Julien Benneteau  
+	(114)		DEG=28.0(w:111.5)				Thomaz Bellucci  
+	(115)		DEG=30.0(w:118.0)				Dusan Lajovic  
+	(124)		DEG=34.0(w:130.0)				Joao Sousa  
+Cluster 2 has a total of 32 players with 8 seeds.
+Avg degree:26.88 and wdegree:100.19
+
+CLUSTER 3------------------------
+	(1)		DEG=31.0(w:160.5)				Andrey Kuznetsov  
+	(3)		DEG=18.0(w:90.0)				Laurent Lokoli  
+	(7)		DEG=0.0(w:0.0)				Guido Pella (Q)  
+	(9)		DEG=27.0(w:98.5)				Jordan Thompson  
+	(11)		DEG=10.0(w:40.0)				Ricardas Berankis  
+	(13)		DEG=0.0(w:0.0)				Nicolas Jarry (Q)  
+	(24)		DEG=16.0(w:45.5)				Hyeon Chung  
+	(28)		DEG=39.0(w:162.5)				Jeremy Chardy  
+	(33)		DEG=0.0(w:0.0)				Jozef Kovalik (Q)  
+	(34)		DEG=21.0(w:86.5)				Alexandr Dolgopolov  
+	(35)		DEG=26.0(w:106.0)				Carlos Berlocq  
+	(36)		DEG=30.0(w:120.5)				Andreas Seppi  
+	(39)		DEG=17.0(w:92.5)				Francis Tiafoe  
+	(51)		DEG=25.0(w:92.0)				Gastao Elias  
+	(66)		DEG=21.0(w:78.0)				Rogerio Dutra Silva  
+	(67)		DEG=31.0(w:126.0)				Mikhail Youzhny  
+	(76)		DEG=25.0(w:118.0)				Tommy Robredo  
+	(82)		DEG=26.0(w:89.0)				Aljaz Bedene  
+	(90)		DEG=40.0(w:147.0)				Viktor Troicki  
+	(96)		DEG=43.0(w:94.0)				Dominic Thiem  (Seeded as 6) 
+	(97)		DEG=32.0(w:123.0)				Bernard Tomic  
+	(99)		DEG=37.0(w:177.5)				Nicolas Mahut  
+	(102)		DEG=39.0(w:162.0)				Steve Johnson  (Seeded as 25) 
+	(104)		DEG=32.0(w:92.5)				Ivo Karlovic  (Seeded as 23) 
+	(110)		DEG=38.0(w:115.0)				David Goffin  (Seeded as 10) 
+	(112)		DEG=44.0(w:174.0)				Lucas Pouille  (Seeded as 16) 
+	(118)		DEG=41.0(w:152.0)				Albert Ramos  (Seeded as 19) 
+	(120)		DEG=0.0(w:0.0)				Stefano Napolitano (Q)  
+	(121)		DEG=40.0(w:151.0)				Mischa Zverev  (Seeded as 32) 
+	(123)		DEG=0.0(w:0.0)				Andrey Rublev (LL)  
+	(126)		DEG=34.0(w:78.0)				Novak Djokovic  (Seeded as 2) 
+	(127)		DEG=33.0(w:150.0)				Marcel Granollers  
+Cluster 3 has a total of 32 players with 8 seeds.
+Avg degree:25.5 and wdegree:97.55
+
+Generating draws for the first round both for CPLEX and greedy solution.
+For each (1st round) draw generated, the whole tourney is simulated.
+This process may take a while...
+Time elapsed:4192.237s
+Iteration 1 completed.
+Iteration 2 completed.
+Iteration 3 completed.
+Iteration 4 completed.
+Iteration 5 completed.
+Iteration 6 completed.
+Iteration 7 completed.
+Iteration 8 completed.
+Iteration 9 completed.
+Iteration 10 completed.
+Iteration 11 completed.
+Iteration 12 completed.
+Iteration 13 completed.
+Iteration 14 completed.
+Iteration 15 completed.
+
+Last 1stR draw with the CPLEX's solution:
+Penalty types: 1 (first round) - 2 (second round) - 3 (third round) - L (Q and SF rounds) - C (country).
+	--CLUSTER 0--
+
+	 1.	Andy Murray (Seeded as 1) 
+	/
+------- Penalty_type(s): -
+	\
+	 2.	Stefanos Tsitsipas (Q) 
+
+	 3.	Benjamin Bonzi
+	/
+------- Penalty_type(s): -
+	\
+	 4.	Teymuraz Gabashvili (Q) 
+
+	 5.	Fernando Verdasco
+	/
+------- Penalty_type(s): -
+	\
+	 6.	Jared Donaldson
+
+	 7.	Horacio Zeballos
+	/
+------- Penalty_type(s): C
+	\
+	 8.	Juan Martin Del Potro (Seeded as 29) 
+
+	 9.	John Isner (Seeded as 21) 
+	/
+------- Penalty_type(s): 2
+	\
+	 10.	Feliciano Lopez
+
+	 11.	Kyle Edmund
+	/
+------- Penalty_type(s): -
+	\
+	 12.	Ernests Gulbis
+
+	 13.	Mathias Bourgue
+	/
+------- Penalty_type(s): -
+	\
+	 14.	Bjorn Fratangelo (Q) 
+
+	 15.	Jerzy Janowicz
+	/
+------- Penalty_type(s): -
+	\
+	 16.	Tomas Berdych (Seeded as 13) 
+
+	 17.	Alexander Zverev (Seeded as 9) 
+	/
+------- Penalty_type(s): -
+	\
+	 18.	Radu Albot
+
+	 19.	Benoit Paire
+	/
+------- Penalty_type(s): -
+	\
+	 20.	Damir Dzumhur
+
+	 21.	Dustin Brown
+	/
+------- Penalty_type(s): -
+	\
+	 22.	Thiago Monteiro
+
+	 23.	Paolo Lorenzi
+	/
+------- Penalty_type(s): 2
+	\
+	 24.	Pablo Cuevas (Seeded as 22) 
+
+	 25.	Sam Querrey (Seeded as 27) 
+	/
+------- Penalty_type(s): -
+	\
+	 26.	Philipp Kohlschreiber
+
+	 27.	Marco Trungelliti (Q) 
+	/
+------- Penalty_type(s): -
+	\
+	 28.	Sergiy Stakhovsky (Q) 
+
+	 29.	Thanasi Kokkinakis
+	/
+------- Penalty_type(s): -
+	\
+	 30.	Stephane Robert
+
+	 31.	Evgeny Donskoy
+	/
+------- Penalty_type(s): -
+	\
+	 32.	Kei Nishikori (Seeded as 8) 
+
+	--CLUSTER 1--
+
+	 33.	Stanislas Wawrinka (Seeded as 3) 
+	/
+------- Penalty_type(s): 2
+	\
+	 34.	Donald Young
+
+	 35.	Denis Istomin
+	/
+------- Penalty_type(s): -
+	\
+	 36.	Guillermo Garcia Lopez
+
+	 37.	Jiri Vesely
+	/
+------- Penalty_type(s): 2
+	\
+	 38.	Janko Tipsarevic
+
+	 39.	John Millman
+	/
+------- Penalty_type(s): -
+	\
+	 40.	Fabio Fognini (Seeded as 28) 
+
+	 41.	Richard Gasquet (Seeded as 24) 
+	/
+------- Penalty_type(s): -
+	\
+	 42.	Daniil Medvedev
+
+	 43.	Daniel Evans
+	/
+------- Penalty_type(s): -
+	\
+	 44.	Tennys Sandgren
+
+	 45.	Nicolas Almagro
+	/
+------- Penalty_type(s): -
+	\
+	 46.	Marcos Baghdatis
+
+	 47.	Federico Delbonis
+	/
+------- Penalty_type(s): -
+	\
+	 48.	Gael Monfils (Seeded as 15) 
+
+	 49.	Jo Wilfried Tsonga (Seeded as 12) 
+	/
+------- Penalty_type(s): -
+	\
+	 50.	Paul Henri Mathieu (Q) 
+
+	 51.	Karen Khachanov
+	/
+------- Penalty_type(s): -
+	\
+	 52.	Taro Daniel (Q) 
+
+	 53.	Martin Klizan
+	/
+------- Penalty_type(s): -
+	\
+	 54.	Quentin Halys
+
+	 55.	Diego Sebastian Schwartzman
+	/
+------- Penalty_type(s): -
+	\
+	 56.	Nick Kyrgios (Seeded as 18) 
+
+	 57.	David Ferrer (Seeded as 30) 
+	/
+------- Penalty_type(s): -
+	\
+	 58.	Victor Estrella
+
+	 59.	Marius Copil (Q) 
+	/
+------- Penalty_type(s): -
+	\
+	 60.	Nikoloz Basilashvili
+
+	 61.	Pierre Hugues Herbert
+	/
+------- Penalty_type(s): -
+	\
+	 62.	Florian Mayer
+
+	 63.	Simone Bolelli (Q) 
+	/
+------- Penalty_type(s): -
+	\
+	 64.	Marin Cilic (Seeded as 7) 
+
+	--CLUSTER 2--
+
+	 65.	Milos Raonic (Seeded as 5) 
+	/
+------- Penalty_type(s): -
+	\
+	 66.	Nicolas Kicker
+
+	 67.	Robin Haase
+	/
+------- Penalty_type(s): -
+	\
+	 68.	Adrian Mannarino
+
+	 69.	Santiago Giraldo (Q) 
+	/
+------- Penalty_type(s): -
+	\
+	 70.	Jan Lennard Struff
+
+	 71.	Yen Hsun Lu
+	/
+------- Penalty_type(s): -
+	\
+	 72.	Gilles Muller (Seeded as 26) 
+
+	 73.	Pablo Carreno Busta (Seeded as 20) 
+	/
+------- Penalty_type(s): -
+	\
+	 74.	Maxime Hamou (Q) 
+
+	 75.	Yuichi Sugita
+	/
+------- Penalty_type(s): -
+	\
+	 76.	Kevin Anderson
+
+	 77.	Julien Benneteau
+	/
+------- Penalty_type(s): -
+	\
+	 78.	Steve Darcis
+
+	 79.	Dusan Lajovic
+	/
+------- Penalty_type(s): 2
+	\
+	 80.	Grigor Dimitrov (Seeded as 11) 
+
+	 81.	Jack Sock (Seeded as 14) 
+	/
+------- Penalty_type(s): 1
+	\
+	 82.	Malek Jaziri
+
+	 83.	Konstantin Kravchuk
+	/
+------- Penalty_type(s): -
+	\
+	 84.	Borna Coric
+
+	 85.	Ryan Harrison
+	/
+------- Penalty_type(s): -
+	\
+	 86.	Alex De Minaur
+
+	 87.	Arthur De Greef (Q) 
+	/
+------- Penalty_type(s): -
+	\
+	 88.	Roberto Bautista Agut (Seeded as 17) 
+
+	 89.	Gilles Simon (Seeded as 31) 
+	/
+------- Penalty_type(s): C
+	\
+	 90.	Alexandre Muller
+
+	 91.	Ernesto Escobedo
+	/
+------- Penalty_type(s): -
+	\
+	 92.	Joao Sousa
+
+	 93.	Thomaz Bellucci
+	/
+------- Penalty_type(s): L
+	\
+	 94.	Renzo Olivo
+
+	 95.	Mikhail Kukushkin
+	/
+------- Penalty_type(s): -
+	\
+	 96.	Rafael Nadal (Seeded as 4) 
+
+	--CLUSTER 3--
+
+	 97.	Dominic Thiem (Seeded as 6) 
+	/
+------- Penalty_type(s): -
+	\
+	 98.	Carlos Berlocq
+
+	 99.	Francis Tiafoe
+	/
+------- Penalty_type(s): -
+	\
+	 100.	Aljaz Bedene
+
+	 101.	Gastao Elias
+	/
+------- Penalty_type(s): -
+	\
+	 102.	Mikhail Youzhny
+
+	 103.	Hyeon Chung
+	/
+------- Penalty_type(s): -
+	\
+	 104.	Steve Johnson (Seeded as 25) 
+
+	 105.	Ivo Karlovic (Seeded as 23) 
+	/
+------- Penalty_type(s): -
+	\
+	 106.	Stefano Napolitano (Q) 
+
+	 107.	Andreas Seppi
+	/
+------- Penalty_type(s): -
+	\
+	 108.	Nicolas Jarry (Q) 
+
+	 109.	Nicolas Mahut
+	/
+------- Penalty_type(s): -
+	\
+	 110.	Alexandr Dolgopolov
+
+	 111.	Marcel Granollers
+	/
+------- Penalty_type(s): -
+	\
+	 112.	David Goffin (Seeded as 10) 
+
+	 113.	Lucas Pouille (Seeded as 16) 
+	/
+------- Penalty_type(s): -
+	\
+	 114.	Jordan Thompson
+
+	 115.	Bernard Tomic
+	/
+------- Penalty_type(s): -
+	\
+	 116.	Andrey Kuznetsov
+
+	 117.	Viktor Troicki
+	/
+------- Penalty_type(s): -
+	\
+	 118.	Guido Pella (Q) 
+
+	 119.	Laurent Lokoli
+	/
+------- Penalty_type(s): -
+	\
+	 120.	Albert Ramos (Seeded as 19) 
+
+	 121.	Mischa Zverev (Seeded as 32) 
+	/
+------- Penalty_type(s): -
+	\
+	 122.	Jeremy Chardy
+
+	 123.	Rogerio Dutra Silva
+	/
+------- Penalty_type(s): -
+	\
+	 124.	Tommy Robredo
+
+	 125.	Ricardas Berankis
+	/
+------- Penalty_type(s): -
+	\
+	 126.	Andrey Rublev (LL) 
+
+	 127.	Jozef Kovalik (Q) 
+	/
+------- Penalty_type(s): -
+	\
+	 128.	Novak Djokovic (Seeded as 2) 
+
+
+
+Last1 1stR draw with the solution found with greedy:
+Penalty types: 1 (first round) - 2 (second round) - 3 (third round) - L (Q and SF rounds) - C (country).
+	--CLUSTER 0--
+
+	 1.	Andy Murray (Seeded as 1) 
+	/
+------- Penalty_type(s): -
+	\
+	 2.	Stefanos Tsitsipas (Q) 
+
+	 3.	Benjamin Bonzi
+	/
+------- Penalty_type(s): -
+	\
+	 4.	Teymuraz Gabashvili
+
+	 5.	Fernando Verdasco
+	/
+------- Penalty_type(s): -
+	\
+	 6.	Jared Donaldson (Q) 
+
+	 7.	Horacio Zeballos
+	/
+------- Penalty_type(s): L
+	\
+	 8.	Juan Martin Del Potro (Seeded as 29) 
+
+	 9.	John Isner (Seeded as 21) 
+	/
+------- Penalty_type(s): -
+	\
+	 10.	Feliciano Lopez
+
+	 11.	Kyle Edmund
+	/
+------- Penalty_type(s): -
+	\
+	 12.	Ernests Gulbis
+
+	 13.	Mathias Bourgue (Q) 
+	/
+------- Penalty_type(s): -
+	\
+	 14.	Bjorn Fratangelo
+
+	 15.	Jerzy Janowicz
+	/
+------- Penalty_type(s): -
+	\
+	 16.	Tomas Berdych (Seeded as 13) 
+
+	 17.	Alexander Zverev (Seeded as 9) 
+	/
+------- Penalty_type(s): -
+	\
+	 18.	Radu Albot (Q) 
+
+	 19.	Benoit Paire (Q) 
+	/
+------- Penalty_type(s): -
+	\
+	 20.	Damir Dzumhur
+
+	 21.	Dustin Brown
+	/
+------- Penalty_type(s): -
+	\
+	 22.	Thiago Monteiro
+
+	 23.	Paolo Lorenzi
+	/
+------- Penalty_type(s): -
+	\
+	 24.	Pablo Cuevas (Seeded as 22) 
+
+	 25.	Sam Querrey (Seeded as 27) 
+	/
+------- Penalty_type(s): -
+	\
+	 26.	Philipp Kohlschreiber
+
+	 27.	Marco Trungelliti
+	/
+------- Penalty_type(s): -
+	\
+	 28.	Sergiy Stakhovsky
+
+	 29.	Thanasi Kokkinakis
+	/
+------- Penalty_type(s): -
+	\
+	 30.	Stephane Robert
+
+	 31.	Evgeny Donskoy
+	/
+------- Penalty_type(s): -
+	\
+	 32.	Kei Nishikori (Seeded as 8) 
+
+	--CLUSTER 1--
+
+	 33.	Stanislas Wawrinka (Seeded as 3) 
+	/
+------- Penalty_type(s): 2
+	\
+	 34.	Donald Young
+
+	 35.	Denis Istomin (Q) 
+	/
+------- Penalty_type(s): -
+	\
+	 36.	Guillermo Garcia Lopez
+
+	 37.	Jiri Vesely
+	/
+------- Penalty_type(s): -
+	\
+	 38.	Janko Tipsarevic
+
+	 39.	John Millman
+	/
+------- Penalty_type(s): -
+	\
+	 40.	Fabio Fognini (Seeded as 28) 
+
+	 41.	Richard Gasquet (Seeded as 24) 
+	/
+------- Penalty_type(s): -
+	\
+	 42.	Daniil Medvedev
+
+	 43.	Daniel Evans
+	/
+------- Penalty_type(s): -
+	\
+	 44.	Tennys Sandgren
+
+	 45.	Nicolas Almagro (Q) 
+	/
+------- Penalty_type(s): -
+	\
+	 46.	Marcos Baghdatis (Q) 
+
+	 47.	Federico Delbonis
+	/
+------- Penalty_type(s): -
+	\
+	 48.	Gael Monfils (Seeded as 15) 
+
+	 49.	Jo Wilfried Tsonga (Seeded as 12) 
+	/
+------- Penalty_type(s): -
+	\
+	 50.	Paul Henri Mathieu (Q) 
+
+	 51.	Karen Khachanov
+	/
+------- Penalty_type(s): -
+	\
+	 52.	Taro Daniel
+
+	 53.	Martin Klizan
+	/
+------- Penalty_type(s): -
+	\
+	 54.	Quentin Halys
+
+	 55.	Diego Sebastian Schwartzman
+	/
+------- Penalty_type(s): -
+	\
+	 56.	Nick Kyrgios (Seeded as 18) 
+
+	 57.	David Ferrer (Seeded as 30) 
+	/
+------- Penalty_type(s): -
+	\
+	 58.	Victor Estrella
+
+	 59.	Marius Copil
+	/
+------- Penalty_type(s): C2
+	\
+	 60.	Nikoloz Basilashvili
+
+	 61.	Pierre Hugues Herbert
+	/
+------- Penalty_type(s): L
+	\
+	 62.	Florian Mayer
+
+	 63.	Simone Bolelli
+	/
+------- Penalty_type(s): -
+	\
+	 64.	Marin Cilic (Seeded as 7) 
+
+	--CLUSTER 2--
+
+	 65.	Milos Raonic (Seeded as 5) 
+	/
+------- Penalty_type(s): 2
+	\
+	 66.	Nicolas Kicker
+
+	 67.	Robin Haase
+	/
+------- Penalty_type(s): -
+	\
+	 68.	Adrian Mannarino
+
+	 69.	Santiago Giraldo
+	/
+------- Penalty_type(s): -
+	\
+	 70.	Jan Lennard Struff
+
+	 71.	Yen Hsun Lu
+	/
+------- Penalty_type(s): -
+	\
+	 72.	Gilles Muller (Seeded as 26) 
+
+	 73.	Pablo Carreno Busta (Seeded as 20) 
+	/
+------- Penalty_type(s): -
+	\
+	 74.	Maxime Hamou
+
+	 75.	Yuichi Sugita
+	/
+------- Penalty_type(s): -
+	\
+	 76.	Kevin Anderson (Q) 
+
+	 77.	Julien Benneteau
+	/
+------- Penalty_type(s): -
+	\
+	 78.	Steve Darcis
+
+	 79.	Dusan Lajovic
+	/
+------- Penalty_type(s): -
+	\
+	 80.	Grigor Dimitrov (Seeded as 11) 
+
+	 81.	Jack Sock (Seeded as 14) 
+	/
+------- Penalty_type(s): 2
+	\
+	 82.	Malek Jaziri
+
+	 83.	Konstantin Kravchuk
+	/
+------- Penalty_type(s): -
+	\
+	 84.	Borna Coric
+
+	 85.	Ryan Harrison
+	/
+------- Penalty_type(s): -
+	\
+	 86.	Alex De Minaur
+
+	 87.	Arthur De Greef
+	/
+------- Penalty_type(s): -
+	\
+	 88.	Roberto Bautista Agut (Seeded as 17) 
+
+	 89.	Gilles Simon (Seeded as 31) 
+	/
+------- Penalty_type(s): -
+	\
+	 90.	Alexandre Muller
+
+	 91.	Ernesto Escobedo
+	/
+------- Penalty_type(s): -
+	\
+	 92.	Joao Sousa
+
+	 93.	Thomaz Bellucci (Q) 
+	/
+------- Penalty_type(s): -
+	\
+	 94.	Renzo Olivo (Q) 
+
+	 95.	Mikhail Kukushkin
+	/
+------- Penalty_type(s): -
+	\
+	 96.	Rafael Nadal (Seeded as 4) 
+
+	--CLUSTER 3--
+
+	 97.	Dominic Thiem (Seeded as 6) 
+	/
+------- Penalty_type(s): -
+	\
+	 98.	Carlos Berlocq
+
+	 99.	Francis Tiafoe
+	/
+------- Penalty_type(s): -
+	\
+	 100.	Aljaz Bedene (Q) 
+
+	 101.	Gastao Elias
+	/
+------- Penalty_type(s): -
+	\
+	 102.	Mikhail Youzhny
+
+	 103.	Hyeon Chung
+	/
+------- Penalty_type(s): L
+	\
+	 104.	Steve Johnson (Seeded as 25) 
+
+	 105.	Ivo Karlovic (Seeded as 23) 
+	/
+------- Penalty_type(s): -
+	\
+	 106.	Stefano Napolitano (Q) 
+
+	 107.	Andreas Seppi
+	/
+------- Penalty_type(s): -
+	\
+	 108.	Nicolas Jarry
+
+	 109.	Nicolas Mahut
+	/
+------- Penalty_type(s): -
+	\
+	 110.	Alexandr Dolgopolov (Q) 
+
+	 111.	Marcel Granollers
+	/
+------- Penalty_type(s): -
+	\
+	 112.	David Goffin (Seeded as 10) 
+
+	 113.	Lucas Pouille (Seeded as 16) 
+	/
+------- Penalty_type(s): -
+	\
+	 114.	Jordan Thompson
+
+	 115.	Bernard Tomic (LL) 
+	/
+------- Penalty_type(s): -
+	\
+	 116.	Andrey Kuznetsov
+
+	 117.	Viktor Troicki (Q) 
+	/
+------- Penalty_type(s): -
+	\
+	 118.	Guido Pella
+
+	 119.	Laurent Lokoli
+	/
+------- Penalty_type(s): -
+	\
+	 120.	Albert Ramos (Seeded as 19) 
+
+	 121.	Mischa Zverev (Seeded as 32) 
+	/
+------- Penalty_type(s): -
+	\
+	 122.	Jeremy Chardy
+
+	 123.	Rogerio Dutra Silva
+	/
+------- Penalty_type(s): -
+	\
+	 124.	Tommy Robredo
+
+	 125.	Ricardas Berankis
+	/
+------- Penalty_type(s): -
+	\
+	 126.	Andrey Rublev
+
+	 127.	Jozef Kovalik
+	/
+------- Penalty_type(s): -
+	\
+	 128.	Novak Djokovic (Seeded as 2) 
+
+Computing conflicts measure and number for last generated 1st rounds.
+	|SOLUTION|	Match between Andy Murray and Stefanos Tsitsipas is h(0,105)=0.0
+	|CONSTRUCT|	Match between Andy Murray and Sergiy Stakhovsky is h(0,108)=0.0
+	|ORIGINAL|	Match Between Andy Murray and Andrey Kuznetsov is h(0,1)=2.0
+
+	|SOLUTION|	Match between Benjamin Bonzi and Teymuraz Gabashvili is h(116,43)=0.0
+	|CONSTRUCT|	Match between Ernests Gulbis and Damir Dzumhur is h(63,21)=0.0
+	|ORIGINAL|	Match Between Martin Klizan and Laurent Lokoli is h(2,3)=0.0
+
+	|SOLUTION|	Match between Fernando Verdasco and Jared Donaldson is h(16,19)=0.0
+	|CONSTRUCT|	Match between Thanasi Kokkinakis and Teymuraz Gabashvili is h(31,43)=0.0
+	|ORIGINAL|	Match Between Nicolas Almagro and Marcos Baghdatis is h(4,5)=0.0
+
+	|SOLUTION|	Match between Horacio Zeballos and Juan Martin Del Potro is h(106,6)=5.0
+	|CONSTRUCT|	Match between Philipp Kohlschreiber and Juan Martin Del Potro is h(55,6)=0.5
+	|ORIGINAL|	Match Between Juan Martin Del Potro and Guido Pella is h(6,7)=0.0
+
+	|SOLUTION|	Match between John Isner and Feliciano Lopez is h(8,58)=2.0
+	|CONSTRUCT|	Match between John Isner and Dustin Brown is h(8,47)=0.0
+	|ORIGINAL|	Match Between John Isner and Jordan Thompson is h(8,9)=0.0
+
+	|SOLUTION|	Match between Kyle Edmund and Ernests Gulbis is h(50,63)=0.0
+	|CONSTRUCT|	Match between Benjamin Bonzi and Kyle Edmund is h(116,50)=0.0
+	|ORIGINAL|	Match Between Paolo Lorenzi and Ricardas Berankis is h(10,11)=0.0
+
+	|SOLUTION|	Match between Mathias Bourgue and Bjorn Fratangelo is h(101,59)=0.0
+	|CONSTRUCT|	Match between Bjorn Fratangelo and Jerzy Janowicz is h(59,75)=0.0
+	|ORIGINAL|	Match Between Karen Khachanov and Nicolas Jarry is h(12,13)=0.0
+
+	|SOLUTION|	Match between Jerzy Janowicz and Tomas Berdych is h(75,14)=0.0
+	|CONSTRUCT|	Match between Fernando Verdasco and Tomas Berdych is h(16,14)=0.0
+	|ORIGINAL|	Match Between Tomas Berdych and Jan Lennard Struff is h(14,15)=0.0
+
+	|SOLUTION|	Match between Alexander Zverev and Radu Albot is h(17,29)=0.0
+	|CONSTRUCT|	Match between Alexander Zverev and Marco Trungelliti is h(17,68)=0.0
+	|ORIGINAL|	Match Between Fernando Verdasco and Alexander Zverev is h(16,17)=5.0
+
+	|SOLUTION|	Match between Benoit Paire and Damir Dzumhur is h(95,21)=0.0
+	|CONSTRUCT|	Match between Stefanos Tsitsipas and Benoit Paire is h(105,95)=0.0
+	|ORIGINAL|	Match Between Pierre Hugues Herbert and Jared Donaldson is h(18,19)=0.0
+
+	|SOLUTION|	Match between Dustin Brown and Thiago Monteiro is h(47,44)=0.0
+	|CONSTRUCT|	Match between Evgeny Donskoy and Jared Donaldson is h(91,19)=0.0
+	|ORIGINAL|	Match Between Nicolas Kicker and Damir Dzumhur is h(20,21)=0.0
+
+	|SOLUTION|	Match between Paolo Lorenzi and Pablo Cuevas is h(10,22)=2.0
+	|CONSTRUCT|	Match between Feliciano Lopez and Pablo Cuevas is h(58,22)=0.0
+	|ORIGINAL|	Match Between Pablo Cuevas and Maxime Hamou is h(22,23)=0.0
+
+	|SOLUTION|	Match between Sam Querrey and Philipp Kohlschreiber is h(25,55)=0.0
+	|CONSTRUCT|	Match between Sam Querrey and Mathias Bourgue is h(25,101)=0.0
+	|ORIGINAL|	Match Between Hyeon Chung and Sam Querrey is h(24,25)=0.0
+
+	|SOLUTION|	Match between Marco Trungelliti and Sergiy Stakhovsky is h(68,108)=0.0
+	|CONSTRUCT|	Match between Paolo Lorenzi and Stephane Robert is h(10,79)=0.0
+	|ORIGINAL|	Match Between Denis Istomin and Ernesto Escobedo is h(26,27)=0.0
+
+	|SOLUTION|	Match between Thanasi Kokkinakis and Stephane Robert is h(31,79)=0.0
+	|CONSTRUCT|	Match between Thiago Monteiro and Horacio Zeballos is h(44,106)=0.0
+	|ORIGINAL|	Match Between Jeremy Chardy and Radu Albot is h(28,29)=5.0
+
+	|SOLUTION|	Match between Evgeny Donskoy and Kei Nishikori is h(91,30)=0.0
+	|CONSTRUCT|	Match between Radu Albot and Kei Nishikori is h(29,30)=0.0
+	|ORIGINAL|	Match Between Kei Nishikori and Thanasi Kokkinakis is h(30,31)=0.0
+
+	|SOLUTION|	Match between Stanislas Wawrinka and Donald Young is h(32,57)=2.0
+	|CONSTRUCT|	Match between Stanislas Wawrinka and Jiri Vesely is h(32,80)=2.0
+	|ORIGINAL|	Match Between Stanislas Wawrinka and Jozef Kovalik is h(32,33)=0.0
+
+	|SOLUTION|	Match between Denis Istomin and Guillermo Garcia Lopez is h(26,70)=0.0
+	|CONSTRUCT|	Match between Taro Daniel and Daniel Evans is h(74,77)=0.0
+	|ORIGINAL|	Match Between Alexandr Dolgopolov and Carlos Berlocq is h(34,35)=0.0
+
+	|SOLUTION|	Match between Jiri Vesely and Janko Tipsarevic is h(80,125)=2.0
+	|CONSTRUCT|	Match between Tennys Sandgren and Marcos Baghdatis is h(85,5)=0.0
+	|ORIGINAL|	Match Between Andreas Seppi and Santiago Giraldo is h(36,37)=0.0
+
+	|SOLUTION|	Match between John Millman and Fabio Fognini is h(87,38)=0.0
+	|CONSTRUCT|	Match between Nicolas Almagro and Fabio Fognini is h(4,38)=0.0
+	|ORIGINAL|	Match Between Fabio Fognini and Francis Tiafoe is h(38,39)=0.0
+
+	|SOLUTION|	Match between Richard Gasquet and Daniil Medvedev is h(40,117)=0.0
+	|CONSTRUCT|	Match between Richard Gasquet and Karen Khachanov is h(40,12)=0.0
+	|ORIGINAL|	Match Between Richard Gasquet and Arthur De Greef is h(40,41)=0.0
+
+	|SOLUTION|	Match between Daniel Evans and Tennys Sandgren is h(77,85)=0.0
+	|CONSTRUCT|	Match between Quentin Halys and Daniil Medvedev is h(69,117)=0.0
+	|ORIGINAL|	Match Between Victor Estrella and Teymuraz Gabashvili is h(42,43)=0.0
+
+	|SOLUTION|	Match between Nicolas Almagro and Marcos Baghdatis is h(4,5)=0.0
+	|CONSTRUCT|	Match between Marius Copil and Simone Bolelli is h(119,98)=0.0
+	|ORIGINAL|	Match Between Thiago Monteiro and Alexandre Muller is h(44,45)=0.0
+
+	|SOLUTION|	Match between Federico Delbonis and Gael Monfils is h(61,46)=0.0
+	|CONSTRUCT|	Match between Guillermo Garcia Lopez and Gael Monfils is h(70,46)=0.0
+	|ORIGINAL|	Match Between Gael Monfils and Dustin Brown is h(46,47)=0.0
+
+	|SOLUTION|	Match between Jo Wilfried Tsonga and Paul Henri Mathieu is h(49,111)=0.0
+	|CONSTRUCT|	Match between Jo Wilfried Tsonga and Paul Henri Mathieu is h(49,111)=0.0
+	|ORIGINAL|	Match Between Renzo Olivo and Jo Wilfried Tsonga is h(48,49)=0.0
+
+	|SOLUTION|	Match between Karen Khachanov and Taro Daniel is h(12,74)=0.0
+	|CONSTRUCT|	Match between Denis Istomin and Pierre Hugues Herbert is h(26,18)=0.0
+	|ORIGINAL|	Match Between Kyle Edmund and Gastao Elias is h(50,51)=5.0
+
+	|SOLUTION|	Match between Martin Klizan and Quentin Halys is h(2,69)=0.0
+	|CONSTRUCT|	Match between John Millman and Donald Young is h(87,57)=0.0
+	|ORIGINAL|	Match Between Kevin Anderson and Malek Jaziri is h(52,53)=2.0
+
+	|SOLUTION|	Match between Diego Sebastian Schwartzman and Nick Kyrgios is h(122,54)=0.0
+	|CONSTRUCT|	Match between Florian Mayer and Nick Kyrgios is h(73,54)=0.0
+	|ORIGINAL|	Match Between Nick Kyrgios and Philipp Kohlschreiber is h(54,55)=0.0
+
+	|SOLUTION|	Match between David Ferrer and Victor Estrella is h(56,42)=0.0
+	|CONSTRUCT|	Match between David Ferrer and Janko Tipsarevic is h(56,125)=0.0
+	|ORIGINAL|	Match Between David Ferrer and Donald Young is h(56,57)=0.0
+
+	|SOLUTION|	Match between Marius Copil and Nikoloz Basilashvili is h(119,88)=0.0
+	|CONSTRUCT|	Match between Federico Delbonis and Diego Sebastian Schwartzman is h(61,122)=7.0
+	|ORIGINAL|	Match Between Feliciano Lopez and Bjorn Fratangelo is h(58,59)=0.0
+
+	|SOLUTION|	Match between Pierre Hugues Herbert and Florian Mayer is h(18,73)=0.0
+	|CONSTRUCT|	Match between Nikoloz Basilashvili and Martin Klizan is h(88,2)=0.5
+	|ORIGINAL|	Match Between Konstantin Kravchuk and Federico Delbonis is h(60,61)=0.0
+
+	|SOLUTION|	Match between Simone Bolelli and Marin Cilic is h(98,62)=0.0
+	|CONSTRUCT|	Match between Victor Estrella and Marin Cilic is h(42,62)=0.0
+	|ORIGINAL|	Match Between Marin Cilic and Ernests Gulbis is h(62,63)=0.0
+
+	|SOLUTION|	Match between Milos Raonic and Nicolas Kicker is h(64,20)=0.0
+	|CONSTRUCT|	Match between Milos Raonic and Borna Coric is h(64,100)=2.0
+	|ORIGINAL|	Match Between Milos Raonic and Steve Darcis is h(64,65)=0.0
+
+	|SOLUTION|	Match between Robin Haase and Adrian Mannarino is h(92,107)=0.0
+	|CONSTRUCT|	Match between Yen Hsun Lu and Kevin Anderson is h(109,52)=0.0
+	|ORIGINAL|	Match Between Rogerio Dutra Silva and Mikhail Youzhny is h(66,67)=0.0
+
+	|SOLUTION|	Match between Santiago Giraldo and Jan Lennard Struff is h(37,15)=0.0
+	|CONSTRUCT|	Match between Renzo Olivo and Jan Lennard Struff is h(48,15)=0.0
+	|ORIGINAL|	Match Between Marco Trungelliti and Quentin Halys is h(68,69)=0.0
+
+	|SOLUTION|	Match between Yen Hsun Lu and Gilles Muller is h(109,71)=0.0
+	|CONSTRUCT|	Match between Nicolas Kicker and Gilles Muller is h(20,71)=0.0
+	|ORIGINAL|	Match Between Guillermo Garcia Lopez and Gilles Muller is h(70,71)=2.0
+
+	|SOLUTION|	Match between Pablo Carreno Busta and Maxime Hamou is h(72,23)=0.0
+	|CONSTRUCT|	Match between Pablo Carreno Busta and Ernesto Escobedo is h(72,27)=0.0
+	|ORIGINAL|	Match Between Pablo Carreno Busta and Florian Mayer is h(72,73)=0.0
+
+	|SOLUTION|	Match between Yuichi Sugita and Kevin Anderson is h(103,52)=0.0
+	|CONSTRUCT|	Match between Julien Benneteau and Arthur De Greef is h(113,41)=0.0
+	|ORIGINAL|	Match Between Taro Daniel and Jerzy Janowicz is h(74,75)=0.0
+
+	|SOLUTION|	Match between Julien Benneteau and Steve Darcis is h(113,65)=0.0
+	|CONSTRUCT|	Match between Alex De Minaur and Adrian Mannarino is h(93,107)=0.0
+	|ORIGINAL|	Match Between Tommy Robredo and Daniel Evans is h(76,77)=0.0
+
+	|SOLUTION|	Match between Dusan Lajovic and Grigor Dimitrov is h(115,78)=2.0
+	|CONSTRUCT|	Match between Alexandre Muller and Grigor Dimitrov is h(45,78)=0.0
+	|ORIGINAL|	Match Between Grigor Dimitrov and Stephane Robert is h(78,79)=0.0
+
+	|SOLUTION|	Match between Jack Sock and Malek Jaziri is h(81,53)=5.0
+	|CONSTRUCT|	Match between Jack Sock and Robin Haase is h(81,92)=2.0
+	|ORIGINAL|	Match Between Jiri Vesely and Jack Sock is h(80,81)=3.0
+
+	|SOLUTION|	Match between Konstantin Kravchuk and Borna Coric is h(60,100)=0.0
+	|CONSTRUCT|	Match between Yuichi Sugita and Mikhail Kukushkin is h(103,84)=0.0
+	|ORIGINAL|	Match Between Aljaz Bedene and Ryan Harrison is h(82,83)=0.0
+
+	|SOLUTION|	Match between Ryan Harrison and Alex De Minaur is h(83,93)=0.0
+	|CONSTRUCT|	Match between Dusan Lajovic and Thomaz Bellucci is h(115,114)=0.0
+	|ORIGINAL|	Match Between Mikhail Kukushkin and Tennys Sandgren is h(84,85)=0.0
+
+	|SOLUTION|	Match between Arthur De Greef and Roberto Bautista Agut is h(41,86)=0.0
+	|CONSTRUCT|	Match between Malek Jaziri and Roberto Bautista Agut is h(53,86)=0.0
+	|ORIGINAL|	Match Between Roberto Bautista Agut and John Millman is h(86,87)=5.0
+
+	|SOLUTION|	Match between Gilles Simon and Alexandre Muller is h(89,45)=5.0
+	|CONSTRUCT|	Match between Gilles Simon and Konstantin Kravchuk is h(89,60)=0.0
+	|ORIGINAL|	Match Between Nikoloz Basilashvili and Gilles Simon is h(88,89)=0.0
+
+	|SOLUTION|	Match between Ernesto Escobedo and Joao Sousa is h(27,124)=0.0
+	|CONSTRUCT|	Match between Joao Sousa and Steve Darcis is h(124,65)=0.0
+	|ORIGINAL|	Match Between Viktor Troicki and Evgeny Donskoy is h(90,91)=5.0
+
+	|SOLUTION|	Match between Thomaz Bellucci and Renzo Olivo is h(114,48)=0.5
+	|CONSTRUCT|	Match between Maxime Hamou and Santiago Giraldo is h(23,37)=0.0
+	|ORIGINAL|	Match Between Robin Haase and Alex De Minaur is h(92,93)=0.0
+
+	|SOLUTION|	Match between Mikhail Kukushkin and Rafael Nadal is h(84,94)=0.0
+	|CONSTRUCT|	Match between Ryan Harrison and Rafael Nadal is h(83,94)=0.0
+	|ORIGINAL|	Match Between Rafael Nadal and Benoit Paire is h(94,95)=0.0
+
+	|SOLUTION|	Match between Dominic Thiem and Carlos Berlocq is h(96,35)=0.0
+	|CONSTRUCT|	Match between Dominic Thiem and Nicolas Mahut is h(96,99)=0.0
+	|ORIGINAL|	Match Between Dominic Thiem and Bernard Tomic is h(96,97)=0.0
+
+	|SOLUTION|	Match between Francis Tiafoe and Aljaz Bedene is h(39,82)=0.0
+	|CONSTRUCT|	Match between Carlos Berlocq and Stefano Napolitano is h(35,120)=0.0
+	|ORIGINAL|	Match Between Simone Bolelli and Nicolas Mahut is h(98,99)=0.0
+
+	|SOLUTION|	Match between Gastao Elias and Mikhail Youzhny is h(51,67)=0.0
+	|CONSTRUCT|	Match between Viktor Troicki and Hyeon Chung is h(90,24)=0.0
+	|ORIGINAL|	Match Between Borna Coric and Mathias Bourgue is h(100,101)=0.0
+
+	|SOLUTION|	Match between Hyeon Chung and Steve Johnson is h(24,102)=0.0
+	|CONSTRUCT|	Match between Andreas Seppi and Steve Johnson is h(36,102)=0.5
+	|ORIGINAL|	Match Between Steve Johnson and Yuichi Sugita is h(102,103)=2.0
+
+	|SOLUTION|	Match between Ivo Karlovic and Stefano Napolitano is h(104,120)=0.0
+	|CONSTRUCT|	Match between Ivo Karlovic and Nicolas Jarry is h(104,13)=0.0
+	|ORIGINAL|	Match Between Ivo Karlovic and Stefanos Tsitsipas is h(104,105)=0.0
+
+	|SOLUTION|	Match between Andreas Seppi and Nicolas Jarry is h(36,13)=0.0
+	|CONSTRUCT|	Match between Mikhail Youzhny and Alexandr Dolgopolov is h(67,34)=0.0
+	|ORIGINAL|	Match Between Horacio Zeballos and Adrian Mannarino is h(106,107)=0.0
+
+	|SOLUTION|	Match between Nicolas Mahut and Alexandr Dolgopolov is h(99,34)=0.0
+	|CONSTRUCT|	Match between Tommy Robredo and Jozef Kovalik is h(76,33)=0.0
+	|ORIGINAL|	Match Between Sergiy Stakhovsky and Yen Hsun Lu is h(108,109)=0.0
+
+	|SOLUTION|	Match between Marcel Granollers and David Goffin is h(127,110)=0.0
+	|CONSTRUCT|	Match between Jeremy Chardy and David Goffin is h(28,110)=0.0
+	|ORIGINAL|	Match Between David Goffin and Paul Henri Mathieu is h(110,111)=0.0
+
+	|SOLUTION|	Match between Lucas Pouille and Jordan Thompson is h(112,9)=0.0
+	|CONSTRUCT|	Match between Lucas Pouille and Jordan Thompson is h(112,9)=0.0
+	|ORIGINAL|	Match Between Lucas Pouille and Julien Benneteau is h(112,113)=5.5
+
+	|SOLUTION|	Match between Bernard Tomic and Andrey Kuznetsov is h(97,1)=0.0
+	|CONSTRUCT|	Match between Andrey Rublev and Gastao Elias is h(123,51)=0.0
+	|ORIGINAL|	Match Between Thomaz Bellucci and Dusan Lajovic is h(114,115)=0.0
+
+	|SOLUTION|	Match between Viktor Troicki and Guido Pella is h(90,7)=0.0
+	|CONSTRUCT|	Match between Guido Pella and Laurent Lokoli is h(7,3)=0.0
+	|ORIGINAL|	Match Between Benjamin Bonzi and Daniil Medvedev is h(116,117)=0.0
+
+	|SOLUTION|	Match between Laurent Lokoli and Albert Ramos is h(3,118)=0.0
+	|CONSTRUCT|	Match between Rogerio Dutra Silva and Albert Ramos is h(66,118)=0.0
+	|ORIGINAL|	Match Between Albert Ramos and Marius Copil is h(118,119)=0.0
+
+	|SOLUTION|	Match between Mischa Zverev and Jeremy Chardy is h(121,28)=0.0
+	|CONSTRUCT|	Match between Mischa Zverev and Ricardas Berankis is h(121,11)=0.0
+	|ORIGINAL|	Match Between Stefano Napolitano and Mischa Zverev is h(120,121)=0.0
+
+	|SOLUTION|	Match between Rogerio Dutra Silva and Tommy Robredo is h(66,76)=0.0
+	|CONSTRUCT|	Match between Bernard Tomic and Andrey Kuznetsov is h(97,1)=0.0
+	|ORIGINAL|	Match Between Diego Sebastian Schwartzman and Andrey Rublev is h(122,123)=0.0
+
+	|SOLUTION|	Match between Ricardas Berankis and Andrey Rublev is h(11,123)=0.0
+	|CONSTRUCT|	Match between Aljaz Bedene and Francis Tiafoe is h(82,39)=0.0
+	|ORIGINAL|	Match Between Joao Sousa and Janko Tipsarevic is h(124,125)=0.0
+
+	|SOLUTION|	Match between Jozef Kovalik and Novak Djokovic is h(33,126)=0.0
+	|CONSTRUCT|	Match between Marcel Granollers and Novak Djokovic is h(127,126)=0.0
+	|ORIGINAL|	Match Between Novak Djokovic and Marcel Granollers is h(126,127)=0.0
+
+Time elapsed:4538.3735s
+Last whole tournament simulation
+The following output is the last tourney generated from CPLEX's solution.
+Round R64
+	Andy Murray wins over Stefanos Tsitsipas
+	Teymuraz Gabashvili wins over Benjamin Bonzi
+	Fernando Verdasco wins over Jared Donaldson
+	Juan Martin Del Potro wins over Horacio Zeballos
+	John Isner wins over Feliciano Lopez
+	Kyle Edmund wins over Ernests Gulbis
+	Bjorn Fratangelo wins over Mathias Bourgue
+	Tomas Berdych wins over Jerzy Janowicz
+	Alexander Zverev wins over Radu Albot
+	Benoit Paire wins over Damir Dzumhur
+	Dustin Brown wins over Thiago Monteiro
+	Pablo Cuevas wins over Paolo Lorenzi
+	Sam Querrey wins over Philipp Kohlschreiber
+	Sergiy Stakhovsky wins over Marco Trungelliti
+	Thanasi Kokkinakis wins over Stephane Robert
+	Kei Nishikori wins over Evgeny Donskoy
+	Donald Young wins over Stanislas Wawrinka
+	Denis Istomin wins over Guillermo Garcia Lopez
+	Janko Tipsarevic wins over Jiri Vesely
+	Fabio Fognini wins over John Millman
+	Richard Gasquet wins over Daniil Medvedev
+	Daniel Evans wins over Tennys Sandgren
+	Marcos Baghdatis wins over Nicolas Almagro
+	Gael Monfils wins over Federico Delbonis
+	Jo Wilfried Tsonga wins over Paul Henri Mathieu
+	Karen Khachanov wins over Taro Daniel
+	Martin Klizan wins over Quentin Halys
+	Nick Kyrgios wins over Diego Sebastian Schwartzman
+	David Ferrer wins over Victor Estrella
+	Nikoloz Basilashvili wins over Marius Copil
+	Florian Mayer wins over Pierre Hugues Herbert
+	Marin Cilic wins over Simone Bolelli
+	Milos Raonic wins over Nicolas Kicker
+	Robin Haase wins over Adrian Mannarino
+	Santiago Giraldo wins over Jan Lennard Struff
+	Gilles Muller wins over Yen Hsun Lu
+	Pablo Carreno Busta wins over Maxime Hamou
+	Kevin Anderson wins over Yuichi Sugita
+	Steve Darcis wins over Julien Benneteau
+	Grigor Dimitrov wins over Dusan Lajovic
+	Jack Sock wins over Malek Jaziri
+	Borna Coric wins over Konstantin Kravchuk
+	Ryan Harrison wins over Alex De Minaur
+	Roberto Bautista Agut wins over Arthur De Greef
+	Gilles Simon wins over Alexandre Muller
+	Joao Sousa wins over Ernesto Escobedo
+	Thomaz Bellucci wins over Renzo Olivo
+	Rafael Nadal wins over Mikhail Kukushkin
+	Dominic Thiem wins over Carlos Berlocq
+	Aljaz Bedene wins over Francis Tiafoe
+	Mikhail Youzhny wins over Gastao Elias
+	Steve Johnson wins over Hyeon Chung
+	Ivo Karlovic wins over Stefano Napolitano
+	Andreas Seppi wins over Nicolas Jarry
+	Nicolas Mahut wins over Alexandr Dolgopolov
+	David Goffin wins over Marcel Granollers
+	Lucas Pouille wins over Jordan Thompson
+	Bernard Tomic wins over Andrey Kuznetsov
+	Viktor Troicki wins over Guido Pella
+	Albert Ramos wins over Laurent Lokoli
+	Mischa Zverev wins over Jeremy Chardy
+	Rogerio Dutra Silva wins over Tommy Robredo
+	Andrey Rublev wins over Ricardas Berankis
+	Novak Djokovic wins over Jozef Kovalik
+Round R32
+	Andy Murray wins over Teymuraz Gabashvili
+	Juan Martin Del Potro wins over Fernando Verdasco
+	John Isner wins over Kyle Edmund
+	Tomas Berdych wins over Bjorn Fratangelo
+	Alexander Zverev wins over Benoit Paire
+	Pablo Cuevas wins over Dustin Brown
+	Sam Querrey wins over Sergiy Stakhovsky
+	Thanasi Kokkinakis wins over Kei Nishikori
+	Donald Young wins over Denis Istomin
+	Fabio Fognini wins over Janko Tipsarevic
+	Daniel Evans wins over Richard Gasquet
+	Gael Monfils wins over Marcos Baghdatis
+	Karen Khachanov wins over Jo Wilfried Tsonga
+	Nick Kyrgios wins over Martin Klizan
+	David Ferrer wins over Nikoloz Basilashvili
+	Marin Cilic wins over Florian Mayer
+	Milos Raonic wins over Robin Haase
+	Gilles Muller wins over Santiago Giraldo
+	Pablo Carreno Busta wins over Kevin Anderson
+	Grigor Dimitrov wins over Steve Darcis
+	Jack Sock wins over Borna Coric
+	Roberto Bautista Agut wins over Ryan Harrison
+	Gilles Simon wins over Joao Sousa
+	Thomaz Bellucci wins over Rafael Nadal
+	Dominic Thiem wins over Aljaz Bedene
+	Steve Johnson wins over Mikhail Youzhny
+	Ivo Karlovic wins over Andreas Seppi
+	Nicolas Mahut wins over David Goffin
+	Lucas Pouille wins over Bernard Tomic
+	Albert Ramos wins over Viktor Troicki
+	Mischa Zverev wins over Rogerio Dutra Silva
+	Novak Djokovic wins over Andrey Rublev
+Round R16
+	Andy Murray wins over Juan Martin Del Potro
+	Tomas Berdych wins over John Isner
+	Alexander Zverev wins over Pablo Cuevas
+	Thanasi Kokkinakis wins over Sam Querrey
+	Fabio Fognini wins over Donald Young
+	Gael Monfils wins over Daniel Evans
+	Nick Kyrgios wins over Karen Khachanov
+	Marin Cilic wins over David Ferrer
+	Milos Raonic wins over Gilles Muller
+	Pablo Carreno Busta wins over Grigor Dimitrov
+	Jack Sock wins over Roberto Bautista Agut
+	Gilles Simon wins over Thomaz Bellucci
+	Dominic Thiem wins over Steve Johnson
+	Ivo Karlovic wins over Nicolas Mahut
+	Lucas Pouille wins over Albert Ramos
+	Mischa Zverev wins over Novak Djokovic
+Round R8
+	Tomas Berdych wins over Andy Murray
+	Thanasi Kokkinakis wins over Alexander Zverev
+	Gael Monfils wins over Fabio Fognini
+	Marin Cilic wins over Nick Kyrgios
+	Milos Raonic wins over Pablo Carreno Busta
+	Jack Sock wins over Gilles Simon
+	Dominic Thiem wins over Ivo Karlovic
+	Lucas Pouille wins over Mischa Zverev
+Round R4
+	Thanasi Kokkinakis wins over Tomas Berdych
+	Marin Cilic wins over Gael Monfils
+	Milos Raonic wins over Jack Sock
+	Dominic Thiem wins over Lucas Pouille
+Round R2
+	Thanasi Kokkinakis wins over Marin Cilic
+	Milos Raonic wins over Dominic Thiem
+Round R1
+	Thanasi Kokkinakis wins over Milos Raonic
+
+The winner is: Thanasi Kokkinakis!
+Iteration 16 completed.
+Time elapsed:4563.4736s
+Executive summary for Roland Garros:
+	Tournament size (n): 128
+	Seed size (m): 32 - Players per cluster (u): 32 - Seeds per cluster (f): 8
+	Lower bound for this problem is: 142.0
+	Objective function value from CPLEX: 803.5
+	Objective function value from GREEDY: 821.5
+	Solutions status from CPLEX: Optimal
+	Solutions status from greedy: Feasible
+	Tourney's original O.F. value: 1429.5
+
+ACTUAL		|		CPLEX			|			GREEDY
+
+--------------------
+
+Time
+---		|		4186.2847		|			1.8790482
+O.F.
+1429.5		|		803.5(43.79%)		|			821.5(42.53%)
+O.F. with TL=Greedy_Time
+---		|		885.0			|			821.5
+Solution Status
+----		|		Optimal			|			----
+
+--------------------
+
+Average improvements over 16 simulations
+	Number of conflicts 1st round
+11		|		8			|			7.69
+	Measure of conflicts 1st round
+41.5		|		25.71875(38.03%)		|			24.46875(41.04%)
+	Number of conflicts whole tourney
+32		|		25.25			|			25.5625
+	Measure of conflicts whole tourney
+122.0		|		62.25(48.98%)		|			63.375(48.05%)
+
+--------------------
+
+Last simulation
+	Number of conflicts 1st round
+11		|		9			|			7
+	Measure of conflicts 1st round
+41.5		|		25.5(38.55%)		|			14.5(65.06%)
+	Number of conflicts whole tourney
+32		|		28			|			21
+	Measure of conflicts whole tourney
+122.0		|		57.0(53.28%)		|			35.5(70.9%)
+
+
+TOURNAMENT SIMULATIONS WINNERS
+CPLEX				GREEDY
+Thanasi Kokkinakis				Thanasi Kokkinakis
+Thanasi Kokkinakis				Thanasi Kokkinakis
+Thanasi Kokkinakis				Thanasi Kokkinakis
+Thanasi Kokkinakis				Thanasi Kokkinakis
+Thanasi Kokkinakis				Thanasi Kokkinakis
+Thanasi Kokkinakis				Thanasi Kokkinakis
+Thanasi Kokkinakis				Thanasi Kokkinakis
+Thanasi Kokkinakis				Thanasi Kokkinakis
+Thanasi Kokkinakis				Thanasi Kokkinakis
+Thanasi Kokkinakis				Thanasi Kokkinakis
+Thanasi Kokkinakis				Thanasi Kokkinakis
+Thanasi Kokkinakis				Thanasi Kokkinakis
+Thanasi Kokkinakis				Thanasi Kokkinakis
+Thanasi Kokkinakis				Thanasi Kokkinakis
+Thanasi Kokkinakis				Thanasi Kokkinakis
+Thanasi Kokkinakis				Thanasi Kokkinakis
+Time elapsed:4563.483s

@@ -1,0 +1,17 @@
+"",ACT,CPLEX,GREEDY
+LB,135.0,135.0,135.0
+Time,-,"3,933.37s",1.88s
+"    CPLEX O.F. with TL=GreedyTime",--,828.5,751.5
+O.F.,1328.5,715.0 (46.18%),751.5 (43.43%)
+Greedy improvement with swaps,-,-,70.5
+Solution status,-,Optimal,Feasible
+Average indexes | s=16,,,
+Number of conflicts in the 1st round,12,7.44,7.94
+Measure of conflicts in the 1st round,31.5,19 (39.68%),22.06 (29.96%)
+Number of conflicts in the tournament,29,27.44,28.06
+Measure of conflicts in the tournament,76.0,64.53 (15.09%),69.19 (8.96%)
+Last simulation indexes,,,
+Number of conflicts in the 1st round,12,8,9
+Measure of conflicts in the 1st round,31.5,25 (20.63%),20.5 (34.92%)
+Number of conflicts in the tournament,29,29,31
+Measure of conflicts in the tournament,76.0,65.5 (13.82%),72 (5.26%)

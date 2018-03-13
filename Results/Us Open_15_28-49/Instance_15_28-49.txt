@@ -1,0 +1,2191 @@
+Dataset loaded for Us Open
+	Tournament size (n): 128
+	Seed size (m): 32
+0 for Heuristic - 1 for Exact
+Exact mode
+Time elapsed:1.0509862s
+Seeding players:
+	Rafael Nadal in cluster 0
+	Richard Gasquet in cluster 0
+	Fabio Fognini in cluster 0
+	Tomas Berdych in cluster 0
+	David Goffin in cluster 0
+	Gael Monfils in cluster 0
+	Pablo Cuevas in cluster 0
+	Grigor Dimitrov in cluster 0
+	Roger Federer in cluster 1
+	Feliciano Lopez in cluster 1
+	Philipp Kohlschreiber in cluster 1
+	Nick Kyrgios in cluster 1
+	Roberto Bautista Agut in cluster 1
+	Juan Martin Del Potro in cluster 1
+	Adrian Mannarino in cluster 1
+	Dominic Thiem in cluster 1
+	Sam Querrey in cluster 2
+	Karen Khachanov in cluster 2
+	Mischa Zverev in cluster 2
+	John Isner in cluster 2
+	Jack Sock in cluster 2
+	Gilles Muller in cluster 2
+	Kevin Anderson in cluster 2
+	Alexander Zverev in cluster 2
+	Jo Wilfried Tsonga in cluster 3
+	Robin Haase in cluster 3
+	Albert Ramos in cluster 3
+	Pablo Carreno Busta in cluster 3
+	Lucas Pouille in cluster 3
+	David Ferrer in cluster 3
+	Diego Sebastian Schwartzman in cluster 3
+	Marin Cilic in cluster 3
+Number of seeds: 32
+0:8 1:8 2:8 3:8 Time elapsed:1.1314304s
+
+MatrixH for tournament 2017-560 loaded from in/MatrixH_2017-560.txt
+MatrixH_desc for tournament 2017-560 loaded from in/MatrixH_2017-560.txt
+Checking properties of MatrixH:
+	Has complex eigen values: false
+	Largest eigen-value: 119.42638564947191
+	Sum of all eigen-values (trace): -6.608047442568932E-13
+	Product of all eigen-values (determinant): -0.0
+Time elapsed:1.5148276s
+
+Computing the lower bound.
+	CLUSTER 0 | ------------------
+	Richard Gasquet and Rafael Nadal:+2.0
+	Fabio Fognini and Rafael Nadal:+2.5
+	Tomas Berdych and Richard Gasquet:+2.0
+	David Goffin and Rafael Nadal:+1.0
+	Gael Monfils and Richard Gasquet:+12.0
+	Gael Monfils and David Goffin:+1.0
+	Pablo Cuevas and Fabio Fognini:+1.0
+	Grigor Dimitrov and Rafael Nadal:+1.0
+	Grigor Dimitrov and Richard Gasquet:+6.0
+	Grigor Dimitrov and David Goffin:+1.0
+	CLUSTER 1 | ------------------
+	Nick Kyrgios and Roger Federer:+1.0
+	Nick Kyrgios and Philipp Kohlschreiber:+5.0
+	Roberto Bautista Agut and Roger Federer:+0.5
+	Roberto Bautista Agut and Feliciano Lopez:+5.0
+	Juan Martin Del Potro and Roger Federer:+1.0
+	Adrian Mannarino and Feliciano Lopez:+5.0
+	Adrian Mannarino and Roberto Bautista Agut:+2.0
+	Dominic Thiem and Adrian Mannarino:+3.0
+	CLUSTER 2 | ------------------
+	John Isner and Sam Querrey:+5.0
+	John Isner and Karen Khachanov:+1.0
+	John Isner and Mischa Zverev:+9.0
+	Jack Sock and Sam Querrey:+5.0
+	Jack Sock and Karen Khachanov:+2.0
+	Jack Sock and Mischa Zverev:+2.0
+	Jack Sock and John Isner:+5.5
+	Gilles Muller and Sam Querrey:+0.5
+	Gilles Muller and John Isner:+0.5
+	Kevin Anderson and Sam Querrey:+1.0
+	Kevin Anderson and Jack Sock:+0.5
+	Kevin Anderson and Gilles Muller:+0.5
+	Alexander Zverev and Karen Khachanov:+5.0
+	Alexander Zverev and Mischa Zverev:+5.0
+	Alexander Zverev and John Isner:+6.5
+	Alexander Zverev and Jack Sock:+2.5
+	Alexander Zverev and Gilles Muller:+0.5
+	Alexander Zverev and Kevin Anderson:+5.5
+	CLUSTER 3 | ------------------
+	Albert Ramos and Jo Wilfried Tsonga:+2.5
+	Albert Ramos and Robin Haase:+5.0
+	Pablo Carreno Busta and Albert Ramos:+5.5
+	Lucas Pouille and Jo Wilfried Tsonga:+5.0
+	Lucas Pouille and Albert Ramos:+1.5
+	David Ferrer and Jo Wilfried Tsonga:+2.0
+	David Ferrer and Robin Haase:+7.0
+	David Ferrer and Albert Ramos:+5.0
+	David Ferrer and Pablo Carreno Busta:+6.5
+	Diego Sebastian Schwartzman and Robin Haase:+5.5
+	Diego Sebastian Schwartzman and Albert Ramos:+5.0
+	Diego Sebastian Schwartzman and David Ferrer:+2.0
+	Marin Cilic and Jo Wilfried Tsonga:+0.5
+	Marin Cilic and Albert Ramos:+0.5
+	Marin Cilic and Pablo Carreno Busta:+2.0
+	Marin Cilic and Diego Sebastian Schwartzman:+0.5
+Lower bound for this problem is: 164.5
+Building the greedy solution.
+	Building degree matrixes for H...
+Allocation is based on players's weighted degree:
+	Assigning Benoit Paire to cluster 2
+	Assigning Donald Young to cluster 0
+	Assigning Ryan Harrison to cluster 3
+	Assigning Jared Donaldson to cluster 0
+	Assigning Nikoloz Basilashvili to cluster 3
+	Assigning Steve Johnson to cluster 1
+	Assigning Gilles Simon to cluster 2
+	Assigning Jan Lennard Struff to cluster 3
+	Assigning Andrey Kuznetsov to cluster 1
+	Assigning Horacio Zeballos to cluster 0
+	Assigning Taylor Harry Fritz to cluster 3
+	Assigning Fernando Verdasco to cluster 1
+	Assigning Joao Sousa to cluster 1
+	Assigning Paolo Lorenzi to cluster 1
+	Assigning Bjorn Fratangelo to cluster 3
+	Assigning Mikhail Youzhny to cluster 0
+	Assigning Viktor Troicki to cluster 3
+	Assigning Ernesto Escobedo to cluster 0
+	Assigning Daniil Medvedev to cluster 0
+	Assigning Pierre Hugues Herbert to cluster 0
+	Assigning Jeremy Chardy to cluster 2
+	Assigning Borna Coric to cluster 1
+	Assigning Kyle Edmund to cluster 2
+	Assigning Tennys Sandgren to cluster 1
+	Assigning Julien Benneteau to cluster 1
+	Assigning Florian Mayer to cluster 1
+	Assigning Bernard Tomic to cluster 2
+	Assigning Carlos Berlocq to cluster 2
+	Assigning Nicolas Almagro to cluster 0
+	Assigning Andreas Seppi to cluster 3
+	Assigning Dustin Brown to cluster 0
+	Assigning Alexandr Dolgopolov to cluster 0
+	Assigning Damir Dzumhur to cluster 1
+	Assigning Andrey Rublev to cluster 0
+	Assigning Jordan Thompson to cluster 0
+	Assigning Tommy Paul to cluster 1
+	Assigning Dusan Lajovic to cluster 3
+	Assigning Thomaz Bellucci to cluster 1
+	Assigning Evgeny Donskoy to cluster 2
+	Assigning Janko Tipsarevic to cluster 2
+	Assigning Jiri Vesely to cluster 3
+	Assigning Guido Pella to cluster 3
+	Assigning Steve Darcis to cluster 1
+	Assigning Ivo Karlovic to cluster 2
+	Assigning Marcos Baghdatis to cluster 2
+	Assigning Rogerio Dutra Silva to cluster 2
+	Assigning Aljaz Bedene to cluster 0
+	Assigning Malek Jaziri to cluster 0
+	Assigning Thiago Monteiro to cluster 1
+	Assigning Christopher Eubanks to cluster 1
+	Assigning Nicolas Kicker to cluster 3
+	Assigning Hyeon Chung to cluster 3
+	Assigning Denis Istomin to cluster 2
+	Assigning Patrick Kypson to cluster 0
+	Assigning Thai Son Kwiatkowski to cluster 2
+	Assigning Yuichi Sugita to cluster 3
+	Assigning Marius Copil to cluster 2
+	Assigning John Millman to cluster 3
+	Assigning Dudi Sela to cluster 3
+	Assigning Thomas Fabbiano to cluster 1
+	Assigning Geoffrey Blancaneaux to cluster 3
+	Assigning Yen Hsun Lu to cluster 0
+	Assigning Norbert Gombos to cluster 1
+	Assigning Vasek Pospisil to cluster 2
+	Assigning Dmitry Tursunov to cluster 1
+	Assigning Marton Fucsovics to cluster 1
+	Assigning Thanasi Kokkinakis to cluster 3
+	Assigning Alex De Minaur to cluster 0
+	Assigning Ricardas Berankis to cluster 3
+	Assigning Alessandro Giannessi to cluster 3
+	Assigning Henri Laaksonen to cluster 3
+	Assigning Santiago Giraldo to cluster 2
+	Assigning Taro Daniel to cluster 0
+	Assigning Ruben Bemelmans to cluster 3
+	Assigning Ernests Gulbis to cluster 0
+	Assigning Vaclav Safranek to cluster 1
+	Assigning Andreas Haider Maurer to cluster 0
+	Assigning Blaz Kavcic to cluster 0
+	Assigning Jc Aragone to cluster 0
+	Assigning Evan King to cluster 0
+	Assigning Mikhail Kukushkin to cluster 0
+	Assigning Darian King to cluster 1
+	Assigning Denis Shapovalov to cluster 1
+	Assigning Leonardo Mayer to cluster 1
+	Assigning Stefano Travaglia to cluster 1
+	Assigning Maximilian Marterer to cluster 2
+	Assigning Cedrik Marcel Stebe to cluster 2
+	Assigning Francis Tiafoe to cluster 2
+	Assigning Tim Smyczek to cluster 2
+	Assigning Vincent Millot to cluster 2
+	Assigning Adrian Menendez Maceiras to cluster 2
+	Assigning Radu Albot to cluster 2
+	Assigning Lukas Lacko to cluster 2
+	Assigning Nicolas Mahut to cluster 3
+	Assigning Cameron Norrie to cluster 3
+	Assigning John Patrick Smith to cluster 3
+	Basic solution generated. Swapping
+Found a good swap between Andrey Rublev and Santiago Giraldo with delta=-1.0
+Found a good swap between Radu Albot and Santiago Giraldo with delta=-0.5
+Found a good swap between Tennys Sandgren and Ernesto Escobedo with delta=-3.0
+Found a good swap between Cedrik Marcel Stebe and Guido Pella with delta=-5.0
+Found a good swap between Alessandro Giannessi and Ernesto Escobedo with delta=-2.0
+Found a good swap between Alex De Minaur and Thomas Fabbiano with delta=-1.5
+Found a good swap between Mikhail Kukushkin and Alex De Minaur with delta=-2.0
+Found a good swap between Kyle Edmund and Ernesto Escobedo with delta=-3.0
+Found a good swap between Cameron Norrie and Thai Son Kwiatkowski with delta=-5.0
+Found a good swap between Thiago Monteiro and Carlos Berlocq with delta=-7.0
+Found a good swap between Cameron Norrie and Thomas Fabbiano with delta=-0.5
+Found a good swap between Alexandr Dolgopolov and Thiago Monteiro with delta=-3.5
+Found a good swap between Janko Tipsarevic and Taro Daniel with delta=-1.5
+Found a good swap between Darian King and Vasek Pospisil with delta=-0.5
+Found a good swap between Evan King and Damir Dzumhur with delta=-3.5
+Swaps executed in 1.862271s with a total delta of -39.5
+Greedy solution built in 1.8790482s has an O.F. of: 756.0
+CLUSTER 0------------------------
+	(0)		DEG=42.0(w:120.0)				Rafael Nadal  (Seeded as 1) 
+	(7)		DEG=33.0(w:123.0)				Richard Gasquet  (Seeded as 26) 
+	(9)		DEG=33.0(w:126.5)				Fabio Fognini  (Seeded as 22) 
+	(14)		DEG=34.0(w:105.5)				Tomas Berdych  (Seeded as 15) 
+	(16)		DEG=35.0(w:105.5)				David Goffin  (Seeded as 9) 
+	(20)		DEG=37.0(w:184.5)				Donald Young  
+	(22)		DEG=30.0(w:109.5)				Gael Monfils  (Seeded as 18) 
+	(24)		DEG=28.0(w:100.0)				Damir Dzumhur  
+	(25)		DEG=23.0(w:67.0)				Pablo Cuevas  (Seeded as 27) 
+	(29)		DEG=25.0(w:84.0)				Aljaz Bedene  
+	(30)		DEG=37.0(w:93.5)				Grigor Dimitrov  (Seeded as 7) 
+	(34)		DEG=28.0(w:128.0)				Mikhail Youzhny  
+	(35)		DEG=6.0(w:8.0)				Blaz Kavcic  
+	(44)		DEG=21.0(w:84.0)				Malek Jaziri  
+	(45)		DEG=19.0(w:81.0)				Thiago Monteiro  
+	(50)		DEG=27.0(w:101.5)				Dustin Brown  
+	(53)		DEG=14.0(w:70.0)				Patrick Kypson  
+	(63)		DEG=10.0(w:44.0)				Alex De Minaur  
+	(68)		DEG=0.0(w:0.0)				Radu Albot (Q)  
+	(70)		DEG=14.0(w:54.0)				Yen Hsun Lu  
+	(77)		DEG=30.0(w:138.0)				Horacio Zeballos  
+	(79)		DEG=25.0(w:126.0)				Pierre Hugues Herbert  
+	(80)		DEG=26.0(w:99.0)				Jordan Thompson  
+	(89)		DEG=0.0(w:0.0)				Jc Aragone (Q)  
+	(90)		DEG=7.0(w:21.5)				Ernests Gulbis  
+	(99)		DEG=34.0(w:126.0)				Daniil Medvedev  
+	(101)		DEG=26.0(w:108.0)				Nicolas Almagro  
+	(108)		DEG=0.0(w:0.0)				Cameron Norrie (Q)  
+	(114)		DEG=37.0(w:165.5)				Jared Donaldson  
+	(117)		DEG=4.0(w:15.5)				Andreas Haider Maurer  
+	(122)		DEG=23.0(w:93.0)				Janko Tipsarevic  
+	(127)		DEG=23.0(w:115.5)				Tennys Sandgren  
+Cluster 0 has a total of 32 players with 8 seeds.
+Avg degree:22 and wdegree:87
+
+CLUSTER 1------------------------
+	(3)		DEG=19.0(w:95.0)				Tommy Paul  
+	(6)		DEG=0.0(w:0.0)				Leonardo Mayer (LL)  
+	(8)		DEG=0.0(w:0.0)				Stefano Travaglia (Q)  
+	(11)		DEG=18.0(w:51.0)				Norbert Gombos  
+	(17)		DEG=22.0(w:111.0)				Julien Benneteau  
+	(19)		DEG=25.0(w:90.5)				Steve Darcis  
+	(31)		DEG=5.0(w:20.5)				Vaclav Safranek  
+	(32)		DEG=17.0(w:36.0)				Roger Federer  (Seeded as 3) 
+	(36)		DEG=31.0(w:134.5)				Fernando Verdasco  
+	(37)		DEG=16.0(w:51.0)				Vasek Pospisil  
+	(38)		DEG=33.0(w:154.5)				Feliciano Lopez  (Seeded as 31) 
+	(39)		DEG=30.0(w:138.0)				Andrey Kuznetsov  
+	(40)		DEG=38.0(w:132.0)				Philipp Kohlschreiber  (Seeded as 33) 
+	(47)		DEG=34.0(w:113.0)				Nick Kyrgios  (Seeded as 14) 
+	(48)		DEG=45.0(w:133.5)				Roberto Bautista Agut  (Seeded as 11) 
+	(51)		DEG=25.0(w:94.0)				Thomaz Bellucci  
+	(54)		DEG=23.0(w:102.5)				Juan Martin Del Potro  (Seeded as 24) 
+	(56)		DEG=41.0(w:183.5)				Adrian Mannarino  (Seeded as 30) 
+	(62)		DEG=38.0(w:100.0)				Dominic Thiem  (Seeded as 6) 
+	(67)		DEG=15.0(w:78.0)				Christopher Eubanks  
+	(84)		DEG=36.0(w:131.5)				Paolo Lorenzi  
+	(85)		DEG=34.0(w:132.5)				Joao Sousa  
+	(91)		DEG=7.0(w:40.0)				Alessandro Giannessi  
+	(92)		DEG=28.0(w:120.0)				Borna Coric  
+	(98)		DEG=0.0(w:0.0)				Denis Shapovalov (Q)  
+	(100)		DEG=39.0(w:152.5)				Steve Johnson  
+	(107)		DEG=15.0(w:45.5)				Marton Fucsovics  
+	(109)		DEG=10.0(w:47.0)				Dmitry Tursunov  
+	(111)		DEG=0.0(w:0.0)				Evan King (Q)  
+	(118)		DEG=0.0(w:0.0)				Mikhail Kukushkin (Q)  
+	(121)		DEG=24.0(w:110.0)				Carlos Berlocq  
+	(124)		DEG=26.0(w:111.0)				Florian Mayer  
+Cluster 1 has a total of 32 players with 8 seeds.
+Avg degree:21 and wdegree:84
+
+CLUSTER 2------------------------
+	(2)		DEG=10.0(w:35.0)				Taro Daniel  
+	(12)		DEG=24.0(w:101.0)				Alexandr Dolgopolov  
+	(18)		DEG=20.0(w:90.5)				Guido Pella  
+	(21)		DEG=0.0(w:0.0)				Maximilian Marterer (Q)  
+	(23)		DEG=29.0(w:122.0)				Jeremy Chardy  
+	(28)		DEG=26.0(w:100.0)				Andrey Rublev  
+	(33)		DEG=0.0(w:0.0)				Francis Tiafoe (Q)  
+	(41)		DEG=0.0(w:0.0)				Tim Smyczek (Q)  
+	(42)		DEG=8.0(w:36.0)				Santiago Giraldo  
+	(43)		DEG=0.0(w:0.0)				Vincent Millot (Q)  
+	(52)		DEG=0.0(w:0.0)				Adrian Menendez Maceiras (Q)  
+	(59)		DEG=26.0(w:90.0)				Ivo Karlovic  
+	(61)		DEG=24.0(w:88.5)				Marcos Baghdatis  
+	(64)		DEG=40.0(w:149.5)				Sam Querrey  (Seeded as 17) 
+	(65)		DEG=28.0(w:151.5)				Gilles Simon  
+	(69)		DEG=26.0(w:127.0)				Ernesto Escobedo  
+	(71)		DEG=39.0(w:166.0)				Karen Khachanov  (Seeded as 25) 
+	(72)		DEG=35.0(w:152.5)				Mischa Zverev  (Seeded as 23) 
+	(74)		DEG=47.0(w:191.0)				Benoit Paire  
+	(75)		DEG=0.0(w:0.0)				Lukas Lacko (LL)  
+	(78)		DEG=40.0(w:165.0)				John Isner  (Seeded as 10) 
+	(81)		DEG=42.0(w:157.5)				Jack Sock  (Seeded as 13) 
+	(82)		DEG=16.0(w:56.5)				Thomas Fabbiano  
+	(86)		DEG=34.0(w:97.0)				Gilles Muller  (Seeded as 19) 
+	(87)		DEG=24.0(w:111.0)				Bernard Tomic  
+	(88)		DEG=34.0(w:113.0)				Kevin Anderson  (Seeded as 28) 
+	(94)		DEG=39.0(w:128.5)				Alexander Zverev  (Seeded as 4) 
+	(95)		DEG=0.0(w:0.0)				Darian King (Q)  
+	(97)		DEG=20.0(w:61.5)				Marius Copil  
+	(105)		DEG=17.0(w:70.5)				Denis Istomin  
+	(116)		DEG=21.0(w:93.5)				Evgeny Donskoy  
+	(125)		DEG=18.0(w:85.0)				Rogerio Dutra Silva  
+Cluster 2 has a total of 32 players with 8 seeds.
+Avg degree:21 and wdegree:85
+
+CLUSTER 3------------------------
+	(1)		DEG=25.0(w:94.0)				Dusan Lajovic  
+	(4)		DEG=23.0(w:65.5)				Yuichi Sugita  
+	(5)		DEG=10.0(w:55.0)				Geoffrey Blancaneaux  
+	(10)		DEG=32.0(w:127.0)				Viktor Troicki  
+	(13)		DEG=36.0(w:144.0)				Jan Lennard Struff  
+	(15)		DEG=37.0(w:172.5)				Ryan Harrison  
+	(26)		DEG=0.0(w:0.0)				Cedrik Marcel Stebe (Q)  
+	(27)		DEG=22.0(w:72.0)				Nicolas Kicker  
+	(46)		DEG=13.0(w:61.0)				John Millman  
+	(49)		DEG=26.0(w:102.0)				Andreas Seppi  
+	(55)		DEG=16.0(w:40.0)				Henri Laaksonen  
+	(57)		DEG=11.0(w:41.5)				Ricardas Berankis  
+	(58)		DEG=29.0(w:129.0)				Bjorn Fratangelo  
+	(60)		DEG=29.0(w:137.0)				Taylor Harry Fritz  
+	(66)		DEG=21.0(w:60.5)				Dudi Sela  
+	(73)		DEG=14.0(w:70.0)				Thai Son Kwiatkowski  
+	(76)		DEG=24.0(w:72.0)				Hyeon Chung  
+	(83)		DEG=0.0(w:0.0)				John Patrick Smith (Q)  
+	(93)		DEG=24.0(w:91.0)				Jiri Vesely  
+	(96)		DEG=34.0(w:113.0)				Jo Wilfried Tsonga  (Seeded as 8) 
+	(102)		DEG=34.0(w:117.0)				Kyle Edmund  
+	(103)		DEG=29.0(w:122.5)				Robin Haase  (Seeded as 32) 
+	(104)		DEG=39.0(w:139.5)				Albert Ramos  (Seeded as 20) 
+	(106)		DEG=0.0(w:0.0)				Nicolas Mahut (Q)  
+	(110)		DEG=33.0(w:131.0)				Pablo Carreno Busta  (Seeded as 12) 
+	(112)		DEG=36.0(w:149.5)				Lucas Pouille  (Seeded as 16) 
+	(113)		DEG=12.0(w:32.5)				Ruben Bemelmans  
+	(115)		DEG=36.0(w:153.5)				Nikoloz Basilashvili  
+	(119)		DEG=39.0(w:145.0)				David Ferrer  (Seeded as 21) 
+	(120)		DEG=35.0(w:134.0)				Diego Sebastian Schwartzman  (Seeded as 29) 
+	(123)		DEG=11.0(w:45.0)				Thanasi Kokkinakis  
+	(126)		DEG=34.0(w:94.0)				Marin Cilic  (Seeded as 5) 
+Cluster 3 has a total of 32 players with 8 seeds.
+Avg degree:23 and wdegree:90
+
+Time elapsed:3.4064298s
+Using CPLEX to compute a solution.
+Testing CPLEX with same time used by GREEDY.
+Found incumbent of value 1609.000000 after 0.00 sec. (0.09 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 32 rows and 128 columns.
+MIP Presolve added 4456 rows and 2228 columns.
+Reduced MIP has 4556 rows, 2612 columns, and 9680 nonzeros.
+Reduced MIP has 2612 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (1.36 ticks)
+Probing time = 0.00 sec. (1.03 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 2228 rows and 0 columns.
+Reduced MIP has 2328 rows, 2612 columns, and 7452 nonzeros.
+Reduced MIP has 2612 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (4.56 ticks)
+Probing time = 0.00 sec. (0.89 ticks)
+Clique table members: 96.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 4 threads.
+Root relaxation solution time = 0.01 sec. (8.61 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                         1609.0000      165.5000            89.71%
+*     0+    0                         1055.0000      165.5000            84.31%
+      0     0      467.2500   154     1055.0000      467.2500      222   55.71%
+      0     0      493.7500   166     1055.0000     Cuts: 216      422   53.20%
+*     0+    0                         1049.5000      493.7500            52.95%
+      0     0      509.5000   168     1049.5000     Cuts: 195      638   51.45%
+      0     0      516.1562   206     1049.5000 ZeroHalf: 165      789   50.82%
+*     0+    0                         1001.5000      516.1562            48.46%
+      0     0      524.9318   206     1001.5000     Cuts: 203      958   47.59%
+*     0+    0                          875.0000      524.9318            40.01%
+      0     0      533.4375   209      875.0000 ZeroHalf: 206     1175   39.04%
+      0     0      539.6875   253      875.0000 ZeroHalf: 232     1473   38.32%
+      0     0      546.6159   298      875.0000 ZeroHalf: 165     1697   37.53%
+      0     0      558.4222   299      875.0000 ZeroHalf: 137     2067   36.18%
+*     0+    0                          854.0000      558.4222            34.61%
+      0     0      565.1009   302      854.0000  ZeroHalf: 96     2319   33.83%
+      0     0      569.7390   315      854.0000  ZeroHalf: 86     2598   33.29%
+      0     0      574.8688   312      854.0000  ZeroHalf: 61     2843   32.69%
+      0     0      578.8485   317      854.0000 ZeroHalf: 105     3035   32.22%
+*     0+    0                          843.0000      578.8485            31.33%
+      0     0      582.6938   320      843.0000  ZeroHalf: 66     3297   30.88%
+      0     0      587.9082   323      843.0000  ZeroHalf: 86     3586   30.26%
+*     0+    0                          820.5000      587.9082            28.35%
+
+Zero-half cuts applied:  195
+Gomory fractional cuts applied:  5
+
+Root node processing (before b&c):
+  Real time             =    1.89 sec. (958.28 ticks)
+Parallel b&c, 4 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    1.89 sec. (958.28 ticks)
+CPLEX found in 1.8790482 a solution with O.F.820.5
+Found incumbent of value 1310.000000 after 0.00 sec. (0.09 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 32 rows and 128 columns.
+MIP Presolve added 4456 rows and 2228 columns.
+Reduced MIP has 4556 rows, 2612 columns, and 9680 nonzeros.
+Reduced MIP has 2612 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (1.31 ticks)
+Probing time = 0.00 sec. (1.03 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 2228 rows and 0 columns.
+Reduced MIP has 2328 rows, 2612 columns, and 7452 nonzeros.
+Reduced MIP has 2612 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (4.49 ticks)
+Probing time = 0.00 sec. (0.89 ticks)
+Clique table members: 96.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 4 threads.
+Root relaxation solution time = 0.01 sec. (9.32 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                         1310.0000      165.5000            87.37%
+*     0+    0                         1043.5000      165.5000            84.14%
+      0     0      467.2500   154     1043.5000      467.2500      276   55.22%
+      0     0      496.7500   168     1043.5000     Cuts: 193      625   52.40%
+      0     0      511.8750   195     1043.5000     Cuts: 188      880   50.95%
+*     0+    0                         1023.5000      511.8750            49.99%
+      0     0      526.2500   203     1023.5000 ZeroHalf: 199     1110   48.58%
+*     0+    0                          899.5000      526.2500            41.50%
+      0     0      536.7500   235      899.5000 ZeroHalf: 259     1334   40.33%
+      0     0      544.9836   281      899.5000 ZeroHalf: 203     1554   39.41%
+*     0+    0                          893.0000      544.9836            38.97%
+*     0+    0                          853.5000      544.9836            36.15%
+      0     0      559.6204   287      853.5000 ZeroHalf: 218     1946   34.43%
+      0     0      568.6333   304      853.5000  ZeroHalf: 99     2267   33.38%
+*     0+    0                          849.0000      568.6333            33.02%
+      0     0      576.0947   315      849.0000 ZeroHalf: 142     2564   32.14%
+      0     0      579.6250   323      849.0000 ZeroHalf: 133     2910   31.73%
+*     0+    0                          789.0000      579.6250            26.54%
+      0     0      582.1990   319      789.0000  ZeroHalf: 43     3146   26.21%
+      0     0      583.9055   320      789.0000  ZeroHalf: 64     3374   25.99%
+*     0+    0                          787.5000      583.9055            25.85%
+*     0+    0                          787.0000      583.9055            25.81%
+      0     0      585.0610   322      787.0000  ZeroHalf: 51     3522   25.66%
+      0     0      585.4933   328      787.0000  ZeroHalf: 50     3647   25.60%
+      0     0      586.9995   316      787.0000  ZeroHalf: 26     3894   25.41%
+      0     0      588.8213   319      787.0000  ZeroHalf: 61     4172   25.18%
+*     0+    0                          779.0000      588.8213            24.41%
+      0     0      590.0766   330      779.0000  ZeroHalf: 50     4430   24.25%
+*     0+    0                          770.5000      590.0766            23.42%
+*     0+    0                          760.5000      590.0766            22.41%
+*     0+    0                          755.5000      590.0766            21.90%
+      0     0      590.5387   334      755.5000  ZeroHalf: 23     4526   21.83%
+      0     0      591.5016   331      755.5000  ZeroHalf: 37     4717   21.71%
+      0     0      592.3917   339      755.5000  ZeroHalf: 44     4896   21.59%
+      0     0      593.0220   338      755.5000  ZeroHalf: 32     5064   21.51%
+      0     0      594.2617   338      755.5000  ZeroHalf: 45     5272   21.34%
+      0     0      595.1924   329      755.5000  ZeroHalf: 39     5447   21.22%
+      0     0      596.3398   337      755.5000  ZeroHalf: 41     5608   21.07%
+      0     0      596.8377   339      755.5000  ZeroHalf: 31     5743   21.00%
+      0     0      598.2018   338      755.5000  ZeroHalf: 26     5951   20.82%
+      0     0      598.8804   341      755.5000  ZeroHalf: 49     6146   20.73%
+      0     0      599.3001   341      755.5000  ZeroHalf: 16     6275   20.68%
+      0     0      599.8045   342      755.5000  ZeroHalf: 32     6461   20.61%
+      0     0      601.0424   347      755.5000  ZeroHalf: 38     6721   20.44%
+      0     0      601.4388   350      755.5000  ZeroHalf: 33     6860   20.39%
+      0     0      602.5388   346      755.5000  ZeroHalf: 18     7102   20.25%
+      0     0      602.9733   340      755.5000  ZeroHalf: 32     7228   20.19%
+      0     0      603.1457   351      755.5000  ZeroHalf: 20     7297   20.17%
+      0     0      603.8621   346      755.5000  ZeroHalf: 15     7419   20.07%
+      0     0      604.0644   347      755.5000  ZeroHalf: 42     7508   20.04%
+*     0+    0                          751.5000      604.0644            19.62%
+      0     2      604.0644   347      751.5000      604.0644     7508   19.62%
+Elapsed time = 4.72 sec. (2559.80 ticks, tree = 0.01 MB, solutions = 15)
+     14    13      642.2626   324      751.5000      604.0681    11099   19.62%
+     39    39      684.3750   195      751.5000      604.8073    20521   19.52%
+     62    63      721.7235   258      751.5000      609.1604    29655   18.94%
+    120    91      647.8307   333      751.5000      609.1604    34995   18.94%
+    153   121      658.9459   363      751.5000      613.6426    42909   18.34%
+    198   169      742.7955   269      751.5000      613.6426    53009   18.34%
+    251   197      749.5000   184      751.5000      618.7338    59269   17.67%
+    289   230      661.1906   335      751.5000      621.0828    71038   17.35%
+    334   276      681.7250   230      751.5000      621.0828    78936   17.35%
+    555   412      644.3458   368      751.5000      624.2202   111793   16.94%
+Elapsed time = 8.87 sec. (5686.30 ticks, tree = 5.68 MB, solutions = 15)
+    793   662      734.1250   243      751.5000      625.9814   148452   16.70%
+   1034   831      676.5522   357      751.5000      627.8325   177477   16.46%
+*  1214+  697                          747.0000      629.8475            15.68%
+   1214   698      621.1615   398      747.0000      629.8475   212545   15.68%
+   1222   584      642.3244   381      747.0000      629.8475   215457   15.68%
+   1262    85      632.9329   376      747.0000      629.8475   227397   15.68%
+   1389   155      682.4004   328      747.0000      629.8475   252037   15.68%
+   1575   312      736.6250   205      747.0000      629.8475   267358   15.68%
+   1742   419      682.0725   372      747.0000      629.8475   288559   15.68%
+   2043   693      674.8750   343      747.0000      635.2889   317756   14.95%
+   2294   946      697.4142   343      747.0000      638.2534   344333   14.56%
+Elapsed time = 31.35 sec. (20666.97 ticks, tree = 23.96 MB, solutions = 16)
+   2525  1140      700.9943   340      747.0000      639.2988   363932   14.42%
+   2726  1328      718.1042   324      747.0000      639.5234   392400   14.39%
+   2905  1483      716.6786   314      747.0000      641.6695   411577   14.10%
+   3117  1653      655.8783   415      747.0000      642.0234   433030   14.05%
+*  3207+ 1758                          731.5000      642.2635            12.20%
+   3296  1609      710.2472   353      731.5000      642.2763   459913   12.20%
+*  3320+ 1633                          731.0000      642.7833            12.07%
+   3396  1672      712.1694   341      731.0000      642.7833   477273   12.07%
+   3560  1795      696.6775   361      730.5000      645.0458   504220   11.70%
+   3702  1914      661.8373   412      730.5000      647.0701   523569   11.42%
+   3821  2019      660.1680   408      730.5000      647.6983   543434   11.33%
+*  3866+ 2027                          729.5000      648.0235            11.17%
+   3948  2102      714.1507   360      729.5000      648.1739   567512   11.15%
+Elapsed time = 45.09 sec. (30273.43 ticks, tree = 47.56 MB, solutions = 20)
+   4035  2179      712.1011   340      729.5000      649.2124   588292   11.01%
+   4212  2297      686.2314   392      729.5000      649.7575   610632   10.93%
+*  4305  2357      integral     0      725.5000      650.2930   622178   10.37%
+*  4307+ 2258                          725.0000      650.3255            10.30%
+   4373  2284      709.0964   339      725.0000      650.4371   637532   10.28%
+   4481  2351        cutoff            725.0000      651.4103   654870   10.15%
+   4585  2444      723.2391   343      725.0000      652.0320   682155   10.06%
+   4708  2527      722.3426   331      725.0000      652.1192   701190   10.05%
+   4843  2598      712.5785   348      725.0000      652.9438   716846    9.94%
+   4954  2740      724.3227   338      725.0000      653.2991   747653    9.89%
+   5097  2793      680.2377   381      725.0000      653.4533   759368    9.87%
+*  5143+ 2843                          723.5000      653.8071             9.63%
+   5184  2867      667.3489   419      723.5000      654.0128   782953    9.60%
+Elapsed time = 58.16 sec. (39886.48 ticks, tree = 68.93 MB, solutions = 23)
+   5298  2862      680.1793   385      723.5000      654.3982   807673    9.55%
+   5415  2972      714.4300   364      723.5000      654.7220   833730    9.51%
+   5539  3021      710.0262   392      723.5000      655.0942   846134    9.45%
+   5654  3134      721.8160   309      723.5000      655.5427   876894    9.39%
+   5794  3207        cutoff            723.5000      655.7032   896374    9.37%
+   5884  3337      670.9773   428      723.5000      655.9083   929806    9.34%
+   5978  3408      722.6429   360      723.5000      656.2018   945267    9.30%
+   6107  3448      684.2341   393      723.5000      656.5865   959059    9.25%
+   6224  3552      709.4176   358      723.5000      657.1536   984082    9.17%
+   6333  3605      716.7054   366      723.5000      657.3239  1004775    9.15%
+Elapsed time = 69.85 sec. (49486.38 ticks, tree = 83.93 MB, solutions = 23)
+   6420  3743      691.0208   412      723.5000      657.3980  1043146    9.14%
+   6552  3789      712.1379   361      723.5000      657.6885  1052571    9.10%
+   6678  3898        cutoff            723.5000      658.0392  1087541    9.05%
+   6789  3982      707.6092   365      723.5000      658.3875  1108282    9.00%
+   6894  4078      680.4469   396      723.5000      658.6175  1141284    8.97%
+   7010  4113      713.7166   370      723.5000      659.0281  1146891    8.91%
+   7138  4241      717.7203   359      723.5000      659.1099  1179381    8.90%
+*  7284+ 4338                          716.5000      659.5685             7.95%
+   7288  4284      718.5575   415      716.5000      659.5685  1195962    7.95%
+   7403  3759      691.7014   402      716.5000      659.9394  1219990    7.89%
+   7510  3847      706.2319   366      716.5000      660.3771  1257098    7.83%
+Elapsed time = 82.16 sec. (59077.34 ticks, tree = 92.85 MB, solutions = 24)
+   7622  3972      712.8411   354      716.5000      660.7657  1293935    7.78%
+   7740  4045        cutoff            716.5000      661.0233  1316454    7.74%
+   7807  4052      678.2070   405      716.5000      661.1695  1319592    7.72%
+   7872  4137      706.2636   354      716.5000      661.5036  1343643    7.68%
+   8015  4178      710.9792   359      716.5000      661.6368  1358509    7.66%
+   8134  4330      709.4784   374      716.5000      661.8391  1397285    7.63%
+*  8148  4266      integral     0      714.0000      661.8391  1383025    7.31%
+   8249  4100        cutoff            714.0000      662.1790  1413988    7.26%
+   8357  4192      712.6231   358      714.0000      662.4932  1446460    7.21%
+   8449  4231      680.1501   395      714.0000      663.2291  1460038    7.11%
+   8550  4272      684.3374   376      714.0000      663.2291  1472125    7.11%
+Elapsed time = 94.94 sec. (68737.74 ticks, tree = 99.53 MB, solutions = 25)
+   8662  4372      701.5812   405      714.0000      663.5402  1500722    7.07%
+   8771  4454      697.4135   413      714.0000      663.7188  1532551    7.04%
+   8884  4442      688.6642   417      714.0000      663.7188  1530317    7.04%
+   8993  4576      697.7237   382      714.0000      664.3861  1572547    6.95%
+   9115  4709      696.4679   346      714.0000      664.6272  1616719    6.91%
+*  9210+ 4723                          712.5000      664.6272             6.72%
+   9238  4708      687.2841   400      712.5000      664.6272  1613378    6.72%
+   9351  4674        cutoff            712.5000      664.9765  1652717    6.67%
+   9462  4732      684.6826   398      712.5000      665.4017  1671518    6.61%
+   9559  4790      700.6276   402      712.5000      665.5704  1694732    6.59%
+   9692  4851      689.1023   412      712.5000      665.8120  1722753    6.55%
+Elapsed time = 108.98 sec. (78362.94 ticks, tree = 113.22 MB, solutions = 26)
+   9798  4888      700.1683   403      712.5000      665.8264  1736957    6.55%
+   9871  4962        cutoff            712.5000      666.2508  1754413    6.49%
+   9955  5080      692.5065   410      712.5000      666.6268  1793719    6.44%
+  10045  5120      692.8726   400      712.5000      666.8155  1805060    6.41%
+  10145  5135      694.8418   400      712.5000      667.1360  1812648    6.37%
+  10269  5226      710.3192   408      712.5000      667.1699  1841854    6.36%
+  10367  5318      703.2815   392      712.5000      667.4380  1882763    6.32%
+  10493  5335      707.7284   395      712.5000      667.5402  1889329    6.31%
+  10592  5391      708.6114   396      712.5000      667.7733  1907807    6.28%
+  10697  5452      687.6229   405      712.5000      667.8742  1933658    6.26%
+Elapsed time = 120.74 sec. (88032.91 ticks, tree = 130.61 MB, solutions = 26)
+  10770  5554      701.6525   421      712.5000      668.2417  1971155    6.21%
+  10869  5582      676.3295   414      712.5000      668.4606  1980805    6.18%
+  10967  5662      684.2149   403      712.5000      668.5979  2015428    6.16%
+  11064  5680      699.0916   378      712.5000      668.8350  2021226    6.13%
+  11168  5780      695.1041   400      712.5000      669.1026  2067922    6.09%
+  11288  5814      708.2129   375      712.5000      669.4328  2081279    6.04%
+  11404  5882      696.5507   384      712.5000      669.6165  2107312    6.02%
+  11506  5913      680.5076   414      712.5000      669.7294  2120147    6.00%
+  11611  5949        cutoff            712.5000      669.9527  2134928    5.97%
+  12066  6241      710.1409   370      712.5000      671.0068  2263157    5.82%
+Elapsed time = 137.76 sec. (100482.57 ticks, tree = 148.94 MB, solutions = 26)
+  12455  6504        cutoff            712.5000      671.8273  2357255    5.71%
+  12896  6666      688.8452   400      712.5000      672.2735  2421552    5.65%
+  13392  6956      708.4753   368      712.5000      673.2814  2528282    5.50%
+  13804  7233      705.8931   391      712.5000      673.9583  2635234    5.41%
+  14207  7405      703.7497   401      712.5000      674.5882  2714063    5.32%
+  14629  7647      706.6973   400      712.5000      675.3075  2819588    5.22%
+  15047  7764      690.4188   427      712.5000      676.0067  2877005    5.12%
+  15405  7991      706.4368   415      712.5000      676.4898  2977555    5.05%
+  15816  8226      696.5626   381      712.5000      676.8352  3073949    5.01%
+  16186  8423      696.3371   400      712.5000      677.2442  3174980    4.95%
+Elapsed time = 188.31 sec. (138761.58 ticks, tree = 204.82 MB, solutions = 26)
+  16619  8682        cutoff            712.5000      677.7921  3279617    4.87%
+  16995  8770      694.5968   412      712.5000      678.1611  3325553    4.82%
+  17416  9002      706.6810   415      712.5000      678.4964  3448267    4.77%
+  17844  9262      698.8140   399      712.5000      679.0341  3565238    4.70%
+  18212  9437      694.4170   412      712.5000      679.6704  3645892    4.61%
+  18573  9611      704.4380   410      712.5000      680.0470  3730334    4.55%
+  18984  9749      707.1415   401      712.5000      680.2949  3793624    4.52%
+  19441  9961      708.6084   390      712.5000      680.6198  3898676    4.47%
+  19843 10127      712.6663   412      712.5000      680.9403  3970418    4.43%
+  20265 10270      700.9386   425      712.5000      681.3133  4036746    4.38%
+Elapsed time = 236.29 sec. (176980.87 ticks, tree = 257.04 MB, solutions = 26)
+  20742 10489      692.4363   434      712.5000      681.6922  4151051    4.32%
+  21160 10782      697.6145   412      712.5000      682.0767  4275751    4.27%
+  21540 10914      687.6347   410      712.5000      682.3328  4339687    4.23%
+  21881 11099      704.1924   417      712.5000      682.8071  4450344    4.17%
+  22340 11277        cutoff            712.5000      683.0880  4535632    4.13%
+  22811 11389      706.9361   404      712.5000      683.4196  4579558    4.08%
+  23213 11701      698.6133   418      712.5000      683.6924  4738880    4.04%
+  23698 11887      710.9707   360      712.5000      684.0359  4843430    3.99%
+  24152 12013        cutoff            712.5000      684.3636  4906628    3.95%
+* 24354+12217                          712.0000      684.6240             3.84%
+* 24357+12217                          711.0000      684.6240             3.71%
+  24604 12194      708.5597   400      711.0000      684.7170  5007485    3.70%
+Elapsed time = 286.16 sec. (215209.77 ticks, tree = 307.70 MB, solutions = 28)
+  24998 11995        cutoff            711.0000      685.0911  5083349    3.64%
+  25464 12240      698.4264   409      711.0000      685.4229  5245929    3.60%
+  25858 12301      707.1739   428      711.0000      685.7812  5283229    3.55%
+  26190 12525      709.3904   373      711.0000      686.1836  5419228    3.49%
+  26546 12553      699.4802   396      711.0000      686.4880  5459237    3.45%
+  27037 12738      700.9656   389      711.0000      686.7766  5603155    3.41%
+  27512 12820      708.0405   356      711.0000      687.0397  5661858    3.37%
+  27920 12963        cutoff            711.0000      687.2818  5745019    3.34%
+  28389 13182      705.3567   389      711.0000      687.5884  5909257    3.29%
+  28863 13243      708.0807   382      711.0000      687.9592  5952245    3.24%
+Elapsed time = 331.25 sec. (253418.86 ticks, tree = 340.13 MB, solutions = 28)
+  29325 13388        cutoff            711.0000      688.1613  6053199    3.21%
+  29688 13578        cutoff            711.0000      688.4637  6194753    3.17%
+  30083 13664      706.4889   404      711.0000      688.7589  6248984    3.13%
+  30551 13834      705.6886   394      711.0000      689.1004  6373101    3.08%
+  31024 13974      708.3328   390      711.0000      689.3838  6473471    3.04%
+  31432 14098      709.8096   400      711.0000      689.6102  6580053    3.01%
+  31893 14187      707.3512   406      711.0000      689.9513  6682871    2.96%
+* 32206 14231      integral     0      710.5000      690.0270  6713126    2.88%
+  32406 14116      707.1309   390      710.5000      690.2054  6745736    2.86%
+  32894 14198      708.4775   373      710.5000      690.4487  6813907    2.82%
+  33337 14315      705.9474   376      710.5000      690.6471  6927075    2.79%
+Elapsed time = 379.82 sec. (291615.03 ticks, tree = 367.01 MB, solutions = 29)
+  33779 14423      709.5466   380      710.5000      690.9171  7035334    2.76%
+  34271 14478      705.4050   371      710.5000      691.1258  7103974    2.73%
+  34680 14599        cutoff            710.5000      691.4639  7223387    2.68%
+  35113 14704        cutoff            710.5000      691.6038  7312156    2.66%
+  35621 14746        cutoff            710.5000      691.8625  7344639    2.62%
+  36121 14894        cutoff            710.5000      692.1638  7519716    2.58%
+  36604 15000      707.6891   372      710.5000      692.3962  7621722    2.55%
+  37025 15054      706.4599   380      710.5000      692.5674  7723657    2.52%
+  37506 15078      707.0989   372      710.5000      692.8644  7758407    2.48%
+  38026 15173      707.5105   408      710.5000      693.1221  7900799    2.45%
+Elapsed time = 432.33 sec. (329830.12 ticks, tree = 387.08 MB, solutions = 29)
+  38506 15215        cutoff            710.5000      693.3986  7959263    2.41%
+  38973 15295        cutoff            710.5000      693.5095  8054574    2.39%
+  39439 15358        cutoff            710.5000      693.7796  8171618    2.35%
+  39834 15389      708.8943   384      710.5000      694.0352  8235230    2.32%
+  40284 15453      700.3346   380      710.5000      694.2756  8346072    2.28%
+  40747 15488      702.1041   397      710.5000      694.4496  8447473    2.26%
+  41288 15490      702.2088   405      710.5000      694.6077  8509792    2.24%
+  41753 15521        cutoff            710.5000      694.8547  8611849    2.20%
+  42192 15540      708.5751   383      710.5000      695.0345  8712117    2.18%
+  42694 15555        cutoff            710.5000      695.2462  8791589    2.15%
+Elapsed time = 488.09 sec. (368051.14 ticks, tree = 386.75 MB, solutions = 29)
+  43206 15565        cutoff            710.5000      695.5153  8897426    2.11%
+  43698 15542        cutoff            710.5000      695.7410  9038168    2.08%
+  44123 15556        cutoff            710.5000      695.9430  9102168    2.05%
+  44638 15519      703.8299   392      710.5000      696.0285  9233597    2.04%
+  45142 15506        cutoff            710.5000      696.2878  9297344    2.00%
+  45525 15509        cutoff            710.5000      696.5466  9393995    1.96%
+  46012 15494        cutoff            710.5000      696.7269  9466204    1.94%
+  46565 15462      709.6301   403      710.5000      696.9014  9518432    1.91%
+  47052 15421        cutoff            710.5000      697.1597  9663662    1.88%
+  47464 15387      707.8473   410      710.5000      697.3357  9751042    1.85%
+Elapsed time = 545.21 sec. (406275.82 ticks, tree = 380.64 MB, solutions = 29)
+  47967 15322      705.3210   389      710.5000      697.5000  9858675    1.83%
+  48517 15242        cutoff            710.5000      697.7446  9960564    1.80%
+  49034 15193      709.1333   312      710.5000      697.9453 10025634    1.77%
+  49541 15098        cutoff            710.5000      698.0684 10140867    1.75%
+  50037 15048      706.0642   394      710.5000      698.2684 10210732    1.72%
+  50576 14938      707.4623   398      710.5000      698.4869 10320074    1.69%
+  51085 14860      708.2858   385      710.5000      698.6364 10406467    1.67%
+  51490 14725        cutoff            710.5000      698.8552 10525063    1.64%
+  51941 14660        cutoff            710.5000      699.0760 10586644    1.61%
+  52493 14562      706.0429   412      710.5000      699.3277 10683538    1.57%
+Elapsed time = 599.25 sec. (444490.61 ticks, tree = 354.41 MB, solutions = 29)
+  53032 14247      704.4893   377      710.5000      699.5873 10844765    1.54%
+  53519 14076        cutoff            710.5000      699.7974 10956549    1.51%
+  53993 14017        cutoff            710.5000      699.8979 10979720    1.49%
+  54584 13728        cutoff            710.5000      700.0833 11120542    1.47%
+  55173 13550      705.2635   406      710.5000      700.3630 11183434    1.43%
+  55680 13387        cutoff            710.5000      700.5059 11258045    1.41%
+  56200 13085        cutoff            710.5000      700.7384 11392390    1.37%
+  56810 13004        cutoff            710.5000      700.9557 11428926    1.34%
+  57395 12527        cutoff            710.5000      701.2194 11594085    1.31%
+  57916 12274      708.9443   383      710.5000      701.4874 11667580    1.27%
+Elapsed time = 658.05 sec. (482750.95 ticks, tree = 297.81 MB, solutions = 29)
+  58383 11972        cutoff            710.5000      701.7533 11770233    1.23%
+  58927 11671        cutoff            710.5000      701.9759 11858599    1.20%
+  59553 11426      704.7879   406      710.5000      702.2147 11912384    1.17%
+  60156 11158      707.9362   400      710.5000      702.4887 11970351    1.13%
+  60766 10816      707.6715   396      710.5000      702.7325 12054500    1.09%
+  61460  9997        cutoff            710.5000      703.1678 12233126    1.03%
+  62156  9622        cutoff            710.5000      703.4348 12294384    0.99%
+  62847  9213        cutoff            710.5000      703.7992 12364755    0.94%
+  63625  8440        cutoff            710.5000      704.1854 12474072    0.89%
+  64395  7800        cutoff            710.5000      704.5243 12562517    0.84%
+Elapsed time = 713.92 sec. (520943.14 ticks, tree = 185.60 MB, solutions = 29)
+  65259  7197        cutoff            710.5000      704.9066 12634651    0.79%
+  66187  6404      709.2167   387      710.5000      705.3228 12707878    0.73%
+  67209  5573        cutoff            710.5000      705.7543 12770409    0.67%
+  68320  4556        cutoff            710.5000      706.3209 12832548    0.59%
+  69520  3231        cutoff            710.5000      706.9464 12891842    0.50%
+  70888  1983        cutoff            710.5000      707.6765 12934197    0.40%
+
+Zero-half cuts applied:  990
+Lift and project cuts applied:  184
+Gomory fractional cuts applied:  4
+
+Root node processing (before b&c):
+  Real time             =    4.72 sec. (2557.75 ticks)
+Parallel b&c, 4 threads:
+  Real time             =  760.26 sec. (544938.40 ticks)
+  Sync time (average)   =   24.35 sec.
+  Wait time (average)   =    0.01 sec.
+                          ------------
+Total (root+branch&cut) =  764.99 sec. (547496.14 ticks)
+CPLEX solution status: Optimal
+CLUSTER 0------------------------
+	(0)		DEG=42.0(w:120.0)				Rafael Nadal  (Seeded as 1) 
+	(7)		DEG=33.0(w:123.0)				Richard Gasquet  (Seeded as 26) 
+	(9)		DEG=33.0(w:126.5)				Fabio Fognini  (Seeded as 22) 
+	(14)		DEG=34.0(w:105.5)				Tomas Berdych  (Seeded as 15) 
+	(16)		DEG=35.0(w:105.5)				David Goffin  (Seeded as 9) 
+	(20)		DEG=37.0(w:184.5)				Donald Young  
+	(22)		DEG=30.0(w:109.5)				Gael Monfils  (Seeded as 18) 
+	(24)		DEG=28.0(w:100.0)				Damir Dzumhur  
+	(25)		DEG=23.0(w:67.0)				Pablo Cuevas  (Seeded as 27) 
+	(28)		DEG=26.0(w:100.0)				Andrey Rublev  
+	(29)		DEG=25.0(w:84.0)				Aljaz Bedene  
+	(30)		DEG=37.0(w:93.5)				Grigor Dimitrov  (Seeded as 7) 
+	(37)		DEG=16.0(w:51.0)				Vasek Pospisil  
+	(45)		DEG=19.0(w:81.0)				Thiago Monteiro  
+	(60)		DEG=29.0(w:137.0)				Taylor Harry Fritz  
+	(63)		DEG=10.0(w:44.0)				Alex De Minaur  
+	(65)		DEG=28.0(w:151.5)				Gilles Simon  
+	(69)		DEG=26.0(w:127.0)				Ernesto Escobedo  
+	(77)		DEG=30.0(w:138.0)				Horacio Zeballos  
+	(79)		DEG=25.0(w:126.0)				Pierre Hugues Herbert  
+	(80)		DEG=26.0(w:99.0)				Jordan Thompson  
+	(89)		DEG=0.0(w:0.0)				Jc Aragone (Q)  
+	(90)		DEG=7.0(w:21.5)				Ernests Gulbis  
+	(92)		DEG=28.0(w:120.0)				Borna Coric  
+	(95)		DEG=0.0(w:0.0)				Darian King (Q)  
+	(98)		DEG=0.0(w:0.0)				Denis Shapovalov (Q)  
+	(101)		DEG=26.0(w:108.0)				Nicolas Almagro  
+	(106)		DEG=0.0(w:0.0)				Nicolas Mahut (Q)  
+	(116)		DEG=21.0(w:93.5)				Evgeny Donskoy  
+	(117)		DEG=4.0(w:15.5)				Andreas Haider Maurer  
+	(122)		DEG=23.0(w:93.0)				Janko Tipsarevic  
+	(127)		DEG=23.0(w:115.5)				Tennys Sandgren  
+Cluster 0 has a total of 32 players with 8 seeds.
+Avg degree:22.62 and wdegree:88.77
+
+CLUSTER 1------------------------
+	(3)		DEG=19.0(w:95.0)				Tommy Paul  
+	(5)		DEG=10.0(w:55.0)				Geoffrey Blancaneaux  
+	(6)		DEG=0.0(w:0.0)				Leonardo Mayer (LL)  
+	(11)		DEG=18.0(w:51.0)				Norbert Gombos  
+	(19)		DEG=25.0(w:90.5)				Steve Darcis  
+	(32)		DEG=17.0(w:36.0)				Roger Federer  (Seeded as 3) 
+	(34)		DEG=28.0(w:128.0)				Mikhail Youzhny  
+	(36)		DEG=31.0(w:134.5)				Fernando Verdasco  
+	(38)		DEG=33.0(w:154.5)				Feliciano Lopez  (Seeded as 31) 
+	(39)		DEG=30.0(w:138.0)				Andrey Kuznetsov  
+	(40)		DEG=38.0(w:132.0)				Philipp Kohlschreiber  (Seeded as 33) 
+	(47)		DEG=34.0(w:113.0)				Nick Kyrgios  (Seeded as 14) 
+	(48)		DEG=45.0(w:133.5)				Roberto Bautista Agut  (Seeded as 11) 
+	(50)		DEG=27.0(w:101.5)				Dustin Brown  
+	(53)		DEG=14.0(w:70.0)				Patrick Kypson  
+	(54)		DEG=23.0(w:102.5)				Juan Martin Del Potro  (Seeded as 24) 
+	(56)		DEG=41.0(w:183.5)				Adrian Mannarino  (Seeded as 30) 
+	(62)		DEG=38.0(w:100.0)				Dominic Thiem  (Seeded as 6) 
+	(67)		DEG=15.0(w:78.0)				Christopher Eubanks  
+	(70)		DEG=14.0(w:54.0)				Yen Hsun Lu  
+	(73)		DEG=14.0(w:70.0)				Thai Son Kwiatkowski  
+	(75)		DEG=0.0(w:0.0)				Lukas Lacko (LL)  
+	(82)		DEG=16.0(w:56.5)				Thomas Fabbiano  
+	(83)		DEG=0.0(w:0.0)				John Patrick Smith (Q)  
+	(84)		DEG=36.0(w:131.5)				Paolo Lorenzi  
+	(97)		DEG=20.0(w:61.5)				Marius Copil  
+	(102)		DEG=34.0(w:117.0)				Kyle Edmund  
+	(108)		DEG=0.0(w:0.0)				Cameron Norrie (Q)  
+	(111)		DEG=0.0(w:0.0)				Evan King (Q)  
+	(121)		DEG=24.0(w:110.0)				Carlos Berlocq  
+	(124)		DEG=26.0(w:111.0)				Florian Mayer  
+	(125)		DEG=18.0(w:85.0)				Rogerio Dutra Silva  
+Cluster 1 has a total of 32 players with 8 seeds.
+Avg degree:21.5 and wdegree:84.16
+
+CLUSTER 2------------------------
+	(2)		DEG=10.0(w:35.0)				Taro Daniel  
+	(12)		DEG=24.0(w:101.0)				Alexandr Dolgopolov  
+	(17)		DEG=22.0(w:111.0)				Julien Benneteau  
+	(18)		DEG=20.0(w:90.5)				Guido Pella  
+	(23)		DEG=29.0(w:122.0)				Jeremy Chardy  
+	(27)		DEG=22.0(w:72.0)				Nicolas Kicker  
+	(31)		DEG=5.0(w:20.5)				Vaclav Safranek  
+	(35)		DEG=6.0(w:8.0)				Blaz Kavcic  
+	(41)		DEG=0.0(w:0.0)				Tim Smyczek (Q)  
+	(42)		DEG=8.0(w:36.0)				Santiago Giraldo  
+	(46)		DEG=13.0(w:61.0)				John Millman  
+	(52)		DEG=0.0(w:0.0)				Adrian Menendez Maceiras (Q)  
+	(55)		DEG=16.0(w:40.0)				Henri Laaksonen  
+	(57)		DEG=11.0(w:41.5)				Ricardas Berankis  
+	(59)		DEG=26.0(w:90.0)				Ivo Karlovic  
+	(61)		DEG=24.0(w:88.5)				Marcos Baghdatis  
+	(64)		DEG=40.0(w:149.5)				Sam Querrey  (Seeded as 17) 
+	(68)		DEG=0.0(w:0.0)				Radu Albot (Q)  
+	(71)		DEG=39.0(w:166.0)				Karen Khachanov  (Seeded as 25) 
+	(72)		DEG=35.0(w:152.5)				Mischa Zverev  (Seeded as 23) 
+	(74)		DEG=47.0(w:191.0)				Benoit Paire  
+	(78)		DEG=40.0(w:165.0)				John Isner  (Seeded as 10) 
+	(81)		DEG=42.0(w:157.5)				Jack Sock  (Seeded as 13) 
+	(85)		DEG=34.0(w:132.5)				Joao Sousa  
+	(86)		DEG=34.0(w:97.0)				Gilles Muller  (Seeded as 19) 
+	(87)		DEG=24.0(w:111.0)				Bernard Tomic  
+	(88)		DEG=34.0(w:113.0)				Kevin Anderson  (Seeded as 28) 
+	(91)		DEG=7.0(w:40.0)				Alessandro Giannessi  
+	(94)		DEG=39.0(w:128.5)				Alexander Zverev  (Seeded as 4) 
+	(99)		DEG=34.0(w:126.0)				Daniil Medvedev  
+	(105)		DEG=17.0(w:70.5)				Denis Istomin  
+	(114)		DEG=37.0(w:165.5)				Jared Donaldson  
+Cluster 2 has a total of 32 players with 8 seeds.
+Avg degree:23.09 and wdegree:90.08
+
+CLUSTER 3------------------------
+	(1)		DEG=25.0(w:94.0)				Dusan Lajovic  
+	(4)		DEG=23.0(w:65.5)				Yuichi Sugita  
+	(8)		DEG=0.0(w:0.0)				Stefano Travaglia (Q)  
+	(10)		DEG=32.0(w:127.0)				Viktor Troicki  
+	(13)		DEG=36.0(w:144.0)				Jan Lennard Struff  
+	(15)		DEG=37.0(w:172.5)				Ryan Harrison  
+	(21)		DEG=0.0(w:0.0)				Maximilian Marterer (Q)  
+	(26)		DEG=0.0(w:0.0)				Cedrik Marcel Stebe (Q)  
+	(33)		DEG=0.0(w:0.0)				Francis Tiafoe (Q)  
+	(43)		DEG=0.0(w:0.0)				Vincent Millot (Q)  
+	(44)		DEG=21.0(w:84.0)				Malek Jaziri  
+	(49)		DEG=26.0(w:102.0)				Andreas Seppi  
+	(51)		DEG=25.0(w:94.0)				Thomaz Bellucci  
+	(58)		DEG=29.0(w:129.0)				Bjorn Fratangelo  
+	(66)		DEG=21.0(w:60.5)				Dudi Sela  
+	(76)		DEG=24.0(w:72.0)				Hyeon Chung  
+	(93)		DEG=24.0(w:91.0)				Jiri Vesely  
+	(96)		DEG=34.0(w:113.0)				Jo Wilfried Tsonga  (Seeded as 8) 
+	(100)		DEG=39.0(w:152.5)				Steve Johnson  
+	(103)		DEG=29.0(w:122.5)				Robin Haase  (Seeded as 32) 
+	(104)		DEG=39.0(w:139.5)				Albert Ramos  (Seeded as 20) 
+	(107)		DEG=15.0(w:45.5)				Marton Fucsovics  
+	(109)		DEG=10.0(w:47.0)				Dmitry Tursunov  
+	(110)		DEG=33.0(w:131.0)				Pablo Carreno Busta  (Seeded as 12) 
+	(112)		DEG=36.0(w:149.5)				Lucas Pouille  (Seeded as 16) 
+	(113)		DEG=12.0(w:32.5)				Ruben Bemelmans  
+	(115)		DEG=36.0(w:153.5)				Nikoloz Basilashvili  
+	(118)		DEG=0.0(w:0.0)				Mikhail Kukushkin (Q)  
+	(119)		DEG=39.0(w:145.0)				David Ferrer  (Seeded as 21) 
+	(120)		DEG=35.0(w:134.0)				Diego Sebastian Schwartzman  (Seeded as 29) 
+	(123)		DEG=11.0(w:45.0)				Thanasi Kokkinakis  
+	(126)		DEG=34.0(w:94.0)				Marin Cilic  (Seeded as 5) 
+Cluster 3 has a total of 32 players with 8 seeds.
+Avg degree:22.66 and wdegree:85.62
+
+Generating draws for the first round both for CPLEX and greedy solution.
+For each (1st round) draw generated, the whole tourney is simulated.
+This process may take a while...
+Time elapsed:770.4738s
+Iteration 1 completed.
+Iteration 2 completed.
+Iteration 3 completed.
+Iteration 4 completed.
+Iteration 5 completed.
+Iteration 6 completed.
+Iteration 7 completed.
+Iteration 8 completed.
+Iteration 9 completed.
+Iteration 10 completed.
+Iteration 11 completed.
+Iteration 12 completed.
+Iteration 13 completed.
+Iteration 14 completed.
+Iteration 15 completed.
+
+Last 1stR draw with the CPLEX's solution:
+Penalty types: 1 (first round) - 2 (second round) - 3 (third round) - L (Q and SF rounds) - C (country).
+	--CLUSTER 0--
+
+	 1.	Rafael Nadal (Seeded as 1) 
+	/
+------- Penalty_type(s): -
+	\
+	 2.	Evgeny Donskoy
+
+	 3.	Ernests Gulbis
+	/
+------- Penalty_type(s): -
+	\
+	 4.	Janko Tipsarevic
+
+	 5.	Tennys Sandgren
+	/
+------- Penalty_type(s): C
+	\
+	 6.	Donald Young
+
+	 7.	Andrey Rublev
+	/
+------- Penalty_type(s): -
+	\
+	 8.	Richard Gasquet (Seeded as 26) 
+
+	 9.	Fabio Fognini (Seeded as 22) 
+	/
+------- Penalty_type(s): -
+	\
+	 10.	Vasek Pospisil
+
+	 11.	Alex De Minaur
+	/
+------- Penalty_type(s): -
+	\
+	 12.	Aljaz Bedene
+
+	 13.	Andreas Haider Maurer
+	/
+------- Penalty_type(s): -
+	\
+	 14.	Damir Dzumhur
+
+	 15.	Pierre Hugues Herbert
+	/
+------- Penalty_type(s): -
+	\
+	 16.	Tomas Berdych (Seeded as 15) 
+
+	 17.	David Goffin (Seeded as 9) 
+	/
+------- Penalty_type(s): -
+	\
+	 18.	Jc Aragone (Q) 
+
+	 19.	Jordan Thompson
+	/
+------- Penalty_type(s): -
+	\
+	 20.	Taylor Harry Fritz
+
+	 21.	Denis Shapovalov (Q) 
+	/
+------- Penalty_type(s): -
+	\
+	 22.	Nicolas Mahut (Q) 
+
+	 23.	Borna Coric
+	/
+------- Penalty_type(s): -
+	\
+	 24.	Gael Monfils (Seeded as 18) 
+
+	 25.	Pablo Cuevas (Seeded as 27) 
+	/
+------- Penalty_type(s): -
+	\
+	 26.	Horacio Zeballos
+
+	 27.	Darian King (Q) 
+	/
+------- Penalty_type(s): -
+	\
+	 28.	Ernesto Escobedo
+
+	 29.	Nicolas Almagro
+	/
+------- Penalty_type(s): -
+	\
+	 30.	Gilles Simon
+
+	 31.	Thiago Monteiro
+	/
+------- Penalty_type(s): -
+	\
+	 32.	Grigor Dimitrov (Seeded as 7) 
+
+	--CLUSTER 1--
+
+	 33.	Roger Federer (Seeded as 3) 
+	/
+------- Penalty_type(s): -
+	\
+	 34.	Leonardo Mayer (LL) 
+
+	 35.	Thai Son Kwiatkowski
+	/
+------- Penalty_type(s): C
+	\
+	 36.	Tommy Paul
+
+	 37.	Kyle Edmund
+	/
+------- Penalty_type(s): -
+	\
+	 38.	Marius Copil
+
+	 39.	Carlos Berlocq
+	/
+------- Penalty_type(s): -
+	\
+	 40.	Feliciano Lopez (Seeded as 31) 
+
+	 41.	Philipp Kohlschreiber (Seeded as 33) 
+	/
+------- Penalty_type(s): -
+	\
+	 42.	Paolo Lorenzi
+
+	 43.	Steve Darcis
+	/
+------- Penalty_type(s): -
+	\
+	 44.	Norbert Gombos
+
+	 45.	Christopher Eubanks
+	/
+------- Penalty_type(s): -
+	\
+	 46.	Mikhail Youzhny
+
+	 47.	Rogerio Dutra Silva
+	/
+------- Penalty_type(s): -
+	\
+	 48.	Nick Kyrgios (Seeded as 14) 
+
+	 49.	Roberto Bautista Agut (Seeded as 11) 
+	/
+------- Penalty_type(s): -
+	\
+	 50.	John Patrick Smith (Q) 
+
+	 51.	Florian Mayer
+	/
+------- Penalty_type(s): -
+	\
+	 52.	Cameron Norrie (Q) 
+
+	 53.	Lukas Lacko (LL) 
+	/
+------- Penalty_type(s): -
+	\
+	 54.	Fernando Verdasco
+
+	 55.	Evan King (Q) 
+	/
+------- Penalty_type(s): -
+	\
+	 56.	Juan Martin Del Potro (Seeded as 24) 
+
+	 57.	Adrian Mannarino (Seeded as 30) 
+	/
+------- Penalty_type(s): -
+	\
+	 58.	Dustin Brown
+
+	 59.	Geoffrey Blancaneaux
+	/
+------- Penalty_type(s): -
+	\
+	 60.	Patrick Kypson
+
+	 61.	Andrey Kuznetsov
+	/
+------- Penalty_type(s): -
+	\
+	 62.	Yen Hsun Lu
+
+	 63.	Thomas Fabbiano
+	/
+------- Penalty_type(s): -
+	\
+	 64.	Dominic Thiem (Seeded as 6) 
+
+	--CLUSTER 2--
+
+	 65.	Sam Querrey (Seeded as 17) 
+	/
+------- Penalty_type(s): -
+	\
+	 66.	John Millman
+
+	 67.	Jared Donaldson
+	/
+------- Penalty_type(s): -
+	\
+	 68.	Daniil Medvedev
+
+	 69.	Adrian Menendez Maceiras (Q) 
+	/
+------- Penalty_type(s): -
+	\
+	 70.	Taro Daniel
+
+	 71.	Julien Benneteau
+	/
+------- Penalty_type(s): -
+	\
+	 72.	Karen Khachanov (Seeded as 25) 
+
+	 73.	Mischa Zverev (Seeded as 23) 
+	/
+------- Penalty_type(s): -
+	\
+	 74.	Denis Istomin
+
+	 75.	Jeremy Chardy
+	/
+------- Penalty_type(s): -
+	\
+	 76.	Radu Albot (Q) 
+
+	 77.	Marcos Baghdatis
+	/
+------- Penalty_type(s): 2
+	\
+	 78.	Benoit Paire
+
+	 79.	Tim Smyczek (Q) 
+	/
+------- Penalty_type(s): -
+	\
+	 80.	John Isner (Seeded as 10) 
+
+	 81.	Jack Sock (Seeded as 13) 
+	/
+------- Penalty_type(s): -
+	\
+	 82.	Alexandr Dolgopolov
+
+	 83.	Santiago Giraldo
+	/
+------- Penalty_type(s): -
+	\
+	 84.	Bernard Tomic
+
+	 85.	Guido Pella
+	/
+------- Penalty_type(s): -
+	\
+	 86.	Alessandro Giannessi
+
+	 87.	Vaclav Safranek
+	/
+------- Penalty_type(s): -
+	\
+	 88.	Gilles Muller (Seeded as 19) 
+
+	 89.	Kevin Anderson (Seeded as 28) 
+	/
+------- Penalty_type(s): -
+	\
+	 90.	Ivo Karlovic
+
+	 91.	Nicolas Kicker
+	/
+------- Penalty_type(s): -
+	\
+	 92.	Ricardas Berankis
+
+	 93.	Joao Sousa
+	/
+------- Penalty_type(s): -
+	\
+	 94.	Blaz Kavcic
+
+	 95.	Henri Laaksonen
+	/
+------- Penalty_type(s): -
+	\
+	 96.	Alexander Zverev (Seeded as 4) 
+
+	--CLUSTER 3--
+
+	 97.	Jo Wilfried Tsonga (Seeded as 8) 
+	/
+------- Penalty_type(s): -
+	\
+	 98.	Mikhail Kukushkin (Q) 
+
+	 99.	Hyeon Chung
+	/
+------- Penalty_type(s): -
+	\
+	 100.	Jan Lennard Struff
+
+	 101.	Vincent Millot (Q) 
+	/
+------- Penalty_type(s): -
+	\
+	 102.	Bjorn Fratangelo
+
+	 103.	Nikoloz Basilashvili
+	/
+------- Penalty_type(s): -
+	\
+	 104.	Robin Haase (Seeded as 32) 
+
+	 105.	Albert Ramos (Seeded as 20) 
+	/
+------- Penalty_type(s): -
+	\
+	 106.	Francis Tiafoe (Q) 
+
+	 107.	Andreas Seppi
+	/
+------- Penalty_type(s): -
+	\
+	 108.	Viktor Troicki
+
+	 109.	Thanasi Kokkinakis
+	/
+------- Penalty_type(s): -
+	\
+	 110.	Marton Fucsovics
+
+	 111.	Yuichi Sugita
+	/
+------- Penalty_type(s): 3
+	\
+	 112.	Pablo Carreno Busta (Seeded as 12) 
+
+	 113.	Lucas Pouille (Seeded as 16) 
+	/
+------- Penalty_type(s): -
+	\
+	 114.	Maximilian Marterer (Q) 
+
+	 115.	Cedrik Marcel Stebe (Q) 
+	/
+------- Penalty_type(s): -
+	\
+	 116.	Dusan Lajovic
+
+	 117.	Dmitry Tursunov
+	/
+------- Penalty_type(s): -
+	\
+	 118.	Jiri Vesely
+
+	 119.	Ryan Harrison
+	/
+------- Penalty_type(s): L
+	\
+	 120.	David Ferrer (Seeded as 21) 
+
+	 121.	Diego Sebastian Schwartzman (Seeded as 29) 
+	/
+------- Penalty_type(s): -
+	\
+	 122.	Stefano Travaglia (Q) 
+
+	 123.	Ruben Bemelmans
+	/
+------- Penalty_type(s): -
+	\
+	 124.	Thomaz Bellucci
+
+	 125.	Steve Johnson
+	/
+------- Penalty_type(s): -
+	\
+	 126.	Malek Jaziri
+
+	 127.	Dudi Sela
+	/
+------- Penalty_type(s): -
+	\
+	 128.	Marin Cilic (Seeded as 5) 
+
+
+
+Last1 1stR draw with the solution found with greedy:
+Penalty types: 1 (first round) - 2 (second round) - 3 (third round) - L (Q and SF rounds) - C (country).
+	--CLUSTER 0--
+
+	 1.	Rafael Nadal (Seeded as 1) 
+	/
+------- Penalty_type(s): -
+	\
+	 2.	Evgeny Donskoy
+
+	 3.	Ernests Gulbis
+	/
+------- Penalty_type(s): -
+	\
+	 4.	Janko Tipsarevic
+
+	 5.	Tennys Sandgren
+	/
+------- Penalty_type(s): -
+	\
+	 6.	Donald Young
+
+	 7.	Andrey Rublev
+	/
+------- Penalty_type(s): -
+	\
+	 8.	Richard Gasquet (Seeded as 26) 
+
+	 9.	Fabio Fognini (Seeded as 22) 
+	/
+------- Penalty_type(s): -
+	\
+	 10.	Vasek Pospisil
+
+	 11.	Alex De Minaur
+	/
+------- Penalty_type(s): -
+	\
+	 12.	Aljaz Bedene (Q) 
+
+	 13.	Andreas Haider Maurer
+	/
+------- Penalty_type(s): 2
+	\
+	 14.	Damir Dzumhur
+
+	 15.	Pierre Hugues Herbert
+	/
+------- Penalty_type(s): -
+	\
+	 16.	Tomas Berdych (Seeded as 15) 
+
+	 17.	David Goffin (Seeded as 9) 
+	/
+------- Penalty_type(s): -
+	\
+	 18.	Jc Aragone
+
+	 19.	Jordan Thompson
+	/
+------- Penalty_type(s): -
+	\
+	 20.	Taylor Harry Fritz
+
+	 21.	Denis Shapovalov (Q) 
+	/
+------- Penalty_type(s): -
+	\
+	 22.	Nicolas Mahut
+
+	 23.	Borna Coric
+	/
+------- Penalty_type(s): 2
+	\
+	 24.	Gael Monfils (Seeded as 18) 
+
+	 25.	Pablo Cuevas (Seeded as 27) 
+	/
+------- Penalty_type(s): -
+	\
+	 26.	Horacio Zeballos
+
+	 27.	Darian King (Q) 
+	/
+------- Penalty_type(s): -
+	\
+	 28.	Ernesto Escobedo
+
+	 29.	Nicolas Almagro
+	/
+------- Penalty_type(s): -
+	\
+	 30.	Gilles Simon (Q) 
+
+	 31.	Thiago Monteiro
+	/
+------- Penalty_type(s): -
+	\
+	 32.	Grigor Dimitrov (Seeded as 7) 
+
+	--CLUSTER 1--
+
+	 33.	Roger Federer (Seeded as 3) 
+	/
+------- Penalty_type(s): -
+	\
+	 34.	Leonardo Mayer
+
+	 35.	Thai Son Kwiatkowski
+	/
+------- Penalty_type(s): -
+	\
+	 36.	Tommy Paul
+
+	 37.	Kyle Edmund (LL) 
+	/
+------- Penalty_type(s): -
+	\
+	 38.	Marius Copil
+
+	 39.	Carlos Berlocq
+	/
+------- Penalty_type(s): -
+	\
+	 40.	Feliciano Lopez (Seeded as 31) 
+
+	 41.	Philipp Kohlschreiber (Seeded as 33) 
+	/
+------- Penalty_type(s): -
+	\
+	 42.	Paolo Lorenzi
+
+	 43.	Steve Darcis (Q) 
+	/
+------- Penalty_type(s): -
+	\
+	 44.	Norbert Gombos
+
+	 45.	Christopher Eubanks
+	/
+------- Penalty_type(s): -
+	\
+	 46.	Mikhail Youzhny
+
+	 47.	Rogerio Dutra Silva
+	/
+------- Penalty_type(s): -
+	\
+	 48.	Nick Kyrgios (Seeded as 14) 
+
+	 49.	Roberto Bautista Agut (Seeded as 11) 
+	/
+------- Penalty_type(s): -
+	\
+	 50.	John Patrick Smith
+
+	 51.	Florian Mayer
+	/
+------- Penalty_type(s): 2
+	\
+	 52.	Cameron Norrie
+
+	 53.	Lukas Lacko
+	/
+------- Penalty_type(s): -
+	\
+	 54.	Fernando Verdasco (Q) 
+
+	 55.	Evan King (Q) 
+	/
+------- Penalty_type(s): -
+	\
+	 56.	Juan Martin Del Potro (Seeded as 24) 
+
+	 57.	Adrian Mannarino (Seeded as 30) 
+	/
+------- Penalty_type(s): 2
+	\
+	 58.	Dustin Brown
+
+	 59.	Geoffrey Blancaneaux (LL) 
+	/
+------- Penalty_type(s): -
+	\
+	 60.	Patrick Kypson
+
+	 61.	Andrey Kuznetsov
+	/
+------- Penalty_type(s): -
+	\
+	 62.	Yen Hsun Lu
+
+	 63.	Thomas Fabbiano
+	/
+------- Penalty_type(s): -
+	\
+	 64.	Dominic Thiem (Seeded as 6) 
+
+	--CLUSTER 2--
+
+	 65.	Sam Querrey (Seeded as 17) 
+	/
+------- Penalty_type(s): -
+	\
+	 66.	John Millman
+
+	 67.	Jared Donaldson
+	/
+------- Penalty_type(s): -
+	\
+	 68.	Daniil Medvedev
+
+	 69.	Adrian Menendez Maceiras
+	/
+------- Penalty_type(s): -
+	\
+	 70.	Taro Daniel
+
+	 71.	Julien Benneteau
+	/
+------- Penalty_type(s): -
+	\
+	 72.	Karen Khachanov (Seeded as 25) 
+
+	 73.	Mischa Zverev (Seeded as 23) 
+	/
+------- Penalty_type(s): -
+	\
+	 74.	Denis Istomin
+
+	 75.	Jeremy Chardy
+	/
+------- Penalty_type(s): -
+	\
+	 76.	Radu Albot
+
+	 77.	Marcos Baghdatis
+	/
+------- Penalty_type(s): C
+	\
+	 78.	Benoit Paire
+
+	 79.	Tim Smyczek
+	/
+------- Penalty_type(s): -
+	\
+	 80.	John Isner (Seeded as 10) 
+
+	 81.	Jack Sock (Seeded as 13) 
+	/
+------- Penalty_type(s): -
+	\
+	 82.	Alexandr Dolgopolov (Q) 
+
+	 83.	Santiago Giraldo
+	/
+------- Penalty_type(s): -
+	\
+	 84.	Bernard Tomic
+
+	 85.	Guido Pella
+	/
+------- Penalty_type(s): -
+	\
+	 86.	Alessandro Giannessi
+
+	 87.	Vaclav Safranek (Q) 
+	/
+------- Penalty_type(s): -
+	\
+	 88.	Gilles Muller (Seeded as 19) 
+
+	 89.	Kevin Anderson (Seeded as 28) 
+	/
+------- Penalty_type(s): -
+	\
+	 90.	Ivo Karlovic
+
+	 91.	Nicolas Kicker
+	/
+------- Penalty_type(s): 1
+	\
+	 92.	Ricardas Berankis
+
+	 93.	Joao Sousa
+	/
+------- Penalty_type(s): -
+	\
+	 94.	Blaz Kavcic (Q) 
+
+	 95.	Henri Laaksonen
+	/
+------- Penalty_type(s): -
+	\
+	 96.	Alexander Zverev (Seeded as 4) 
+
+	--CLUSTER 3--
+
+	 97.	Jo Wilfried Tsonga (Seeded as 8) 
+	/
+------- Penalty_type(s): -
+	\
+	 98.	Mikhail Kukushkin
+
+	 99.	Hyeon Chung
+	/
+------- Penalty_type(s): -
+	\
+	 100.	Jan Lennard Struff (Q) 
+
+	 101.	Vincent Millot
+	/
+------- Penalty_type(s): -
+	\
+	 102.	Bjorn Fratangelo
+
+	 103.	Nikoloz Basilashvili
+	/
+------- Penalty_type(s): -
+	\
+	 104.	Robin Haase (Seeded as 32) 
+
+	 105.	Albert Ramos (Seeded as 20) 
+	/
+------- Penalty_type(s): -
+	\
+	 106.	Francis Tiafoe
+
+	 107.	Andreas Seppi
+	/
+------- Penalty_type(s): -
+	\
+	 108.	Viktor Troicki
+
+	 109.	Thanasi Kokkinakis (Q) 
+	/
+------- Penalty_type(s): -
+	\
+	 110.	Marton Fucsovics
+
+	 111.	Yuichi Sugita (Q) 
+	/
+------- Penalty_type(s): -
+	\
+	 112.	Pablo Carreno Busta (Seeded as 12) 
+
+	 113.	Lucas Pouille (Seeded as 16) 
+	/
+------- Penalty_type(s): -
+	\
+	 114.	Maximilian Marterer (Q) 
+
+	 115.	Cedrik Marcel Stebe
+	/
+------- Penalty_type(s): -
+	\
+	 116.	Dusan Lajovic
+
+	 117.	Dmitry Tursunov (Q) 
+	/
+------- Penalty_type(s): -
+	\
+	 118.	Jiri Vesely
+
+	 119.	Ryan Harrison
+	/
+------- Penalty_type(s): -
+	\
+	 120.	David Ferrer (Seeded as 21) 
+
+	 121.	Diego Sebastian Schwartzman (Seeded as 29) 
+	/
+------- Penalty_type(s): -
+	\
+	 122.	Stefano Travaglia
+
+	 123.	Ruben Bemelmans
+	/
+------- Penalty_type(s): -
+	\
+	 124.	Thomaz Bellucci (Q) 
+
+	 125.	Steve Johnson
+	/
+------- Penalty_type(s): -
+	\
+	 126.	Malek Jaziri
+
+	 127.	Dudi Sela
+	/
+------- Penalty_type(s): -
+	\
+	 128.	Marin Cilic (Seeded as 5) 
+
+Computing conflicts measure and number for last generated 1st rounds.
+	|SOLUTION|	Match between Rafael Nadal and Evgeny Donskoy is h(0,116)=0.0
+	|CONSTRUCT|	Match between Rafael Nadal and Ernests Gulbis is h(0,90)=0.0
+	|ORIGINAL|	Match Between Rafael Nadal and Dusan Lajovic is h(0,1)=0.0
+
+	|SOLUTION|	Match between Ernests Gulbis and Janko Tipsarevic is h(90,122)=0.0
+	|CONSTRUCT|	Match between Janko Tipsarevic and Donald Young is h(122,20)=0.0
+	|ORIGINAL|	Match Between Taro Daniel and Tommy Paul is h(2,3)=0.0
+
+	|SOLUTION|	Match between Tennys Sandgren and Donald Young is h(127,20)=5.0
+	|CONSTRUCT|	Match between Gilles Simon and Jordan Thompson is h(65,80)=0.0
+	|ORIGINAL|	Match Between Yuichi Sugita and Geoffrey Blancaneaux is h(4,5)=0.0
+
+	|SOLUTION|	Match between Andrey Rublev and Richard Gasquet is h(28,7)=0.0
+	|CONSTRUCT|	Match between Tennys Sandgren and Richard Gasquet is h(127,7)=0.0
+	|ORIGINAL|	Match Between Leonardo Mayer and Richard Gasquet is h(6,7)=0.0
+
+	|SOLUTION|	Match between Fabio Fognini and Vasek Pospisil is h(9,37)=0.0
+	|CONSTRUCT|	Match between Fabio Fognini and Andreas Haider Maurer is h(9,117)=0.0
+	|ORIGINAL|	Match Between Stefano Travaglia and Fabio Fognini is h(8,9)=0.0
+
+	|SOLUTION|	Match between Alex De Minaur and Aljaz Bedene is h(63,29)=0.0
+	|CONSTRUCT|	Match between Taylor Harry Fritz and Darian King is h(60,95)=0.0
+	|ORIGINAL|	Match Between Viktor Troicki and Norbert Gombos is h(10,11)=0.0
+
+	|SOLUTION|	Match between Andreas Haider Maurer and Damir Dzumhur is h(117,24)=0.0
+	|CONSTRUCT|	Match between Ernesto Escobedo and Aljaz Bedene is h(69,29)=2.0
+	|ORIGINAL|	Match Between Alexandr Dolgopolov and Jan Lennard Struff is h(12,13)=0.0
+
+	|SOLUTION|	Match between Pierre Hugues Herbert and Tomas Berdych is h(79,14)=0.0
+	|CONSTRUCT|	Match between Vasek Pospisil and Tomas Berdych is h(37,14)=0.0
+	|ORIGINAL|	Match Between Tomas Berdych and Ryan Harrison is h(14,15)=4.0
+
+	|SOLUTION|	Match between David Goffin and Jc Aragone is h(16,89)=0.0
+	|CONSTRUCT|	Match between David Goffin and Borna Coric is h(16,92)=0.0
+	|ORIGINAL|	Match Between David Goffin and Julien Benneteau is h(16,17)=0.0
+
+	|SOLUTION|	Match between Jordan Thompson and Taylor Harry Fritz is h(80,60)=0.0
+	|CONSTRUCT|	Match between Evgeny Donskoy and Damir Dzumhur is h(116,24)=0.0
+	|ORIGINAL|	Match Between Guido Pella and Steve Darcis is h(18,19)=0.0
+
+	|SOLUTION|	Match between Denis Shapovalov and Nicolas Mahut is h(98,106)=0.0
+	|CONSTRUCT|	Match between Denis Shapovalov and Andrey Rublev is h(98,28)=0.0
+	|ORIGINAL|	Match Between Donald Young and Maximilian Marterer is h(20,21)=0.0
+
+	|SOLUTION|	Match between Borna Coric and Gael Monfils is h(92,22)=0.0
+	|CONSTRUCT|	Match between Thiago Monteiro and Gael Monfils is h(45,22)=2.0
+	|ORIGINAL|	Match Between Gael Monfils and Jeremy Chardy is h(22,23)=5.0
+
+	|SOLUTION|	Match between Pablo Cuevas and Horacio Zeballos is h(25,77)=0.0
+	|CONSTRUCT|	Match between Pablo Cuevas and Horacio Zeballos is h(25,77)=0.0
+	|ORIGINAL|	Match Between Damir Dzumhur and Pablo Cuevas is h(24,25)=0.0
+
+	|SOLUTION|	Match between Darian King and Ernesto Escobedo is h(95,69)=0.0
+	|CONSTRUCT|	Match between Jc Aragone and Alex De Minaur is h(89,63)=0.0
+	|ORIGINAL|	Match Between Cedrik Marcel Stebe and Nicolas Kicker is h(26,27)=0.0
+
+	|SOLUTION|	Match between Nicolas Almagro and Gilles Simon is h(101,65)=0.0
+	|CONSTRUCT|	Match between Nicolas Almagro and Nicolas Mahut is h(101,106)=0.0
+	|ORIGINAL|	Match Between Andrey Rublev and Aljaz Bedene is h(28,29)=0.5
+
+	|SOLUTION|	Match between Thiago Monteiro and Grigor Dimitrov is h(45,30)=0.0
+	|CONSTRUCT|	Match between Pierre Hugues Herbert and Grigor Dimitrov is h(79,30)=0.0
+	|ORIGINAL|	Match Between Grigor Dimitrov and Vaclav Safranek is h(30,31)=0.0
+
+	|SOLUTION|	Match between Roger Federer and Leonardo Mayer is h(32,6)=0.0
+	|CONSTRUCT|	Match between Roger Federer and Kyle Edmund is h(32,102)=0.0
+	|ORIGINAL|	Match Between Roger Federer and Francis Tiafoe is h(32,33)=0.0
+
+	|SOLUTION|	Match between Thai Son Kwiatkowski and Tommy Paul is h(73,3)=5.0
+	|CONSTRUCT|	Match between Dustin Brown and Yen Hsun Lu is h(50,70)=0.0
+	|ORIGINAL|	Match Between Mikhail Youzhny and Blaz Kavcic is h(34,35)=0.0
+
+	|SOLUTION|	Match between Kyle Edmund and Marius Copil is h(102,97)=0.0
+	|CONSTRUCT|	Match between Lukas Lacko and Norbert Gombos is h(75,11)=0.0
+	|ORIGINAL|	Match Between Fernando Verdasco and Vasek Pospisil is h(36,37)=5.0
+
+	|SOLUTION|	Match between Carlos Berlocq and Feliciano Lopez is h(121,38)=0.0
+	|CONSTRUCT|	Match between Marius Copil and Feliciano Lopez is h(97,38)=0.0
+	|ORIGINAL|	Match Between Feliciano Lopez and Andrey Kuznetsov is h(38,39)=0.0
+
+	|SOLUTION|	Match between Philipp Kohlschreiber and Paolo Lorenzi is h(40,84)=0.0
+	|CONSTRUCT|	Match between Philipp Kohlschreiber and Fernando Verdasco is h(40,36)=0.0
+	|ORIGINAL|	Match Between Philipp Kohlschreiber and Tim Smyczek is h(40,41)=0.0
+
+	|SOLUTION|	Match between Steve Darcis and Norbert Gombos is h(19,11)=0.0
+	|CONSTRUCT|	Match between John Patrick Smith and Steve Darcis is h(83,19)=0.0
+	|ORIGINAL|	Match Between Santiago Giraldo and Vincent Millot is h(42,43)=0.0
+
+	|SOLUTION|	Match between Christopher Eubanks and Mikhail Youzhny is h(67,34)=0.0
+	|CONSTRUCT|	Match between Mikhail Youzhny and Thai Son Kwiatkowski is h(34,73)=0.0
+	|ORIGINAL|	Match Between Malek Jaziri and Thiago Monteiro is h(44,45)=0.0
+
+	|SOLUTION|	Match between Rogerio Dutra Silva and Nick Kyrgios is h(125,47)=0.0
+	|CONSTRUCT|	Match between Tommy Paul and Nick Kyrgios is h(3,47)=0.0
+	|ORIGINAL|	Match Between John Millman and Nick Kyrgios is h(46,47)=5.0
+
+	|SOLUTION|	Match between Roberto Bautista Agut and John Patrick Smith is h(48,83)=0.0
+	|CONSTRUCT|	Match between Roberto Bautista Agut and Geoffrey Blancaneaux is h(48,5)=0.0
+	|ORIGINAL|	Match Between Roberto Bautista Agut and Andreas Seppi is h(48,49)=0.0
+
+	|SOLUTION|	Match between Florian Mayer and Cameron Norrie is h(124,108)=0.0
+	|CONSTRUCT|	Match between Florian Mayer and Andrey Kuznetsov is h(124,39)=2.0
+	|ORIGINAL|	Match Between Dustin Brown and Thomaz Bellucci is h(50,51)=5.0
+
+	|SOLUTION|	Match between Lukas Lacko and Fernando Verdasco is h(75,36)=0.0
+	|CONSTRUCT|	Match between Rogerio Dutra Silva and Evan King is h(125,111)=0.0
+	|ORIGINAL|	Match Between Adrian Menendez Maceiras and Patrick Kypson is h(52,53)=0.0
+
+	|SOLUTION|	Match between Evan King and Juan Martin Del Potro is h(111,54)=0.0
+	|CONSTRUCT|	Match between Cameron Norrie and Juan Martin Del Potro is h(108,54)=0.0
+	|ORIGINAL|	Match Between Juan Martin Del Potro and Henri Laaksonen is h(54,55)=0.0
+
+	|SOLUTION|	Match between Adrian Mannarino and Dustin Brown is h(56,50)=0.0
+	|CONSTRUCT|	Match between Adrian Mannarino and Paolo Lorenzi is h(56,84)=2.0
+	|ORIGINAL|	Match Between Adrian Mannarino and Ricardas Berankis is h(56,57)=5.0
+
+	|SOLUTION|	Match between Geoffrey Blancaneaux and Patrick Kypson is h(5,53)=0.0
+	|CONSTRUCT|	Match between Leonardo Mayer and Christopher Eubanks is h(6,67)=0.0
+	|ORIGINAL|	Match Between Bjorn Fratangelo and Ivo Karlovic is h(58,59)=0.0
+
+	|SOLUTION|	Match between Andrey Kuznetsov and Yen Hsun Lu is h(39,70)=0.0
+	|CONSTRUCT|	Match between Thomas Fabbiano and Patrick Kypson is h(82,53)=0.0
+	|ORIGINAL|	Match Between Taylor Harry Fritz and Marcos Baghdatis is h(60,61)=0.0
+
+	|SOLUTION|	Match between Thomas Fabbiano and Dominic Thiem is h(82,62)=0.0
+	|CONSTRUCT|	Match between Carlos Berlocq and Dominic Thiem is h(121,62)=0.0
+	|ORIGINAL|	Match Between Dominic Thiem and Alex De Minaur is h(62,63)=0.0
+
+	|SOLUTION|	Match between Sam Querrey and John Millman is h(64,46)=0.0
+	|CONSTRUCT|	Match between Sam Querrey and Alexandr Dolgopolov is h(64,12)=0.0
+	|ORIGINAL|	Match Between Sam Querrey and Gilles Simon is h(64,65)=0.0
+
+	|SOLUTION|	Match between Jared Donaldson and Daniil Medvedev is h(114,99)=0.0
+	|CONSTRUCT|	Match between Santiago Giraldo and Blaz Kavcic is h(42,35)=0.0
+	|ORIGINAL|	Match Between Dudi Sela and Christopher Eubanks is h(66,67)=0.0
+
+	|SOLUTION|	Match between Adrian Menendez Maceiras and Taro Daniel is h(52,2)=0.0
+	|CONSTRUCT|	Match between Ivo Karlovic and Julien Benneteau is h(59,17)=0.0
+	|ORIGINAL|	Match Between Radu Albot and Ernesto Escobedo is h(68,69)=0.0
+
+	|SOLUTION|	Match between Julien Benneteau and Karen Khachanov is h(17,71)=0.0
+	|CONSTRUCT|	Match between Alessandro Giannessi and Karen Khachanov is h(91,71)=0.0
+	|ORIGINAL|	Match Between Yen Hsun Lu and Karen Khachanov is h(70,71)=5.0
+
+	|SOLUTION|	Match between Mischa Zverev and Denis Istomin is h(72,105)=0.0
+	|CONSTRUCT|	Match between Mischa Zverev and Henri Laaksonen is h(72,55)=0.0
+	|ORIGINAL|	Match Between Mischa Zverev and Thai Son Kwiatkowski is h(72,73)=0.0
+
+	|SOLUTION|	Match between Jeremy Chardy and Radu Albot is h(23,68)=0.0
+	|CONSTRUCT|	Match between Vaclav Safranek and Jared Donaldson is h(31,114)=0.0
+	|ORIGINAL|	Match Between Benoit Paire and Lukas Lacko is h(74,75)=0.0
+
+	|SOLUTION|	Match between Marcos Baghdatis and Benoit Paire is h(61,74)=2.0
+	|CONSTRUCT|	Match between Guido Pella and Nicolas Kicker is h(18,27)=5.0
+	|ORIGINAL|	Match Between Hyeon Chung and Horacio Zeballos is h(76,77)=0.0
+
+	|SOLUTION|	Match between Tim Smyczek and John Isner is h(41,78)=0.0
+	|CONSTRUCT|	Match between Taro Daniel and John Isner is h(2,78)=0.0
+	|ORIGINAL|	Match Between John Isner and Pierre Hugues Herbert is h(78,79)=0.0
+
+	|SOLUTION|	Match between Jack Sock and Alexandr Dolgopolov is h(81,12)=0.0
+	|CONSTRUCT|	Match between Jack Sock and Radu Albot is h(81,68)=0.0
+	|ORIGINAL|	Match Between Jordan Thompson and Jack Sock is h(80,81)=0.0
+
+	|SOLUTION|	Match between Santiago Giraldo and Bernard Tomic is h(42,87)=0.0
+	|CONSTRUCT|	Match between Benoit Paire and John Millman is h(74,46)=0.0
+	|ORIGINAL|	Match Between Thomas Fabbiano and John Patrick Smith is h(82,83)=0.0
+
+	|SOLUTION|	Match between Guido Pella and Alessandro Giannessi is h(18,91)=0.0
+	|CONSTRUCT|	Match between Daniil Medvedev and Joao Sousa is h(99,85)=0.0
+	|ORIGINAL|	Match Between Paolo Lorenzi and Joao Sousa is h(84,85)=2.0
+
+	|SOLUTION|	Match between Vaclav Safranek and Gilles Muller is h(31,86)=0.0
+	|CONSTRUCT|	Match between Tim Smyczek and Gilles Muller is h(41,86)=0.0
+	|ORIGINAL|	Match Between Gilles Muller and Bernard Tomic is h(86,87)=0.0
+
+	|SOLUTION|	Match between Kevin Anderson and Ivo Karlovic is h(88,59)=0.0
+	|CONSTRUCT|	Match between Kevin Anderson and Denis Istomin is h(88,105)=0.0
+	|ORIGINAL|	Match Between Kevin Anderson and Jc Aragone is h(88,89)=0.0
+
+	|SOLUTION|	Match between Nicolas Kicker and Ricardas Berankis is h(27,57)=0.0
+	|CONSTRUCT|	Match between Ricardas Berankis and Marcos Baghdatis is h(57,61)=5.0
+	|ORIGINAL|	Match Between Ernests Gulbis and Alessandro Giannessi is h(90,91)=0.0
+
+	|SOLUTION|	Match between Joao Sousa and Blaz Kavcic is h(85,35)=0.0
+	|CONSTRUCT|	Match between Jeremy Chardy and Adrian Menendez Maceiras is h(23,52)=0.0
+	|ORIGINAL|	Match Between Borna Coric and Jiri Vesely is h(92,93)=5.5
+
+	|SOLUTION|	Match between Henri Laaksonen and Alexander Zverev is h(55,94)=0.0
+	|CONSTRUCT|	Match between Bernard Tomic and Alexander Zverev is h(87,94)=0.0
+	|ORIGINAL|	Match Between Alexander Zverev and Darian King is h(94,95)=0.0
+
+	|SOLUTION|	Match between Jo Wilfried Tsonga and Mikhail Kukushkin is h(96,118)=0.0
+	|CONSTRUCT|	Match between Jo Wilfried Tsonga and Steve Johnson is h(96,100)=0.0
+	|ORIGINAL|	Match Between Jo Wilfried Tsonga and Marius Copil is h(96,97)=0.0
+
+	|SOLUTION|	Match between Hyeon Chung and Jan Lennard Struff is h(76,13)=0.0
+	|CONSTRUCT|	Match between Andreas Seppi and Vincent Millot is h(49,43)=0.0
+	|ORIGINAL|	Match Between Denis Shapovalov and Daniil Medvedev is h(98,99)=0.0
+
+	|SOLUTION|	Match between Vincent Millot and Bjorn Fratangelo is h(43,58)=0.0
+	|CONSTRUCT|	Match between Dudi Sela and Thomaz Bellucci is h(66,51)=0.0
+	|ORIGINAL|	Match Between Steve Johnson and Nicolas Almagro is h(100,101)=0.0
+
+	|SOLUTION|	Match between Nikoloz Basilashvili and Robin Haase is h(115,103)=0.0
+	|CONSTRUCT|	Match between Marton Fucsovics and Robin Haase is h(107,103)=0.0
+	|ORIGINAL|	Match Between Kyle Edmund and Robin Haase is h(102,103)=0.0
+
+	|SOLUTION|	Match between Albert Ramos and Francis Tiafoe is h(104,33)=0.0
+	|CONSTRUCT|	Match between Albert Ramos and Bjorn Fratangelo is h(104,58)=0.0
+	|ORIGINAL|	Match Between Albert Ramos and Denis Istomin is h(104,105)=0.0
+
+	|SOLUTION|	Match between Andreas Seppi and Viktor Troicki is h(49,10)=0.0
+	|CONSTRUCT|	Match between Ruben Bemelmans and Yuichi Sugita is h(113,4)=0.0
+	|ORIGINAL|	Match Between Nicolas Mahut and Marton Fucsovics is h(106,107)=0.0
+
+	|SOLUTION|	Match between Thanasi Kokkinakis and Marton Fucsovics is h(123,107)=0.0
+	|CONSTRUCT|	Match between Stefano Travaglia and Malek Jaziri is h(8,44)=0.0
+	|ORIGINAL|	Match Between Cameron Norrie and Dmitry Tursunov is h(108,109)=0.0
+
+	|SOLUTION|	Match between Yuichi Sugita and Pablo Carreno Busta is h(4,110)=1.0
+	|CONSTRUCT|	Match between Mikhail Kukushkin and Pablo Carreno Busta is h(118,110)=0.0
+	|ORIGINAL|	Match Between Pablo Carreno Busta and Evan King is h(110,111)=0.0
+
+	|SOLUTION|	Match between Lucas Pouille and Maximilian Marterer is h(112,21)=0.0
+	|CONSTRUCT|	Match between Lucas Pouille and Maximilian Marterer is h(112,21)=0.0
+	|ORIGINAL|	Match Between Lucas Pouille and Ruben Bemelmans is h(112,113)=0.0
+
+	|SOLUTION|	Match between Cedrik Marcel Stebe and Dusan Lajovic is h(26,1)=0.0
+	|CONSTRUCT|	Match between Ryan Harrison and Viktor Troicki is h(15,10)=0.0
+	|ORIGINAL|	Match Between Jared Donaldson and Nikoloz Basilashvili is h(114,115)=1.0
+
+	|SOLUTION|	Match between Dmitry Tursunov and Jiri Vesely is h(109,93)=0.0
+	|CONSTRUCT|	Match between Francis Tiafoe and Jiri Vesely is h(33,93)=0.0
+	|ORIGINAL|	Match Between Evgeny Donskoy and Andreas Haider Maurer is h(116,117)=0.0
+
+	|SOLUTION|	Match between Ryan Harrison and David Ferrer is h(15,119)=0.5
+	|CONSTRUCT|	Match between Hyeon Chung and David Ferrer is h(76,119)=0.0
+	|ORIGINAL|	Match Between Mikhail Kukushkin and David Ferrer is h(118,119)=0.0
+
+	|SOLUTION|	Match between Diego Sebastian Schwartzman and Stefano Travaglia is h(120,8)=0.0
+	|CONSTRUCT|	Match between Diego Sebastian Schwartzman and Dmitry Tursunov is h(120,109)=0.0
+	|ORIGINAL|	Match Between Diego Sebastian Schwartzman and Carlos Berlocq is h(120,121)=5.5
+
+	|SOLUTION|	Match between Ruben Bemelmans and Thomaz Bellucci is h(113,51)=0.0
+	|CONSTRUCT|	Match between Nikoloz Basilashvili and Cedrik Marcel Stebe is h(115,26)=0.0
+	|ORIGINAL|	Match Between Janko Tipsarevic and Thanasi Kokkinakis is h(122,123)=0.0
+
+	|SOLUTION|	Match between Steve Johnson and Malek Jaziri is h(100,44)=0.0
+	|CONSTRUCT|	Match between Dusan Lajovic and Jan Lennard Struff is h(1,13)=0.0
+	|ORIGINAL|	Match Between Florian Mayer and Rogerio Dutra Silva is h(124,125)=0.0
+
+	|SOLUTION|	Match between Dudi Sela and Marin Cilic is h(66,126)=0.0
+	|CONSTRUCT|	Match between Thanasi Kokkinakis and Marin Cilic is h(123,126)=0.0
+	|ORIGINAL|	Match Between Marin Cilic and Tennys Sandgren is h(126,127)=0.0
+
+Time elapsed:1087.3389s
+Last whole tournament simulation
+The following output is the last tourney generated from CPLEX's solution.
+Round R64
+	Rafael Nadal wins over Evgeny Donskoy
+	Janko Tipsarevic wins over Ernests Gulbis
+	Donald Young wins over Tennys Sandgren
+	Richard Gasquet wins over Andrey Rublev
+	Fabio Fognini wins over Vasek Pospisil
+	Aljaz Bedene wins over Alex De Minaur
+	Damir Dzumhur wins over Andreas Haider Maurer
+	Tomas Berdych wins over Pierre Hugues Herbert
+	David Goffin wins over Jc Aragone
+	Jordan Thompson wins over Taylor Harry Fritz
+	Denis Shapovalov wins over Nicolas Mahut
+	Gael Monfils wins over Borna Coric
+	Pablo Cuevas wins over Horacio Zeballos
+	Ernesto Escobedo wins over Darian King
+	Gilles Simon wins over Nicolas Almagro
+	Grigor Dimitrov wins over Thiago Monteiro
+	Leonardo Mayer wins over Roger Federer
+	Tommy Paul wins over Thai Son Kwiatkowski
+	Kyle Edmund wins over Marius Copil
+	Feliciano Lopez wins over Carlos Berlocq
+	Paolo Lorenzi wins over Philipp Kohlschreiber
+	Steve Darcis wins over Norbert Gombos
+	Mikhail Youzhny wins over Christopher Eubanks
+	Nick Kyrgios wins over Rogerio Dutra Silva
+	Roberto Bautista Agut wins over John Patrick Smith
+	Florian Mayer wins over Cameron Norrie
+	Fernando Verdasco wins over Lukas Lacko
+	Juan Martin Del Potro wins over Evan King
+	Adrian Mannarino wins over Dustin Brown
+	Geoffrey Blancaneaux wins over Patrick Kypson
+	Yen Hsun Lu wins over Andrey Kuznetsov
+	Dominic Thiem wins over Thomas Fabbiano
+	Sam Querrey wins over John Millman
+	Jared Donaldson wins over Daniil Medvedev
+	Taro Daniel wins over Adrian Menendez Maceiras
+	Karen Khachanov wins over Julien Benneteau
+	Mischa Zverev wins over Denis Istomin
+	Radu Albot wins over Jeremy Chardy
+	Benoit Paire wins over Marcos Baghdatis
+	John Isner wins over Tim Smyczek
+	Jack Sock wins over Alexandr Dolgopolov
+	Santiago Giraldo wins over Bernard Tomic
+	Guido Pella wins over Alessandro Giannessi
+	Gilles Muller wins over Vaclav Safranek
+	Kevin Anderson wins over Ivo Karlovic
+	Nicolas Kicker wins over Ricardas Berankis
+	Joao Sousa wins over Blaz Kavcic
+	Alexander Zverev wins over Henri Laaksonen
+	Jo Wilfried Tsonga wins over Mikhail Kukushkin
+	Hyeon Chung wins over Jan Lennard Struff
+	Vincent Millot wins over Bjorn Fratangelo
+	Robin Haase wins over Nikoloz Basilashvili
+	Albert Ramos wins over Francis Tiafoe
+	Viktor Troicki wins over Andreas Seppi
+	Marton Fucsovics wins over Thanasi Kokkinakis
+	Pablo Carreno Busta wins over Yuichi Sugita
+	Lucas Pouille wins over Maximilian Marterer
+	Dusan Lajovic wins over Cedrik Marcel Stebe
+	Jiri Vesely wins over Dmitry Tursunov
+	David Ferrer wins over Ryan Harrison
+	Diego Sebastian Schwartzman wins over Stefano Travaglia
+	Thomaz Bellucci wins over Ruben Bemelmans
+	Steve Johnson wins over Malek Jaziri
+	Marin Cilic wins over Dudi Sela
+Round R32
+	Rafael Nadal wins over Janko Tipsarevic
+	Richard Gasquet wins over Donald Young
+	Aljaz Bedene wins over Fabio Fognini
+	Tomas Berdych wins over Damir Dzumhur
+	David Goffin wins over Jordan Thompson
+	Gael Monfils wins over Denis Shapovalov
+	Pablo Cuevas wins over Ernesto Escobedo
+	Grigor Dimitrov wins over Gilles Simon
+	Leonardo Mayer wins over Tommy Paul
+	Feliciano Lopez wins over Kyle Edmund
+	Paolo Lorenzi wins over Steve Darcis
+	Nick Kyrgios wins over Mikhail Youzhny
+	Roberto Bautista Agut wins over Florian Mayer
+	Juan Martin Del Potro wins over Fernando Verdasco
+	Adrian Mannarino wins over Geoffrey Blancaneaux
+	Dominic Thiem wins over Yen Hsun Lu
+	Sam Querrey wins over Jared Donaldson
+	Karen Khachanov wins over Taro Daniel
+	Mischa Zverev wins over Radu Albot
+	John Isner wins over Benoit Paire
+	Jack Sock wins over Santiago Giraldo
+	Gilles Muller wins over Guido Pella
+	Kevin Anderson wins over Nicolas Kicker
+	Alexander Zverev wins over Joao Sousa
+	Jo Wilfried Tsonga wins over Hyeon Chung
+	Robin Haase wins over Vincent Millot
+	Viktor Troicki wins over Albert Ramos
+	Pablo Carreno Busta wins over Marton Fucsovics
+	Dusan Lajovic wins over Lucas Pouille
+	David Ferrer wins over Jiri Vesely
+	Diego Sebastian Schwartzman wins over Thomaz Bellucci
+	Marin Cilic wins over Steve Johnson
+Round R16
+	Rafael Nadal wins over Richard Gasquet
+	Tomas Berdych wins over Aljaz Bedene
+	David Goffin wins over Gael Monfils
+	Grigor Dimitrov wins over Pablo Cuevas
+	Leonardo Mayer wins over Feliciano Lopez
+	Nick Kyrgios wins over Paolo Lorenzi
+	Roberto Bautista Agut wins over Juan Martin Del Potro
+	Adrian Mannarino wins over Dominic Thiem
+	Sam Querrey wins over Karen Khachanov
+	John Isner wins over Mischa Zverev
+	Jack Sock wins over Gilles Muller
+	Kevin Anderson wins over Alexander Zverev
+	Jo Wilfried Tsonga wins over Robin Haase
+	Pablo Carreno Busta wins over Viktor Troicki
+	David Ferrer wins over Dusan Lajovic
+	Diego Sebastian Schwartzman wins over Marin Cilic
+Round R8
+	Rafael Nadal wins over Tomas Berdych
+	Grigor Dimitrov wins over David Goffin
+	Nick Kyrgios wins over Leonardo Mayer
+	Roberto Bautista Agut wins over Adrian Mannarino
+	John Isner wins over Sam Querrey
+	Kevin Anderson wins over Jack Sock
+	Pablo Carreno Busta wins over Jo Wilfried Tsonga
+	David Ferrer wins over Diego Sebastian Schwartzman
+Round R4
+	Rafael Nadal wins over Grigor Dimitrov
+	Roberto Bautista Agut wins over Nick Kyrgios
+	John Isner wins over Kevin Anderson
+	David Ferrer wins over Pablo Carreno Busta
+Round R2
+	Rafael Nadal wins over Roberto Bautista Agut
+	John Isner wins over David Ferrer
+Round R1
+	Rafael Nadal wins over John Isner
+
+The winner is: Rafael Nadal!
+Iteration 16 completed.
+Time elapsed:1110.0958s
+Executive summary for Us Open:
+	Tournament size (n): 128
+	Seed size (m): 32 - Players per cluster (u): 32 - Seeds per cluster (f): 8
+	Lower bound for this problem is: 164.5
+	Objective function value from CPLEX: 710.5
+	Objective function value from GREEDY: 756.0
+	Solutions status from CPLEX: Optimal
+	Solutions status from greedy: Feasible
+	Tourney's original O.F. value: 1310.0
+
+ACTUAL		|		CPLEX			|			GREEDY
+
+--------------------
+
+Time
+---		|		764.9907		|			1.8790482
+O.F.
+1310.0		|		710.5(45.76%)		|			756.0(42.29%)
+O.F. with TL=Greedy_Time
+---		|		820.5			|			756.0
+Solution Status
+----		|		Optimal			|			----
+
+--------------------
+
+Average improvements over 16 simulations
+	Number of conflicts 1st round
+12		|		5.19			|			5
+	Measure of conflicts 1st round
+48.5		|		16.9375(65.08%)		|			16.03125(66.95%)
+	Number of conflicts whole tourney
+32		|		24.9375			|			23.8125
+	Measure of conflicts whole tourney
+110.5		|		78.15625(29.27%)		|			76.53125(30.74%)
+
+--------------------
+
+Last simulation
+	Number of conflicts 1st round
+12		|		5			|			6
+	Measure of conflicts 1st round
+48.5		|		13.5(72.16%)		|			18.0(62.89%)
+	Number of conflicts whole tourney
+32		|		25			|			30
+	Measure of conflicts whole tourney
+110.5		|		80.0(27.6%)		|			96.0(13.12%)
+
+
+TOURNAMENT SIMULATIONS WINNERS
+CPLEX				GREEDY
+Nick Kyrgios				Rafael Nadal
+Dominic Thiem				Roger Federer
+Dominic Thiem				Roberto Bautista Agut
+Dominic Thiem				Rafael Nadal
+Philipp Kohlschreiber				David Goffin
+Grigor Dimitrov				Nick Kyrgios
+Roger Federer				Dominic Thiem
+Rafael Nadal				Roberto Bautista Agut
+Richard Gasquet				David Goffin
+Nick Kyrgios				Roger Federer
+Roger Federer				Grigor Dimitrov
+Rafael Nadal				Roger Federer
+Rafael Nadal				Dominic Thiem
+Roger Federer				Grigor Dimitrov
+Rafael Nadal				Grigor Dimitrov
+Rafael Nadal				Tomas Berdych
+Time elapsed:1110.1023s
