@@ -489,10 +489,11 @@ function nodeActive(a) {
                 if ((edges[i]["source"]["label"] === c.name && edges[i]["target"]["label"] === b.label) ||
                     (edges[i]["target"]["label"] === c.name && edges[i]["source"]["label"] === b.label)) {
                     edge_lb = edges[i]["label"];
+                    edge_s = edges[i]["size"];
                     break;
                 }
             }
-            f.push('<li class="membership list-group-item"><span data-toggle="tooltip" data-placement="top" data-original-title="Conflict types. 1/2/3 are for rounds. QF-SF for last rounds. C for country." class="badge badge-secondary ttip">' + edge_lb + '</span> <a href="#' + c.name + '" onmouseover="sigInst._core.plotter.drawHoverNode(sigInst._core.graph.nodesIndex[\'' + c.id + '\'])\" onclick=\"nodeActive(\'' + c.id + '\')" onmouseout="sigInst.refresh()">' + c.name + "</a></li>");
+            f.push('<li class="membership list-group-item"><span data-toggle="tooltip" data-placement="top" data-original-title="Conflict measure" class="badge badge-secondary ttip">' + edge_s + '</span> <span data-toggle="tooltip" data-placement="top" data-original-title="Conflict types. 1/2/3 are for rounds. QF-SF for last rounds. C for country." class="badge badge-secondary ttip">' + edge_lb + '</span> <a href="#' + c.name + '" onmouseover="sigInst._core.plotter.drawHoverNode(sigInst._core.graph.nodesIndex[\'' + c.id + '\'])\" onclick=\"nodeActive(\'' + c.id + '\')" onmouseout="sigInst.refresh()">' + c.name + "</a></li>");
         }
         return f;
     }
