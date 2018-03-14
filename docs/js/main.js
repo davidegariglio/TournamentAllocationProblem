@@ -19,7 +19,7 @@ function GetQueryStringParams(sParam, defaultVal) {
 
 jQuery.getJSON(GetQueryStringParams("config", "RolGar_config.json"), function(data, textStatus, jqXHR) {
     config = data;
-
+    if ((/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini|Opera Mobile|Kindle|Windows Phone|PSP|AvantGo|Atomic Web Browser|Blazer|Chrome Mobile|Dolphin|Dolfin|Doris|GO Browser|Jasmine|MicroB|Mobile Firefox|Mobile Safari|Mobile Silk|Motorola Internet Browser|NetFront|NineSky|Nokia Web Browser|Obigo|Openwave Mobile Browser|Palm Pre web browser|Polaris|PS Vita browser|Puffin|QQbrowser|SEMC Browser|Skyfire|Tear|TeaShark|UC Browser|uZard Web|wOSBrowser|Yandex.Browser mobile/i.test(navigator.userAgent))) alert("This website is not optimized for mobile devices.");
     if (config.type != "network") {
         alert("Invalid configuration settings.")
         return;
