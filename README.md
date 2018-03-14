@@ -4,12 +4,12 @@ This reposity is related to a thesis work at the Politecnico di Torino.
 
 [The interactive graph visualizer](https://gdragotto.github.io/TournamentAllocationProblem/#) for the four Grand Slams tournaments is available.
 
-##Thesis Abstract
+## Thesis Abstract
 
 Single-elimination tournaments are a popular type of tournament among sports, more specifically in tennis. Despite the current state of the art prevents seeded players - or highest rated opponents - from matching in early rounds, match repetitions among other players are possible. Therefore, the allocation process for non-seeded players plays a funda- mental role in avoiding match repetitions, increase the diversity of matches and implement a fair allocation method.
 The thesis develops such a methodology for single-elimination tennis tournaments, in or- der to limits conflicts and increase diversity among matches. The tournament allocation problem involves a clustering approach implemented with mathematical programming and combinatorial optimization. Several results and solutions are generated with a solver and data sourced from 2017’s Grand Slams. A greedy approach to generate quantita- tively good solutions is presented, along with two heuristics. Full tournament simulations are performed to assess the quality of presented methodologies. Among the results, an appreciable improvement stands out in terms of amount and the measure of conflicts. Benchmarks between heuristics, the greedy algorithm, and the optimal solutions are pre- sented. An important outcome is related to the quality of solutions built with the greedy algorithm. Some techniques of data visualization are implemented in order to present the final results.
 
-##License
+## License
 
 MIT License
 
