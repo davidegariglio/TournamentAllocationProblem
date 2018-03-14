@@ -543,15 +543,15 @@ function nodeActive(a) {
             if (attr == "Degree" || attr == "Weighted Degree") {
                 h = '<tr><th><span class="badge badge-secondary">' + attr + '</span></th><th>' + d + '</th></tr>'
             }
+
             e.push(h)
         }
-        he2 = $(window).height()*0.97 - $("#h2").height();
-        $("#intlist").height(he2 + "px");
-
-        $GP.info_name.html("<div><span onmouseover=\"sigInst._core.plotter.drawHoverNode(sigInst._core.graph.nodesIndex['" + b.id + '\'])" onmouseout="sigInst.refresh()">' + b.label + "</span></div>");
+        $GP.info_name.html("<div><span onmouseover=\"sigInst._core.plotter.drawHoverNode(sigInst._core.graph.nodesIndex['" + b.id + '\'])" onmouseout="sigInst.refresh()">' + b.label + "</span>&nbsp;&nbsp;&nbsp;<span onmouseover=\"sigInst._core.plotter.drawHoverNode(sigInst._core.graph.nodesIndex['" + b.id + "'])\"><span style='font-size: 0.8em;' class='oi oi-compass'></span></span></div>");
         $GP.info_data.html(e.join(""))
     }
     $('.ttip').tooltip();
+    he2 = $(window).height()*0.97 - $("#h2").height();
+    $("#intlist").height(he2 + "px");
     $GP.info_data.show();
     $GP.info.animate({
         width: 'show'
