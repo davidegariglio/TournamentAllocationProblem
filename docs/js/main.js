@@ -545,14 +545,10 @@ function nodeActive(a) {
             }
             e.push(h)
         }
-        he = $(window).height() * 0.7 - ($("#h1").height() + $("#h2").height());
-        $("#intlist").height(he + "px");
+        he2 = $(window).height()*0.97 - $("#h2").height();
+        $("#intlist").height(he2 + "px");
 
-        if (image_attribute) {
-            $GP.info_name.html("<div><img src=" + f.attributes[image_attribute] + " style=\"vertical-align:middle\" /> <span onmouseover=\"sigInst._core.plotter.drawHoverNode(sigInst._core.graph.nodesIndex['" + b.id + '\'])" onmouseout="sigInst.refresh()">' + b.label + "</span></div>");
-        } else {
-            $GP.info_name.html("<div><span onmouseover=\"sigInst._core.plotter.drawHoverNode(sigInst._core.graph.nodesIndex['" + b.id + '\'])" onmouseout="sigInst.refresh()">' + b.label + "</span></div>");
-        }
+        $GP.info_name.html("<div><span onmouseover=\"sigInst._core.plotter.drawHoverNode(sigInst._core.graph.nodesIndex['" + b.id + '\'])" onmouseout="sigInst.refresh()">' + b.label + "</span></div>");
         $GP.info_data.html(e.join(""))
     }
     $('.ttip').tooltip();
