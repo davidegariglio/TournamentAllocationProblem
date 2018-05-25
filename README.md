@@ -1,6 +1,6 @@
 # TournamentAllocationProblem
 
-This reposity is related to a thesis work at the Politecnico di Torino.
+This repository is related to a thesis work at the Politecnico di Torino.
 
 [The interactive graph visualizer](https://gdragotto.github.io/TournamentAllocationProblem/#) for the 2017 Grand Slams tournaments is available.
 
