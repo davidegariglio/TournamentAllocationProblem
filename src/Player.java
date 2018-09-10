@@ -10,6 +10,7 @@ public class Player {
 	private String country;
 	private int cluster;
 	private Double degree;
+	private Boolean unlucky = false;
 
 	public Player(int id, String name, int seed, int seedposit, int ranking, String country, String entry, int mnum) {
 		super();
@@ -118,6 +119,14 @@ public class Player {
 
 	public void setDegree(Double degree) {
 		this.degree = degree;
+	}
+
+	public Boolean getUnlucky() {
+		return unlucky;
+	}
+
+	public void setUnlucky(Boolean unlucky) {
+		this.unlucky = unlucky;
 	}
 
 }
