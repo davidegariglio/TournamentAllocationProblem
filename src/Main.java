@@ -25,8 +25,14 @@ import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVPrinter;
 
 public class Main {
-
-	private static Double eta = 0.8;
+	@SuppressWarnings("unused")
+	private static String year = "2017";
+	// 520: ROL - 540: WIM - 560: US - 580: AUS
+	@SuppressWarnings("unused")
+	private static String Tournament_id = "580";
+	// ATP or WTA
+	private static String[] Type = { "WTA" };
+	private static Double eta = 0.9;
 	private static Boolean LocalSearch = false;
 
 	private static int k = 4;
@@ -74,10 +80,10 @@ public class Main {
 	public static void main(String[] args) throws ErrorThrower, SQLException, IOException, ParseException {
 
 		long Main = System.nanoTime();
-		String[] years = { "2017" };
+		// String[] years = { "2014", "2015", "2016", "2017" };
 		String[] ids = {"580","520","540","560" };
-		//String[] years = { "2017" };
-		String[] Type = { "ATP","WTA" };
+		String[] years = { "2017" };
+		String[] Type = { "WTA", "ATP" };
 		Calendar now = Calendar.getInstance();
 		String unique = now.get(Calendar.HOUR_OF_DAY) + "_" + now.get(Calendar.MINUTE);
 		String mainPath = "out/" + unique + "/";
@@ -87,7 +93,7 @@ public class Main {
 		@SuppressWarnings("resource")
 		CSVPrinter csvPrinterMain = new CSVPrinter(writerMain,
 				CSVFormat.DEFAULT.withHeader("", "Time", "O.F.", "Status", "O.F. (HeuTime)", "Unlucky Pairings",
-						"Positive costs (1R)", "Costs (1R)", "(HEU) Attempted Swaps [Successful]", "(HEU) Averege Delta Swap", "(HEU) Worst Greedy", "Positive costs (T)", "Costs (T)"));
+						"Positive costs (1R)", "Costs (1R)", "Positive costs (T)", "Costs (T)"));
 
 		FileOutputStream fout = new FileOutputStream(mainPath + "Instance.txt");
 		MultiOutputStream multiOut = new MultiOutputStream(System.out, fout);
@@ -138,7 +144,7 @@ public class Main {
 
 					int u = n / k; // Amount of players per cluster
 					int f = m / k; // Amount of seeds per cluster
-					int s = 100; // Number of simulations performed for the whole tournament
+					int s = 1000; // Number of simulations performed for the whole tournament
 					int rounds = (int) (Math.log(n) / Math.log(2));
 					Double LB = -1.0; // Lower Bound for the problem
 
@@ -226,7 +232,7 @@ public class Main {
 						}
 
 						for (int j = 0; j < k; j++) {
-							cplex.addEq(UnluckyPerCluster[j], v / k);
+							cplex.addUserCut(cplex.eq(UnluckyPerCluster[j], v / k));
 						}
 
 						if (Verbose)
@@ -363,15 +369,10 @@ public class Main {
 						float greedy_time = 0;
 						float GR_time = 0;
 						Double best_obj_greedy = 0.0;
-						Double worst_obj_greedy = 0.0;
 						Double delta_Sum = 0.0;
 						Double delta_Sum_gr = 0.0;
 						float GR_time_first = 0;
 						Boolean LocalLimit = true;
-						Double number_iter_ls = 0.0;
-						Double average_successful_ls = 0.0;
-						Double average_delta_ls = 0.0;
-						int iter =0;
 						for (int a = 0; a < s && LocalLimit; a++) {
 							// Fill -1 values with zero.
 							for (int i = 0; i < n; i++)
@@ -532,7 +533,6 @@ public class Main {
 									else
 										prop = true;
 								}
-								
 								// Once players are selected, try to swap them
 								// In Beta's cluster
 								for (int ii = 0; ii < n; ii++) {
@@ -553,10 +553,7 @@ public class Main {
 										delta_Second -= h[Alpha][ii];
 									}
 								}
-								number_iter_ls++;
 								if ((delta_First + delta_Second) < 0) {
-									average_successful_ls++;
-									average_delta_ls +=delta_Sum;
 									delta_Sum += delta_First + delta_Second;
 									GreedyCurrent[Alpha][j_current_Alpha] = 0;
 									GreedyCurrent[Alpha][j_current_Beta] = 1;
@@ -611,14 +608,7 @@ public class Main {
 										GreedyBest[i][j] = GreedyCurrent[i][j];
 								best_obj_greedy = objective_greedy;
 							}
-							if (worst_obj_greedy < objective_greedy)
-								worst_obj_greedy= objective_greedy;
-
-							iter++;
 						}
-						number_iter_ls = number_iter_ls/iter;
-						average_delta_ls = average_delta_ls/(iter*average_successful_ls);
-						average_successful_ls = average_successful_ls/iter;
 						System.out.println("Best Greedy with OF of:" + best_obj_greedy);
 						for (int j = 0; j < k; j++) {
 							int count = 0;
@@ -1365,12 +1355,12 @@ public class Main {
 
 							csvPrinterMain.printRecord("REAL", "-", df.format(objective_actual), "Feasible", "-",
 									df.format(nconf_unlucky_original), df.format(nconf_original),
-									df.format(cindex_original), "-","-","-",df.format(TOURNEY_nconf_original),
+									df.format(cindex_original), df.format(TOURNEY_nconf_original),
 									df.format(TOURNEY_cindex_original));
 							csvPrinterMain.printRecord("CPLEX", df.format(CPLEX_time),
 									df.format(cplex.getObjValue()) + " (" + OF_improv_cplex + "%)", cplex.getStatus(),
 									df.format(CPLEX_sameTime), df.format(AVG_unlucky_cplex), df.format(AVG_nconf_cplex),
-									df.format(AVG_cindex_cplex) + " (" + AVG_cindex_improv_cplex + "%)", "-","-","-",
+									df.format(AVG_cindex_cplex) + " (" + AVG_cindex_improv_cplex + "%)",
 									df.format(AVG_TOURNEY_cplex_nconf), df.format(AVG_TOURNEY_cplex_cindex) + " ("
 											+ AVG_TOURNEY_cplex_cindex_improv + "%)");
 							csvPrinterMain.printRecord("HEU", df.format(GR_time_first),
@@ -1378,9 +1368,6 @@ public class Main {
 									df.format(objective_greedy), df.format(AVG_unlucky_greedy),
 									df.format(AVG_nconf_greedy),
 									df.format(AVG_cindex_greedy) + " (" + AVG_cindex_improv_greedy + "%)",
-									df.format(number_iter_ls) +"("+df.format(average_successful_ls)+")",
-									df.format(average_delta_ls),
-									df.format(worst_obj_greedy),
 									df.format(AVG_TOURNEY_greedy_nconf), df.format(AVG_TOURNEY_greedy_cindex) + " ("
 											+ AVG_TOURNEY_greedy_cindex_improv + "%)");
 							csvPrinterMain.flush();
@@ -1419,10 +1406,6 @@ public class Main {
 
 				}
 			}
-			// End of the season
-			// Try to do random draws to get unlucky players at the end of the season
-			
-			
 		}
 		csvPrinterMain.close();
 		System.out.println("Total time elapsed:" + (System.nanoTime() - Main) / 1000000000F + "s");

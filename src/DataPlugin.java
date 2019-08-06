@@ -43,14 +43,13 @@ public class DataPlugin {
 		return sortedMap;
 	}
 
-	public static void main_ATP(String[] args)
+	public static void main(String[] args)
 			throws ErrorThrower, SQLException, IOException, ParseException, JSONException {
 
 		String[] ids = { "520" };
-		//String[] ids = {"520","540","560","580"};
-		//String[] year = {  "2013", "2014", "2015", "2016", "2017", "2018" };
-		String[] year = {"2017"};
-		BufferedWriter writerH = new BufferedWriter(new FileWriter("out/main/ATP2017.csv"));
+		// String[] ids = {"520","540","560","580"};
+		String[] year = {  "2013", "2014", "2015", "2016", "2017" };
+		BufferedWriter writerH = new BufferedWriter(new FileWriter("out/main/ATP.csv"));
 		CSVPrinter csvPrinterH = new CSVPrinter(writerH,
 				CSVFormat.DEFAULT.withHeader("Param", "Value", "Param2", "Previous Y", "Current Y", "Next Y"));
 
@@ -73,8 +72,6 @@ public class DataPlugin {
 				csvPrinterH.printRecord("Total misfortunates", tcount, " ", " ", " ", " ", " ");
 				Double inter = (TData.getCommon_player_count()[3]*100.0)/128.0;
 				csvPrinterH.printRecord("Intersection of players", TData.getCommon_player_count()[3] +" ("+df.format(inter)+")", " ", " ", " ", " ", " ");
-				
-				
 				
 				for (Map.Entry<String, Double> e : misfortune_sorted.entrySet()) {
 					if (e.getValue() > 2) {
@@ -129,7 +126,7 @@ public class DataPlugin {
 								urlpart = urlpart.substring(0, urlpart.length() - 4) + "" + now;
 								Document doc = Jsoup.connect("https://www.atpworldtour.com" + urlpart).get();
 								Element current_prize = doc.select(".stat-value").last();
-								//prizes[a] = current_prize.text();
+								prizes[a] = current_prize.text();
 							}
 							csvPrinterH.printRecord(" ", " ", "Prizes", prizes[0], prizes[1], prizes[2]);
 							int yb = previous - TData.getYearBirth(players.get(current_misfortunate).getId());
@@ -137,7 +134,6 @@ public class DataPlugin {
 						}
 					}
 				}
-				
 
 			}
 			csvPrinterH.flush();
@@ -149,14 +145,13 @@ public class DataPlugin {
 	}
 	
 	
-	public static void main(String[] args)
+	public static void main_wta(String[] args)
 			throws ErrorThrower, SQLException, IOException, ParseException, JSONException {
 
 		String[] ids = { "520" };
-		//String[] ids = {"520","540","560","580"};
-		//String[] year = {  "2013", "2014", "2015", "2016", "2017", "2018" };
-		String[] year = {"2017"};
-		BufferedWriter writerH = new BufferedWriter(new FileWriter("out/main/WTA2017.csv"));
+		// String[] ids = {"520","540","560","580"};
+		String[] year = {  "2013", "2014", "2015", "2016", "2017" };
+		BufferedWriter writerH = new BufferedWriter(new FileWriter("out/main/WTA.csv"));
 		CSVPrinter csvPrinterH = new CSVPrinter(writerH,
 				CSVFormat.DEFAULT.withHeader("Param", "Value", "Param2", "Previous Y", "Current Y", "Next Y"));
 		DecimalFormat df = new DecimalFormat();

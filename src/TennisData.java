@@ -220,34 +220,26 @@ public class TennisData {
 				Path = "in/" + getTournament_year() + "-" + getDB_Type() + "_" + getTorunament_name() + "/";
 				File f = new File("in/" + getTournament_year() + "-" + getDB_Type() + "_" + getTorunament_name() + "/");
 				f.mkdirs();
-
-				System.out.println("SELECT DISTINCT tourney_name FROM matches WHERE tourney_date<"
-						+ getTournament_date() + " ORDER BY tourney_date DESC LIMIT 4;");
 				tourney_ids[0] = getTournament_year() + "-520";
 				tourney_ids[1] = getTournament_year() + "-540";
 				tourney_ids[2] = getTournament_year() + "-560";
 				tourney_ids[3] = getTournament_year() + "-580";
 				for (int i = 0; i < 4; i++) {
 					Statement current_t = conn.createStatement();
-					ResultSet current_res = current_t.executeQuery(
-							"SELECT DISTINCT winner_name,loser_name,winner_seed,loser_seed FROM matches WHERE  tourney_id='"
+					ResultSet current_res = current_t
+							.executeQuery("SELECT DISTINCT winner_name,loser_name FROM matches WHERE  tourney_id='"
 									+ tourney_ids[i] + "' AND round='R128' ORDER BY match_num;");
 					while (current_res.next()) {
 						String current_loser = current_res.getString("loser_name");
+						if (common_player.containsKey(current_loser)) {
+							common_player.replace(current_loser, common_player.get(current_loser) + 1.0);
+						} else
+							common_player.put(current_loser, 1.0);
 						String current_winner = current_res.getString("winner_name");
-						if (!(current_res.getInt("winner_seed") > 0)) {
-							if (common_player.containsKey(current_winner))
-								common_player.replace(current_winner, common_player.get(current_winner) + 1.0);
-							else
-								common_player.put(current_winner, 1.0);
-						}
-						if (!(current_res.getInt("loser_seed") > 0)) {
-							if (common_player.containsKey(current_loser)) {
-								common_player.replace(current_loser, common_player.get(current_loser) + 1.0);
-							} else
-								common_player.put(current_loser, 1.0);
-						}
-						
+						if (common_player.containsKey(current_winner))
+							common_player.replace(current_winner, common_player.get(current_winner) + 1.0);
+						else
+							common_player.put(current_winner, 1.0);
 					}
 				}
 				SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMdd");
@@ -289,22 +281,22 @@ public class TennisData {
 					+ res.getInt("loser_id") + "'  ))\n" + "				AND round='R128') as count2");
 
 			if (count.next()) {
-
-				if (common_player.containsKey(res.getString("winner_name")) && !(res.getInt("winner_seed") > 0)) {
-					if (common_player.get(res.getString("winner_name")) > 3.0) {
-						misfortune_count[count.getInt("count1")]++;
-						misfortune_map.put("" + (players.size() - 2), (double) count.getInt("count1"));
+				if (!(res.getInt("winner_seed") > 0)) {
+					if (common_player.containsKey(res.getString("loser_name"))) {
+						if (common_player.get(res.getString("loser_name")) > 2.0) {
+							misfortune_count[count.getInt("count1")]++;
+							misfortune_map.put("" + (players.size() - 2), (double) count.getInt("count1"));
+						}
 					}
 				}
-				if (common_player.containsKey(res.getString("loser_name")) && !(res.getInt("loser_seed") > 0)) {
-					System.out.println(res.getString("loser_name")+"-"+common_player.get(res.getString("loser_name")));
-					if (common_player.get(res.getString("loser_name")) > 3.0) {
-						System.out.println(res.getString("loser_name")+"-"+count.getInt("count2"));
-						misfortune_count[count.getInt("count2")]++;
-						misfortune_map.put("" + (players.size() - 1), (double) count.getInt("count2"));
+				if (!(res.getInt("loser_seed") > 0)) {
+					if (common_player.containsKey(res.getString("winner_name"))) {
+						if (common_player.get(res.getString("winner_name")) > 2.0) {
+							misfortune_count[count.getInt("count2")]++;
+							misfortune_map.put("" + (players.size() - 1), (double) count.getInt("count2"));
+						}
 					}
 				}
-
 			}
 			/*
 			 * int current_tid =
@@ -324,8 +316,6 @@ public class TennisData {
 			 * unlucky.add(unlucky_id); } }
 			 */
 		}
-		System.out.println(common_player);
-		System.out.println(misfortune_map);
 		return true;
 	}
 
