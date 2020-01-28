@@ -4,6 +4,9 @@ This repository is related to a thesis work at the Politecnico di Torino.
 Full thesis is available [here](http://dragotto.net/Thesis_BSc.pdf).
 Check out also the publication version for this project [here](https://github.com/ALCO-PoliTO/TournamentAllocationProblem)
 
+----
+Official article available [here](https://link.springer.com/article/10.1007/s10479-020-03517-8), while the pre-print available [on arXiv](https://arxiv.org/abs/1901.05387).
+
 [The interactive graph visualizer](https://gdragotto.github.io/TournamentAllocationProblem/#) for the 2017 Grand Slams tournaments is available.
 
 ## Thesis Abstract
